@@ -1,0 +1,175 @@
+{
+    "label": "Trabajos",
+    "uci": {
+        "label": "Universidad de las Ciencias Informáticas",
+        "description": "La Universidad de las Ciencias Informáticas (en español: Universidad de las Ciencias Informáticas; UCI, también conocida como Universidad de las Ciencias Informáticas y Universidad de las Ciencias Informáticas) es un centro de investigación universitario cubano con sede en el barrio de Wajay, municipio de Boyeros, La Habana. La UCI tiene un plan de estudios particular entre otras universidades del país. Los estudiantes siguen el principio de vincular el trabajo y el estudio, lo que pone énfasis en la producción como parte del proceso de aprendizaje. A partir del segundo o tercer año de carrera los estudiantes pueden vincularse a proyectos productivos que aporten a la economía.",
+        "apklis": {
+            "description": "Apklis, también conocida como Cuban Play Store, es una tienda de aplicaciones en línea desarrollada por la UCI para dispositivos Android. el resto del mundo utilizando la red de datos de ETECSA, Nauta u otros medios de navegación nacional.\nCuenta con un amplio catálogo de juegos, así como aplicaciones útiles, desde redes sociales, editores de fotos, entre otros.",
+            "juniorfrontend": {
+                "label": "Desarrollador front-end",
+                "description": "Participé en la primera versión de la administración, brindando una mejor usabilidad en un 10% para los usuarios finales.\nCreé la segunda versión de la administración usando la misma pila de la aplicación web, mejorando la interacción y el despliegue de front-office - back-office ."
+            },
+            "fullstack": {
+                "label": "Desarrollador full-stack",
+                "description": "Mejoré el tiempo de respuesta de la aplicación en más del 50%, reduciendo la cantidad de volumen de datos innecesarios que se intercambian desde el backend. Mejore el rendimiento general de la aplicación aumentando el modelado de sistemas de índice y búsqueda en más del 50 %. Desarrollé el sistema de pago brindando soluciones a prueba de fallas a un sistema bancario asíncrono. Realicé mejoras en el cliente web, mejorando la usabilidad en un 15% utilizando recursos gráficos más atractivos e intuitivos para el usuario final.\nDesarrollé el módulo de pago del lado del cliente web y del lado de administración para los vendedores. \n Entrené a desarrolladores junior e hice programación en pareja para ser más efectivos en el proceso de desarrollo."
+            },
+            "devops": {
+                "label": "DevOps",
+                "description": "Ayudé con la configuración del deployment, integración continua, mejoré el rendimiento de la aplicación usando contenedores y balanceadores de carga, mediante el uso de script pude optimizar procesos y acceder a diferentes servicios de terceros.\n Ayudé en el modelado de bases de datos y servicios, mejorando la integración de la plataforma con otros servicios y aumentando el rendimiento."
+            },
+            "frontend": {
+                "label": "Desarrollador front-end",
+                "description": "Desarrollé la tercera versión de la administración, mejorando la usabilidad del sitio en más de un 50% utilizando frameworks modernos y mejores prácticas, mejorando en más de un 50% el tiempo de respuesta del backend, reduciendo el número de solicitudes."
+            }
+        }
+    },
+    "opsecsecurity": {
+        "description": "OpSec Security es el proveedor líder de protección en línea integrada y soluciones de autenticación en el producto para marcas y gobiernos.",
+        "insight": {
+            "description": "Las soluciones de gestión de productos OpSec Insight™ organizan la gestión de contratos, la distribución de marcas registradas y las aprobaciones de diseño de productos en una plataforma intuitiva, digitalizando y agilizando el ciclo de vida del producto desde el concepto hasta la eliminación.",
+            "fullstack": {
+                "label": "Desarrollador full-stack",
+                "description": "Participé en el desarrollo del sistema de insights de la empresa, brindando soluciones optimizadas que mejoraron la experiencia de usuario del cliente."
+            }
+        },
+        "ere": {
+            "description": "Sistema de votación en línea para las elecciones puertorriqueñas",
+            "fullstack": {
+                "etiqueta": "Desarrollador FullStack",
+                "description": "Fui parte del desarrollo del sistema de votación denominado eRE para las elecciones de Puerto Rico. Como desarrollador senior de Full Stack Estas fueron mis principales actividades en el desarrollo del mismo. \n- Participé en el desarrollo de la web aplicación, utilizando una variedad de tecnologías que incluyen Entity Framework, React, Tailwind CSS, ASP.NET y Clean Architecture.\n- Trabajó en estrecha colaboración con otros desarrolladores, diseñadores y administradores de proyectos para garantizar que el sistema eRE se diseñara e implementara para cumplir las necesidades de los votantes puertorriqueños, incorporando comentarios y aportes de una variedad de partes interesadas.\n- Desarrolló una arquitectura de sistema clara y completa y modelos de datos para guiar la implementación del sistema eRE, asegurando que fuera escalable, confiable y seguro, con controles apropiados para proteger la integridad del proceso de votación.\n- Se implementó la interfaz de usuario para el sistema eRE usando React y Tailwind CSS, creando una interfaz intuitiva y fácil de usar que facilitó a los votantes emitir sus votos y monitorear el progreso de la elección en tiempo real.\n- Creó una documentación clara y completa del sistema eRE, incluida la arquitectura del sistema, los modelos de datos, las prácticas de codificación y los protocolos de prueba, para facilitar el mantenimiento continuo y las actualizaciones según sea necesario, así como proporcionar capacitación y apoyo a los nuevos miembros del equipo"
+            }
+        }
+    },
+    "copsonic": {
+        "description": "COPSONICes una tecnología que permite la comunicación e interacción entre dos dispositivos a través de ondas sonoras. La transferencia segura se logra a través de micrófonos y parlantes. Ahora y en el futuro, los dispositivos móviles, tabletas y dispositivos inteligentes podrán intercambiar información sin problemas de compatibilidad a diferencia de Bluetooth LE, NFC.",
+        "sdk": {
+            "description": "El SDK de CopSonic permite la autenticación multifactor sin contacto basada en ultrasonidos o sonidos. Este SDK es el primero en introducir un \"espacio de aire\" con información analógica cifrada en el circuito digital. El nivel de seguridad así alcanzado por CopSonic alcanza los niveles actuales de seguridad militar.",
+            "softwareengineer": {
+                "label": "Ingeniero de software",
+                "description": "Me desarrollé principalmente como asegurador de calidad, realicé documentación de proyectos y pruebas de calidad."
+            }
+        },
+        "sonicqrcode": {
+            "description": "La misma información que un código QR, pero enviada por ultrasonidos. Aumentar la distancia de interacción. No más dificultades de escaneo.",
+            "softwareengineer": {
+                "label": "Ingeniero de software",
+                "description": "Me desarrollé principalmente como aseguradora de calidad, realicé documentación de proyectos y pruebas de calidad."
+            }
+        },
+        "sharebill": {
+            "description": "Esta demostración es un ejemplo de cómo se podría implementar un servicio de pago utilizando las características del SDK de Copsonic. Usando ultrasonido, transfirió información una vez que se crea una sesión entre el comprador y el anfitrión.",
+            "frontend": {
+                "label": "Desarrollador front-end",
+                "description": "Yo era un desarrollador junior de la aplicación web. Aportando soluciones precisas y sencillas."
+            },
+            "softwareengineer": {
+                "label": "Ingeniero de software",
+                "description": "Me desarrollé principalmente como aseguradora de calidad, realicé documentación de proyectos y pruebas de calidad."
+            }
+        }
+    },
+    "augetec": {
+        "description": "La empresa comenzó como un sistema de reparación de automóviles. Hoy en día somos un equipo de personas apasionadas cuyo objetivo es mejorar la vida de todos a través de productos revolucionarios. Creando excelentes productos para resolver problemas comerciales. Los productos están diseñados para pequeñas y medianas empresas que desean optimizar su rendimiento.",
+        "augecrm": {
+            "description": "Sistema CRM que permitió a la empresa controlar los principales clientes del sistema de reparación automotriz",
+            "frontend": {
+                "label": "Desarrollador front-end",
+                "description": "Empecé a trabajar en el proyecto ya iniciado, es decir, el código heredado. De una versión inicial con errores y carente de patrones de diseño, la convertí gradualmente y la hice completamente funcional, desarrollando soluciones innovadoras y mejorando la usabilidad en más de un 50%, ayudando al cliente a tener una mejor interacción con la plataforma."
+            },
+            "backend": {
+                "label": "Desarrollador back-end",
+                "description": "Ayudé en algunas consultas, y mejoré los filtros para mejorar el tiempo de respuesta en el cliente-servidor."
+            }
+        },
+        "augecs": {
+            "description": "Sistema de control de ventas de automóviles. El sistema permitía controlar los stocks de autopartes así como encargarse de la venta. Sistema de plan de pago del cliente y soporte directo.",
+            "frontend": {
+                "label": "Desarrollador front-end",
+                "description": "Empecé el proyecto desde cero utilizando las últimas tecnologías afines a la empresa. Aportando un diseño transparente y usable, pude realizar la aplicación en un tiempo récord."
+            },
+            "backend": {
+                "label": "Desarrollador back-end",
+                "description": "Ayudé en algunas consultas, y mejoré los filtros para mejorar el tiempo de respuesta en el cliente-servidor."
+            }
+        },
+        "evaluamax": {
+            "description": "Sistema de encuestas para empresas mexicanas. El sistema permite el control de planes de pago, gestionar estadísticas y controlar el flujo de carga del cliente.",
+            "frontend": {
+                "label": "Desarrollador front-end",
+                "description": "Empecé el proyecto desde cero utilizando las últimas tecnologías afines a la empresa. Aportando un diseño transparente y usable, pude realizar la aplicación en un tiempo récord."
+            },
+            "backend": {
+                "label": "Desarrollador back-end",
+                "description": "Ayudé en algunas consultas, y mejoré los filtros para mejorar el tiempo de respuesta en el cliente-servidor."
+            }
+        },
+        "multillantasmax": {
+            "description": "Encuentra neumáticos de calidad al mejor precio para coches, furgonetas, camiones y motos. Servicios de llantas, afinación, frenos, suspensión, amortiguadores y mecánica en general.",
+            "web": {
+                "label": "Desarrollador web",
+                "description": "Empecé el proyecto desde cero utilizando las últimas tecnologías afines a la empresa. Aportando un diseño transparente y usable, pude realizar la aplicación en un tiempo récord."
+            }
+        }
+    },
+    "cubacitas": {
+        "cubacitasweb": {
+            "frontend": {
+                "label": "Desarrollador front-end",
+                "description": "Entré al proyecto como desarrollador principal de lo que sería el front end web de la aplicación. Desarrollando el front end desde cero, presente una demo con la estructura básica exactamente igual a la aplicación android en un tiempo record. El proyecto web se suspendió por falta de diseño y backend."
+            }
+        }
+    },
+    "intellisysdcorp": {
+        "description": "Intellisys proporciona servicios de externalización de control de calidad, gestión de proyectos y desarrollo de software Full-Stack. Nos asociamos con empresas de tecnología a nivel mundial ayudándolas a construir equipos de ingeniería exitosos y crear productos de software innovadores a través de equipos de entrega integrados o autogestionados.",
+        "vacunaterd": {
+            "description": "La aplicación pertenece al gobierno dominicano y es parte del sistema de salud de la República Dominicana, y la estrategia principal fue administrar el proceso de vacunación de manera eficiente. Dado el impacto global de la pandemia, la aplicación se puso en producción en un tiempo récord y fue de gran ayuda para el gobierno dominicano. Actualmente, VacunateRD está siendo utilizado por millones de ciudadanos en República Dominicana para programar citas de vacunación. La aplicación fue reconocida y aprobada por el presidente de la república, dando gracias y comentarios positivos a los desarrolladores.",
+            "backend": {
+                "label": "Desarrollador back-end",
+                "description": "Como líder de backend, estas son las principales tareas en las que participé:\n - Desarrollé el backend del sistema de citas de vacunación de la República Dominicana, VacunateRD, sirviendo como las principales API REST/RESTful para el sistema de citas previas.\n- Mejorado el tiempo de consulta del sistema ciudadano en un 20% y el sistema del centro de vacunación en un 50% mediante el uso de estructuras de datos y consultas optimizadas de bases de datos.\n- Preparé la migración del proyecto inicial a nuevas tecnologías, incluidos NestJS y TypeORM ORM.\n- Brindó soporte a desarrolladores junior."
+            },
+            "devops": {
+                "label": "Main Architect & DevOps",
+                "description": "Como arquitecto principal y devops, estas son las principales tareas en las que participé: \n- Modelé y diseñé la base de datos, e integré e implementé la aplicación en Google Cloud Platform usando Node.js y TypeScript.\n- Contribuí a la mejora continua del rendimiento y seguridad de la aplicación, utilizando prácticas DevOps y PostgreSQL para la gestión de datos."
+            }
+        }
+    },
+    "payever": {
+        "commerceos": {
+            "description": "El proyecto es una solución de comercio electrónico única que cubre todo el ciclo de ventas, desde la tienda en línea, el software de punto de venta, hasta los pagos, la gestión de relaciones con los clientes, el marketing, el inventario y las herramientas de seguimiento. envío. La plataforma intuitiva integra a la perfección todos los aspectos del comercio electrónico y crece con las necesidades de comercio electrónico de la empresa. La plataforma elimina la dependencia de los gigantes del mercado, lo que permite a las pymes tener su propia plataforma de comercio electrónico independiente, sólida, con la marca de la empresa y conectada. Esta aplicación es utilizada por millones de usuarios y tiene un impacto directo en la industria del comercio electrónico alemán. La aplicación se presentó en Finovate Europe 2020 logrando resultados significativos.",
+            "frontend": {
+                "label": "Desarrollador front-end",
+                "description": "Mis actividades principales como desarrollador front-end sénior fueron:\n- Trabajé en colaboración con otros desarrolladores, diseñadores y gerentes de proyectos para garantizar que las aplicaciones se desarrollaran para satisfacer las necesidades de millones de usuarios en la industria de la moda alemana, con un enfoque en brindando experiencias de usuario de alta calidad y funcionalidad confiable.\n- Hizo contribuciones significativas al código de la aplicación de mensajes, reduciendo el tiempo total de las solicitudes al servidor en un 20%, lo que mejoró el rendimiento general y la capacidad de respuesta para los usuarios.\n- Incrementado el desempeño de la aplicación de chat en un 50% a través de la implementación de procesos en segundo plano, optimizando el procesamiento de la aplicación y mejorando su confiabilidad.\n- Participó en el desarrollo de las aplicaciones de contacto, citas y productos dentro de la plataforma CommerceOS, trabajando principalmente como Desarrollador FrontEnd que usa Angular 2+, nx, Typescript, HTML, CSS, GraphQL, Angular 2+, Node.js y otros. Contribuye a la funcionalidad general y la experiencia del usuario de la plataforma.\n- Trabajó en estrecha colaboración con otros desarrolladores para garantizar que el código sea limpio, eficiente y fácil de mantener, con un fuerte enfoque en la calidad del código y las pruebas para garantizar que las aplicaciones cumplan con altos estándares de rendimiento y confiabilidad."
+            }
+        }
+    },
+    "freelancer": {
+        "oxygen": {
+            "description": "Red social que permite la conectividad con otras redes como Instagram, Facebook. Desarrollador FrontEnd.",
+            "frontend": {
+                "label": "Desarrollador front-end",
+                "description": "Entré al proyecto como desarrollador principal de lo que sería el front end web de la aplicación. Desarrollando el front end desde cero, presenta una demo con la estructura básica en tiempo récord. El proyecto web se suspendió por falta de diseño y backend."
+            }
+        },
+        "pbetta": {
+            "description": "Cliente web para sistema de formación y aprendizaje médico.",
+            "frontend": {
+                "label": "Desarrollador front-end",
+                "description": "Entré al proyecto como desarrollador principal de lo que sería el front end web de la aplicación. El proyecto fue lanzado anuncio esperado"
+            }
+        },
+        "darklink": {
+            "description": "Breve conexión neuronal sobre Jorge Amado Hernández Betancourt (darklink) dev.",
+            "frontend": {
+                "label": "Desarrollador front-end",
+                "description": "Proyecto realizado por mi propia mano, íntegramente: diseño, código, etc."
+            }
+        },
+        "gymbro": {
+            "description": "Red social para amantes del fitness y la vida sana",
+            "fullstack": {
+                "label": "Desarrollador full-stack",
+                "description": "CEO y Fundador del proyecto, desarrollador FullStack"
+            }
+        }
+    }
+}

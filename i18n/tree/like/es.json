@@ -1,0 +1,84 @@
+{
+    "label": "Gustos",
+    "description": "Aquí hay una vista rápida de mis principales gustos separados en ramas, haga clic en los nodos para ver dentro de las ramas",
+    "fitness": {
+        "label": "Hacer ejercicios",
+        "description": "Me gusta mucho hacer ejercicio, hago ejercicios de fuerza 6 veces a la semana y hago cardio caminando 2-3 veces a la semana."
+    },
+    "gaming": {
+        "label": "Juego de PC",
+        "description": "Estos son los principales juegos que me gustan, en los detalles de cada uno la barra indica cuanto me gustan",
+        "tloz": {
+            "label": "The Legend of Zelda",
+            "description": "The Legend of Zelda es una franquicia de juegos de acción y aventuras creada por los diseñadores de juegos japoneses Shigeru Miyamoto y Takashi Tezuka. Es desarrollado y publicado principalmente por Nintendo, aunque algunas entregas portátiles y relanzamientos se han subcontratado a Flagship, Vanpool y Grezzo."
+        },
+        "residentevil": {
+            "label": "Resident Evil",
+            "description": "Resident Evil, conocido en Japón como Biohazard, es una serie de juegos de terror japonesa y una franquicia de medios creada por Capcom. Consiste en juegos de terror de supervivencia, disparos en tercera persona y disparos en primera persona, con jugadores que generalmente sobreviven en entornos llenos de zombis y otras criaturas."
+        },
+        "darksiders": {
+            "label": "DarkSiders",
+            "description": "Darksiders es una franquicia de videojuegos de acción y aventuras hack and slash creada por Vigil Games, ahora desarrollada por Gunfire Games, que consta de algunos de los miembros originales de Vigil."
+        }
+    },
+    "programming": {
+        "label": "Programación",
+        "description": "Estas son las principales tecnologías y áreas dentro de la programación que más me gustan, haz click para ver detalles dentro de cada una",
+        "algorithmsdev": {
+            "label": "Desarrollador de algoritmos",
+            "graphtheory": {
+                "label": "Teoría de grafos"
+            },
+            "numbertheory": {
+                "label": "Teoría de números"
+            },
+            "dp": {
+                "label": "Programación dinámica"
+            }
+        },
+        "backend": {
+            "label": "Desarrollador back-end"
+        },
+        "frontend": {
+            "label": "Desarrollador front-end"
+        }
+    },
+    "soccer": {
+        "label": "Fútbol",
+        "description": "Disfruto mucho viendo los partidos de fútbol, ​​soy un gran fanático de Ronaldinho desde que era pequeño. Estos son mi equipo favorito de todos los tiempos.",
+        "barca": {
+            "label": "FC Barcelona",
+            "description": "Futbol Club Barcelona, ​​comúnmente conocido como Barcelona y coloquialmente conocido como Barça, es un club de fútbol profesional con sede en Barcelona, ​​Cataluña, España, que compite en La Liga, la máxima categoría del fútbol español."
+        },
+        "brasilfc": {
+            "label": "Brasil",
+            "description": "La selección de fútbol de Brasil, apodada Seleção Canarinha, representa a Brasil en el fútbol internacional masculino y es administrada por la Confederación Brasileña de Fútbol, ​​el organismo rector del fútbol en Brasil. Ha sido miembro de la FIFA desde 1923 y miembro de la CONMEBOL desde 1916."
+        }
+    },
+    "music": {
+        "label": "Música",
+        "description": "Me gusta mucho la música, paso la mayor parte del día escuchándola, ya sea a través de un estéreo o a través de auriculares, dentro de estos los géneros que más me gustan son estos, haz clic para ver los grupos de cada género",
+        "ee": {
+            "label": "Electrónica",
+            "description": "La música electrónica es un género de música que emplea instrumentos musicales electrónicos, instrumentos digitales o tecnología musical basada en circuitos en su creación. Incluye tanto la música realizada con medios electrónicos como electromecánicos (música electroacústica). Los instrumentos electrónicos puros dependían por completo de la generación de sonido basada en circuitos, por ejemplo, utilizando dispositivos como un oscilador electrónico, un theremin o un sintetizador. Los instrumentos electromecánicos pueden tener partes mecánicas como cuerdas, martillos y elementos eléctricos que incluyen pastillas magnéticas, amplificadores de potencia y altavoces. Dichos dispositivos electromecánicos incluyen el telarmonio, el órgano Hammond, el piano eléctrico y la guitarra eléctrica."
+        },
+        "rock": {
+            "label": "Rock",
+            "description": "Rock es un amplio género de música popular que se originó como \"rock and roll\" en los Estados Unidos a fines de la década de 1940 y principios de la de 1950, y se convirtió en una variedad de estilos diferentes a mediados de la década de 1960 y más tarde, particularmente en los Estados Unidos. y Reino Unido.[3] Tiene sus raíces en el rock and roll de las décadas de 1940 y 1950, un estilo que se inspiró directamente en los géneros de blues y rhythm and blues de la música afroamericana y de la música country. El rock también se basó en gran medida en otros géneros, como el blues eléctrico y el folk, e incorporó influencias del jazz, la música clásica y otros estilos musicales. Para la instrumentación, el rock se ha centrado en la guitarra eléctrica, generalmente como parte de un grupo de rock con bajo eléctrico, batería y uno o más cantantes. Por lo general, el rock es música basada en canciones con un compás de 4/4 que usa una forma de verso-estribillo, pero el género se ha vuelto extremadamente diverso. Al igual que la música pop, las letras a menudo enfatizan el amor romántico, pero también abordan una amplia variedad de otros temas que suelen ser sociales o políticos. El rock fue el género musical más popular en los Estados Unidos y gran parte del mundo occidental desde la década de 1950 hasta la de 2010."
+        },
+        "rap": {
+            "label": "Rap",
+            "description": "Rapping (también rimado, fluido, escupido,[1] maestro de ceremonias[2] o MCing[2][3]) se sabe que es una forma musical de entrega vocal que incorpora \"rima, discurso rítmico y lengua vernácula callejera\".[ 4] Se realiza o se canta, generalmente sobre un ritmo de fondo o acompañamiento musical.[4] Los componentes del rap incluyen \"contenido\" (lo que se dice, por ejemplo, letras), \"flujo\" (ritmo, rima) y \"entrega\" (cadencia, tono).[5] El rap se diferencia de la poesía hablada en que generalmente se realiza fuera de tiempo con acompañamiento musical.[6] El rap es un ingrediente principal de la música hip hop comúnmente asociado con ese género; sin embargo, los orígenes del rap son anteriores a la cultura hip-hop por muchos años."
+        },
+        "npre": {
+            "label": "Otros"
+        }
+    },
+    "painting": {
+        "label": "Pintura",
+        "description": "Me gusta mucho dibujar y pintar, desde niña estuve en escuelas de dibujo y pintura, participé en concursos y exposiciones. Cuando crecí cambié este pasatiempo por mi amor por el diseño gráfico, pero todavía disfruto mucho pintar."
+    }
+
+
+
+}

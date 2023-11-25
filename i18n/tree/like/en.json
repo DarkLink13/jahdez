@@ -1,0 +1,84 @@
+{
+    "label": "Likes",
+    "description": "Here is a quick view of my main likes separated into branches, click on the nodes to see inside the branches",
+    "fitness": {
+        "label": "Fitness",
+        "description": "I really like to exercise, I do strength exercises 6 times a week and I do walking cardio 2-3 times a week."
+    },
+    "gaming": {
+        "label": "Gaming",
+        "description": "These are the main games that I like, in the details of each one the bar indicates how much I like them",
+        "tloz": {
+            "label": "The Legend of Zelda",
+            "description": "The Legend of Zelda is an action-adventure game franchise created by the Japanese game designers Shigeru Miyamoto and Takashi Tezuka. It is primarily developed and published by Nintendo, although some portable installments and re-releases have been outsourced to Flagship, Vanpool, and Grezzo."
+        },
+        "residentevil": {
+            "label": "Resident Evil",
+            "description": "Resident Evil, known in Japan as Biohazard, is a Japanese horror game series and media franchise created by Capcom. It consists of survival horror, third-person shooter and first-person shooter games, with players typically surviving in environments filled with zombies and other creatures."
+        },
+        "darksiders": {
+            "label": "DarkSiders",
+            "description": "Darksiders is a hack and slash action-adventure video game franchise created by Vigil Games, now developed by Gunfire Games, which consists of some of the original members of Vigil."
+        }
+    },
+    "programming": {
+        "label": "Programming",
+        "description": "These are the main technologies and areas within the programming that I like the most, click to see details within each one",
+        "algorithmsdev": {
+            "label": "Algorithms Developer",
+            "graphtheory": {
+                "label": "Graph Theory"
+            },
+            "numbertheory": {
+                "label": "Number Theory"
+            },
+            "dp": {
+                "label": "Dynamic Programming"
+            }
+        },
+        "backend": {
+            "label": "Back-End Developer"
+        },
+        "frontend": {
+            "label": "Front-End Developer"
+        }
+    },
+    "soccer": {
+        "label": "Soccer",
+        "description": "I really enjoy watching football matches, I was a huge fan of Ronaldinho since I was little. These are my favorite team of all time.",
+        "barca": {
+            "label": "FC Barcelona",
+            "description": "Futbol Club Barcelona, commonly referred to as Barcelona and colloquially known as Barça, is a professional football club based in Barcelona, Catalonia, Spain, that competes in La Liga, the top flight of Spanish football."
+        },
+        "brasilfc": {
+            "label": "Brazil",
+            "description": "The Brazil national football team, nicknamed Seleção Canarinha, represents Brazil in men's international football and is administered by the Brazilian Football Confederation, the governing body for football in Brazil. They have been a member of FIFA since 1923 and a member of CONMEBOL since 1916."
+        }
+    },
+    "music": {
+        "label": "Music",
+        "description": "I really like music, I spend most of the day listening, either through a stereo or through headphones, within these the genres that I like the most are these, click to see groups for each genre",
+        "ee": {
+            "label": "Electronic",
+            "description": "Electronic music is a genre of music that employs electronic musical instruments, digital instruments, or circuitry-based music technology in its creation. It includes both music made using electronic and electromechanical means (electroacoustic music). Pure electronic instruments depended entirely on circuitry-based sound generation, for instance using devices such as an electronic oscillator, theremin, or synthesizer. Electromechanical instruments can have mechanical parts such as strings, hammers, and electric elements including magnetic pickups, power amplifiers and loudspeakers. Such electromechanical devices include the telharmonium, Hammond organ, electric piano and the electric guitar."
+        },
+        "rock": {
+            "label": "Rock",
+            "description": "Rock music is a broad genre of popular music that originated as \"rock and roll\" in the United States in the late 1940s and early 1950s, developing into a range of different styles in the mid-1960s and later, particularly in the United States and United Kingdom.[3] It has its roots in 1940s and 1950s rock and roll, a style that drew directly from the blues and rhythm and blues genres of African-American music and from country music. Rock also drew strongly from a number of other genres such as electric blues and folk, and incorporated influences from jazz, classical, and other musical styles. For instrumentation, rock has centered on the electric guitar, usually as part of a rock group with electric bass guitar, drums, and one or more singers. Usually, rock is song-based music with a 4/4 time signature using a verse–chorus form, but the genre has become extremely diverse. Like pop music, lyrics often stress romantic love but also address a wide variety of other themes that are frequently social or political. Rock was the most popular genre of music in the United States and much of the Western world from the 1950s to the 2010s."
+        },
+        "rap": {
+            "label": "Rap",
+            "description": "Rapping (also rhyming, flowing, spitting,[1] emceeing[2] or MCing[2][3]) is known to be a musical form of vocal delivery that incorporates \"rhyme, rhythmic speech, and street vernacular\".[4] It is performed or chanted, usually over a backing beat or musical accompaniment.[4] The components of rap include \"content\" (what is being said e.g. lyrics), \"flow\" (rhythm, rhyme), and \"delivery\" (cadence, tone).[5] Rap differs from spoken-word poetry in that it is usually performed off-time to musical accompaniment.[6] Rap is a primary ingredient of hip hop music commonly associated with that genre; however, the origins of rap predate hip-hop culture by many years."
+        },
+        "npre": {
+            "label": "Others"
+        }
+    },
+    "painting": {
+        "label": "Painting",
+        "description": "I really like drawing and painting, since I was a child I was in drawing and painting schools, I participated in competitions and exhibitions. When I grew up I changed this hobby to my love of graphic design, but I still really enjoy painting."
+    }
+
+
+
+}

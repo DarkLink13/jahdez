@@ -1,0 +1,60 @@
+{
+    "label": "Habilidades",
+    "description": "Ramas principales dentro de las cuales se pueden presenciar diferentes habilidades y tecnologías, haga clic para acceder a los nodos secundarios para ver detalles",
+    "frontend": {
+        "label": "Desarrollador front-end",
+        "description": "Principales frameworks en los que he trabajado como desarrollador FrontEnd, haga clic adentro para ver qué tecnologías utilizan estos frameworks"
+    },
+    "backend": {
+        "label": "Desarrollador back-end",
+        "description": "Principales frameworks en los que he trabajado como desarrollador BackEnd, haga clic adentro para ver qué tecnologías utilizan estos frameworks"
+    },
+    "fullstack": {
+        "label": "Desarrollador full-stack",
+        "description": "Principales frameworks en los que he trabajado como desarrollador FullStack, haga clic adentro para ver qué tecnologías utilizan estos frameworks"
+    },
+    "softwareengineer": {
+        "label": "Ingeniero de software",
+        "description": "Principales soft skills, utils, entornos y herramientas que he utilizado en el desarrollo"
+    },
+    "graphicdesigner": {
+        "label": "Diseñador grafico",
+        "description": "Principales herramientas en las que he trabajado como diseñador gráfico"
+    },
+    "algorithmsdev": {
+        "label": "Desarrollador de algoritmos",
+        "description": "Ramas principales dentro de los algoritmos que he estudiado.",
+        "bruteforce": {
+            "label": "Fuerza bruta",
+            "description": "A brute force algorithm solves a problem through exhaustion: it goes through all possible choices until a solution is found. The time complexity of a brute force algorithm is often proportional to the input size. Brute force algorithms are simple and consistent, but very slow."
+        },
+        "datastructure": {
+            "label": "Estructuras de datos",
+            "description": "Una estructura de datos es una ubicación con nombre que se puede utilizar para almacenar y organizar datos. Y, un algoritmo es una colección de pasos para resolver un problema particular. El aprendizaje de estructuras de datos y algoritmos nos permite escribir programas informáticos eficientes y optimizados."
+        },
+        "dp": {
+            "label": "Programación dinámica",
+            "description": "La programación dinámica es una técnica de programación informática en la que un problema algorítmico se divide primero en subproblemas, los resultados se guardan y luego los subproblemas se optimizan para encontrar la solución general, que generalmente tiene que ver con encontrar el máximo y el mínimo. rango de la consulta algorítmica."
+        },
+        "gametheory": {
+            "label": "Teoría de juego",
+            "description": "La teoría de juegos es el estudio de modelos matemáticos de interacciones estratégicas entre agentes racionales. Tiene aplicaciones en todos los campos de las ciencias sociales, así como en la lógica, la ciencia de sistemas y la informática."
+        },
+        "graphtheory": {
+            "label": "Teoría de grafos",
+            "description": "En matemáticas, la teoría de grafos es el estudio de los gráficos, que son estructuras matemáticas utilizadas para modelar relaciones por pares entre objetos. Un grafo en este contexto se compone de vértices (también llamados nodos o puntos) que están conectados por aristas (también llamados enlaces o líneas)."
+        },
+        "greedy": {
+            "label": "Algoritmos Golosos",
+            "description": "Un algoritmo goloso es un algoritmo simple e intuitivo que se utiliza en problemas de optimización. El algoritmo hace la elección óptima en cada paso mientras intenta encontrar la forma óptima general de resolver todo el problema."
+        },
+        "implementation": {
+            "label": "Implementación",
+            "description": "Los problemas Ad Hoc o de implementación son problemas que no se pueden clasificar en ningún otro lugar de las categorías con soluciones bien estudiadas ya que cada descripción del problema y su correspondiente solución son únicas. Estos problemas no pertenecen a categorías estándar, no existe una técnica específica o general para resolverlos. Muchos problemas Ad Hoc son fáciles, pero esto no se aplica a todos los problemas Ad Hoc."
+        },
+        "numbertheory": {
+            "label": "Teoría de los números",
+            "description": "La teoría de números es una rama de las matemáticas puras dedicada principalmente al estudio de los números enteros y las funciones aritméticas. El matemático alemán Carl Friedrich Gauss dijo: \"Las matemáticas son la reina de las ciencias, y la teoría de números es la reina de las matemáticas."
+        }
+    }
+}

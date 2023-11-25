@@ -1,0 +1,149 @@
+{
+    "adobephotoshop": {
+        "description": "Adobe Photoshop es un editor de gráficos de trama desarrollado y publicado por Adobe Inc. para Windows y macOS. Fue creado originalmente en 1987 por Thomas y John Knoll. Desde entonces, el software se ha convertido en la herramienta más utilizada para el arte digital profesional, especialmente en la edición de gráficos de trama."
+    },
+    "angular2": {
+        "description": "Angular (también conocido como \"Angular 2+\") es un marco de aplicación web de código abierto, gratuito y basado en TypeScript dirigido por el equipo de Angular en Google y por una comunidad de individuos y corporaciones. Angular es una reescritura completa del mismo equipo que creó AngularJS. Angular es un marco de aplicación de una sola página que se utiliza para crear aplicaciones web rápidas. Utiliza conceptos de SPA en los que la interfaz de usuario se entrega al comienzo de la solicitud de la aplicación y luego solo se solicitan datos, lo que hace que las aplicaciones de SPA sean rápidas."
+    },
+    "angularjs": {
+        "description": "AngularJS es un marco web basado en JavaScript gratuito y de código abierto descontinuado para desarrollar aplicaciones de una sola página. Fue mantenido principalmente por Google y una comunidad de individuos y corporaciones. Su objetivo era simplificar tanto el desarrollo como la prueba de dichas aplicaciones al proporcionar un marco para las arquitecturas de modelo-vista-controlador (MVC) y modelo-vista-modelo (MVVM) del lado del cliente, junto con los componentes comúnmente utilizados en aplicaciones web y progresivo. aplicaciones web."
+    },
+    "angularmaterial": {
+        "description": "Componentes de Material Design para Angular"
+    },
+    "apollo": {
+        "description": "Apollo GraphQL es el centro multiusos para su API de GraphQL, que permite a los desarrolladores de su pila enviar antes, con frecuencia y de forma segura."
+    },
+    "css": {
+        "description": "Cascading Style Sheets (CSS) es un lenguaje de hojas de estilo utilizado para describir la presentación de un documento escrito en un lenguaje de marcado como HTML o XML (incluidos los dialectos XML como SVG, MathML o XHTML).[1] CSS es una tecnología fundamental de la World Wide Web, junto con HTML y JavaScript.[2]"
+    },
+    "django": {
+        "description": "Django (/ˈdʒæŋɡoʊ/ JANG-goh; a veces estilizado como django) es un marco web gratuito y de código abierto basado en Python que sigue el patrón arquitectónico modelo-plantilla-vistas (MTV). Es mantenido por Django Software Foundation (DSF), una organización independiente establecida en los EE. UU. como una organización sin fines de lucro 501(c)(3)."
+    },
+    "djangorestframework": {
+        "description": "Django REST framework es un conjunto de herramientas potente y flexible para crear API web. Algunas razones por las que podría querer usar el marco REST: La API navegable por la Web es una gran ganancia de usabilidad para sus desarrolladores. Políticas de autenticación que incluyen paquetes para OAuth1a y OAuth2."
+    },
+    "docker": {
+        "description": "Docker es un conjunto de productos de plataforma como servicio que utilizan la virtualización a nivel del sistema operativo para entregar software en paquetes denominados contenedores. El servicio tiene niveles gratuitos y premium. El software que aloja los contenedores se llama Docker Engine. Se inició por primera vez en 2013 y es desarrollado por Docker, Inc."
+    },
+    "dotnet": {
+        "description": "ASP.NET es un marco de aplicación web del lado del servidor de código abierto[2] diseñado para el desarrollo web para producir páginas web dinámicas. Fue desarrollado por Microsoft para permitir a los programadores crear sitios web, aplicaciones y servicios dinámicos. El nombre significa Active Server Pages Network Enabled Technologies."
+    },
+    "elasticsearch": {
+        "description":"Elasticsearch es un motor de búsqueda basado en la biblioteca Lucene. Proporciona un motor de búsqueda de texto completo distribuido y con capacidad para múltiples inquilinos con una interfaz web HTTP y documentos JSON sin esquema. Elasticsearch está desarrollado en Java y tiene una licencia dual bajo la licencia pública del lado del servidor disponible en la fuente y la licencia de Elastic,[2] mientras que otras partes[3] se encuentran bajo la licencia patentada de Elastic (disponible en la fuente). Los clientes oficiales están disponibles en Java,[4] .NET[5] (C#), PHP,[6] Python,[7] Ruby[8] y muchos otros lenguajes.[9] Según la clasificación de DB-Engines, Elasticsearch es el motor de búsqueda empresarial más popular.[10]"
+    },
+    "expressjs": {
+        "description": "Express.js, o simplemente Express, es un marco de aplicaciones web back-end para crear API RESTful con Node.js, lanzado como software gratuito y de código abierto bajo la licencia MIT. Está diseñado para crear aplicaciones web y API. Se le ha llamado el marco de servidor estándar de facto para Node.js."
+    },
+    "gcp": {
+        "description": "Google Cloud Platform (GCP), ofrecido por Google, es un conjunto de servicios de computación en la nube que se ejecuta en la misma infraestructura que Google usa internamente para sus productos de usuario final, como la Búsqueda de Google, Gmail, Google Drive y YouTube.[2][discutido – discutir] Junto un conjunto de herramientas de gestión, proporciona una serie de servicios modulares en la nube que incluyen computación, almacenamiento de datos, análisis de datos y aprendizaje automático.[3] El registro requiere una tarjeta de crédito o detalles de una cuenta bancaria.[4]"
+    },
+    "git": {
+        "description": "Git es un sistema de control de versiones distribuido que rastrea los cambios en cualquier conjunto de archivos de computadora, generalmente se usa para coordinar el trabajo entre programadores que desarrollan código fuente en colaboración durante el desarrollo de software. Sus objetivos incluyen la velocidad, la integridad de los datos y la compatibilidad con flujos de trabajo no lineales y distribuidos."
+    },
+    "gitlab": {
+        "description": "GitLab Inc. es una empresa de núcleo abierto que opera GitLab, un paquete de software DevOps que puede desarrollar, asegurar y operar software. El proyecto de software de código abierto fue creado por el desarrollador ucraniano Dmytro Zaporozhets y el desarrollador holandés Sytse Sijbrandij."
+    },
+    "github": {
+        "description": "GitHub, Inc. es un servicio de alojamiento de Internet para el desarrollo de software y el control de versiones utilizando Git. Proporciona el control de versiones distribuidas de Git más control de acceso, seguimiento de errores, solicitudes de funciones de software, gestión de tareas, integración continua y wikis para cada proyecto."
+    },
+    "graphql": {
+        "description": "GraphQL es un lenguaje de consulta de datos de código abierto y un lenguaje de manipulación de datos para API y un motor de tiempo de ejecución de consultas."
+    },
+    "hasura": {
+        "description": "Hasura le brinda API REST y GraphQL instantáneas en fuentes de datos nuevas y existentes. Conecte Hasura a sus datos y obtenga API en menos de un minuto."
+    },
+    "html": {
+        "description": "El lenguaje de marcado de hipertexto o HTML es el lenguaje de marcado estándar para documentos diseñados para mostrarse en un navegador web. A menudo es asistido por tecnologías tales como hojas de estilo en cascada (CSS) y lenguajes de secuencias de comandos como JavaScript."
+    },
+    "hugo": {
+        "description": "El marco más rápido del mundo para crear sitios web Hugo es uno de los generadores de sitios estáticos de código abierto más populares. Con su increíble velocidad y flexibilidad, Hugo hace que la construcción de sitios web sea divertida nuevamente."
+    },
+    "inkscape": {
+        "description": "Inkscape es un editor de gráficos vectoriales gratuito y de código abierto que se utiliza para crear imágenes vectoriales, principalmente en formato de gráficos vectoriales escalables. Se pueden importar y exportar otros formatos. Inkscape puede representar formas vectoriales y texto primitivos."
+    },
+    "iviewui": {
+        "description": "Una biblioteca de componentes de interfaz de usuario de nivel empresarial basada en Vue.js 3 · Sirve para miles de desarrolladores."
+    },
+    "javascript": {
+        "description": "JavaScript (/ˈdʒɑːvəskrɪpt/), a menudo abreviado como JS, es un lenguaje de programación que es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. A partir de 2022, el 98 % de los sitios web usan JavaScript en el lado del cliente para el comportamiento de la página web, a menudo incorporando bibliotecas de terceros. Todos los principales navegadores web tienen un motor de JavaScript dedicado para ejecutar el código en los dispositivos de los usuarios."
+    },
+    "jenkins": {
+        "description": "Jenkins es un servidor de automatización de código abierto. Ayuda a automatizar las partes del desarrollo de software relacionadas con la creación, las pruebas y la implementación, lo que facilita la integración continua y la entrega continua. Es un sistema basado en servidor que se ejecuta en contenedores de servlets como Apache Tomcat."
+    },
+    "knockoutjs": {
+        "description": "Knockout es una implementación de JavaScript independiente del patrón Model-View-ViewModel con plantillas. Por lo tanto, los principios subyacentes son: \n una separación clara entre los datos del dominio, los componentes de la vista y los datos que se mostrarán\n la presencia de una capa claramente definida de código especializado para gestionar las relaciones entre los componentes de la vista\n Este último aprovecha la gestión de eventos nativos Características del lenguaje JavaScript."
+    },
+    "linux": {
+        "description": "Linux es una familia de sistemas operativos similares a Unix de código abierto basados ​​en el kernel de Linux, un kernel de sistema operativo lanzado por primera vez el 17 de septiembre de 1991 por Linus Torvalds."
+    },
+    "nestjs": {
+        "description": "NestJS es un marco para crear aplicaciones web Node.js eficientes y escalables. Utiliza JavaScript moderno, está construido con TypeScript y combina elementos de OOP (Programación Orientada a Objetos), FP (Programación Funcional) y FRP (Programación Reactiva Funcional)."
+    },
+    "nginx": {
+        "description": "Nginx es un servidor web que también se puede utilizar como proxy inverso, equilibrador de carga, proxy de correo y caché HTTP. El software fue creado por Igor Sysoev y lanzado públicamente en 2004. Nginx es un software gratuito y de código abierto, lanzado bajo los términos de la licencia BSD de 2 cláusulas."
+    },
+    "nodejs": {
+        "description": "Node.js es un entorno de servidor de código abierto multiplataforma que puede ejecutarse en Windows, Linux, Unix, macOS y más. Node.js es un entorno de tiempo de ejecución de JavaScript de back-end, se ejecuta en el motor de JavaScript V8 y ejecuta el código de JavaScript fuera de un navegador web."
+    },
+    "nuxt": {
+        "description": "Nuxt.js es una biblioteca JavaScript gratuita y de código abierto basada en Vue.js, Node.js, Webpack y Babel.js. Nuxt está inspirado en Next.js, que es un framework de propósito similar, basado en React.js. El marco se anuncia como \"Meta-marco para aplicaciones universales\"."
+    },
+    "nuxt3": {
+        "description": "Nuxt3 es una biblioteca JavaScript gratuita y de código abierto basada en Nuxt.js, Vue.js, Node.js, Webpack y Babel.js. Nuxt3 está inspirado en Next.js, que es un framework de propósito similar, basado en React.js. El marco se anuncia como \"Meta-marco para aplicaciones universales\"."
+    },
+    "nx": {
+        "description": "Sistema de compilación de próxima generación con soporte monorepo de primera clase e integraciones potentes."
+    },
+    "pandas": { 
+        "description" : "pandas es una biblioteca de software escrita para el lenguaje de programación Python para la manipulación y el análisis de datos. En particular, ofrece estructuras de datos y operaciones para manipular tablas numéricas y series de tiempo. Es software libre publicado bajo la licencia BSD de tres cláusulas. El nombre se deriva del término \"panel de datos\", un término econométrico para conjuntos de datos que incluyen observaciones durante múltiples períodos de tiempo para las mismas personas. Su nombre es un juego de palabras con la frase \"Análisis de datos de Python\". Wes McKinney comenzó a construir lo que se convertiría en pandas en AQR Capital mientras era investigador allí de 2007 a 2010."
+    },
+    "postgresql": {
+        "description": "PostgreSQL (/ˈpoʊstɡrɛs ˌkjuː ˈɛl/, POHST-gres kyoo el), también conocido como Postgres, es un sistema de administración de bases de datos relacionales (RDBMS) gratuito y de código abierto que enfatiza la extensibilidad y el cumplimiento de SQL. Originalmente se llamó POSTGRES, en referencia a sus orígenes como sucesora de la base de datos Ingres desarrollada en la Universidad de California, Berkeley. En 1996, se cambió el nombre del proyecto a PostgreSQL para reflejar su compatibilidad con SQL. Después de una revisión en 2007, el equipo de desarrollo decidió mantener el nombre PostgreSQL y el alias Postgres."
+    },
+    "react": {
+        "description": "React (también conocida como React.js o ReactJS) es una biblioteca JavaScript front-end gratuita y de código abierto[3] para crear interfaces de usuario basadas en componentes. Lo mantiene Meta (anteriormente Facebook) y una comunidad de desarrolladores y empresas individuales."
+    },
+    "redis": {
+        "description": "Redis (/ˈrɛdɪs/; Remote Dictionary Server) es un almacén de estructura de datos en memoria, que se utiliza como una base de datos de clave-valor distribuida en memoria, caché y agente de mensajes, con durabilidad opcional. Redis admite diferentes tipos de estructuras de datos abstractos, como cadenas, listas, mapas, conjuntos, conjuntos ordenados, HyperLogLogs, mapas de bits, flujos e índices espaciales. El proyecto fue desarrollado y mantenido por Salvatore Sanfilippo, a partir de 2009.[8] Desde 2015 hasta 2020, dirigió un equipo central de proyecto patrocinado por Redis Labs.[9] Salvatore Sanfilippo dejó a Redis como mantenedor en 2020.[10] Es un software de código abierto lanzado bajo una licencia BSD de 3 cláusulas.[5] En 2021, poco después de que el autor original y el mantenedor principal se fueran, Redis Labs eliminó Labs de su nombre y ahora se conoce simplemente como \"Redis\"."
+    },
+    "sass": {
+        "description": "Sass (abreviatura de hojas de estilo sintácticamente asombrosas) es un lenguaje de secuencias de comandos de preprocesador que se interpreta o compila en hojas de estilo en cascada (CSS). SassScript es el propio lenguaje de programación."
+    },
+    "ssr": {
+        "description": "La secuencia de comandos del lado del servidor es una técnica utilizada en el desarrollo web que implica el empleo de secuencias de comandos en un servidor web que produce una respuesta personalizada para la solicitud de cada usuario (cliente) al sitio web. La alternativa es que el propio servidor web entregue una página web estática. Las secuencias de comandos se pueden escribir en cualquiera de los lenguajes de secuencias de comandos del lado del servidor que están disponibles (consulte a continuación). Las secuencias de comandos del lado del servidor se distinguen de las secuencias de comandos del lado del cliente, donde las secuencias de comandos incrustadas, como JavaScript, se ejecutan en el lado del cliente en un navegador web, pero ambas técnicas a menudo se usan juntas."
+    },
+    "tailwindcss": {
+        "description": "Tailwind CSS es un marco CSS de código abierto. La principal característica de esta librería es que, a diferencia de otros frameworks CSS como Bootstrap, no proporciona una serie de clases predefinidas para elementos como botones o tablas."
+    },
+    "threedsmax": {
+        "description": "Autodesk 3ds Max, anteriormente 3D Studio y 3D Studio Max, es un programa profesional de gráficos por computadora en 3D para crear animaciones, modelos, juegos e imágenes en 3D. Es desarrollado y producido por Autodesk Media and Entertainment."
+    },
+    "typescript": {
+        "description": "TypeScript es un lenguaje de programación de alto nivel gratuito y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto sintáctico estricto de JavaScript y agrega escritura estática opcional al lenguaje. Está diseñado para el desarrollo de grandes aplicaciones y se transpila a JavaScript.[5] Como es un superconjunto de JavaScript, los programas JavaScript existentes también son programas TypeScript válidos."
+    },
+    "ubuntu": {
+        "description": "Ubuntu es una distribución de Linux basada en Debian y compuesta principalmente por software libre y de código abierto. Ubuntu se lanza oficialmente en tres ediciones: Desktop, Server y Core para dispositivos y robots de Internet de las cosas. Todas las ediciones pueden ejecutarse solo en una computadora o en una máquina virtual."
+    },
+    "visualstudio": {
+        "description": "Visual Studio es un entorno de desarrollo integrado de Microsoft. Se utiliza para desarrollar programas informáticos, incluidos sitios web, aplicaciones web, servicios web y aplicaciones móviles."
+    },
+    "visualstudiocode": {
+        "description": "Visual Studio Code, También conocido comúnmente como VS Code, es un editor de código fuente creado por Microsoft con Electron Framework, para Windows, Linux y macOS. Las características incluyen soporte para depuración, resaltado de sintaxis, finalización de código inteligente, fragmentos, refactorización de código y Git incorporado."
+    },
+    "vuejs": {
+        "description": "Vue.js (comúnmente conocido como Vue; pronunciado \"vista\") es un marco JavaScript de interfaz de modelo-vista-modelo de vista de código abierto para crear interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You y es mantenido por él y el resto de los miembros activos del equipo central."
+    },
+    "vuetify": {
+        "description": "Vuetify es una biblioteca de interfaz de usuario que no requiere habilidades de diseño con componentes Vue bellamente hechos a mano."
+    },
+    "vuex": {
+        "description": "Vuex es un patrón de gestión de estado + biblioteca para aplicaciones Vue.js. Sirve como un almacén centralizado para todos los componentes de una aplicación, con reglas que garantizan que el estado solo se puede modificar de forma predecible."
+    },
+    "vuerouter": {
+        "description": "Enrutamiento expresivo, configurable y conveniente para Vue.js"
+    },
+    "windows": {
+        "description": "Windows es un grupo de varias familias de sistemas operativos gráficos patentados desarrollados y comercializados por Microsoft. Cada familia atiende a un determinado sector de la industria informática. Por ejemplo, Windows NT para consumidores, Windows Server para servidores y Windows IoT para sistemas integrados."
+    }
+}

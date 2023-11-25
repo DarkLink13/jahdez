@@ -1,0 +1,42 @@
+{
+    "label": "Certifications",
+    "hackerrank": {
+        "description": "HackerRank is the market-leading technical assessment and remote interview solution for hiring developers. Start hiring at the pace of innovation!",
+        "angularintermediate": {
+            "label": "Angular (Intermediate)",
+            "description": "It covers topics like Routing, NgModules, Observables for data transmission and event handling, Dependency Injections, and APIs."
+        },
+        "javascriptbasic": {
+            "label": "JavaScript (Basic)",
+            "description": "It covers topics like, Functions, Currying, Hoisting, Scope, Inheritance, Events and Error Handling."
+        },
+        "nodebasic": {
+            "label": "Node (Basic)",
+            "description": "It covers topics like Package and Modules Management, Callbacks, Event Loop, Event Emitter, Buffers, Streams and File Systems"
+        },
+        "pythonbasic": {
+            "label": "Python (Basic)",
+            "description": "It covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes"
+        },
+        "problemsolvingbasic": {
+            "label": "Problem Solving (Basic)",
+            "description": "It covers basic topics of Data Structures (such as Arrays, Strings) and Algorithms (such as Sorting and Searching)."
+        }
+    },
+    "icpc": {
+        "label": "ICPC - International Collegiate Programming Contest",
+        "description": "The International Collegiate Programming Contest is an algorithmic programming contest for college students. Teams of three, representing their university, work to solve the most real-world problems, fostering collaboration, creativity, innovation, and the ability to perform under pressure. Through training and competition, teams challenge each other to raise the bar on the possible. Quite simply, it is the oldest, largest, and most prestigious programming contest in the world.",
+        "icpcregional": {
+            "label": "Certificate of Participation in ICPC Caribbean Finals 2017",
+            "description": "Each year, the ICPC regionals begin at local competitions among classmates to determine who may represent their university. Success at one level leads to an invitation to the next. Each region progresses differently, but the end result is the same, the best teams advance. The final regional contest determines the teams advancing to the World Finals."
+        }
+    },
+    "uic": {
+        "label": "UIC - Union of Informaticians of Cuba",
+        "description": "The Union of Informaticians of Cuba is a social, self-financed and non-profit organization of Information and Communication Technologies (ICT) professionals.",
+        "specialprice": {
+            "label": "Special Price",
+            "description": "The Union of Informaticians of Cuba granted the special prize to the work: 'System to determine exact answer in the C.U.B.A platform (Unified Content for Advanced Search)' of the speaker Jorge Amado Hernandez Betancourt as a diploma thesis, within the framework of the XXIII National Student Forum University students of Social, Economic, Natural, Humanistic and Exact Sciences in Villa Clara"
+        }
+    }
+}

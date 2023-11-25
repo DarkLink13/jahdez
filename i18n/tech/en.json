@@ -1,0 +1,149 @@
+{
+    "adobephotoshop": {
+        "description": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1987 by Thomas and John Knoll. Since then, the software has become the most used tool for professional digital art, especially in raster graphics editing."
+    },
+    "angular2": {
+        "description": "Angular (also referred to as \"Angular 2+\") is a TypeScript-based, free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS. Angular is a Single Page Application Framework which is used for creating Fast Web Applications. It uses concepts of SPA in which UI is delivered in the beginning of application request and later only data is requested which makes SPA applications fast."
+    },
+    "angularjs": {
+        "description": "AngularJS is a discontinued free and open-source JavaScript-based web framework for developing single-page applications. It was maintained mainly by Google and a community of individuals and corporations. It aimed to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in web applications and progressive web applications."
+    },
+    "angularmaterial": {
+        "description": "Material Design components for Angular"
+    },
+    "apollo": {
+        "description": "Apollo GraphOS is the all-purpose hub for your GraphQL API, empowering developers across your stack to ship early, ship often, and ship safely."
+    },
+    "css": {
+        "description": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]"
+    },
+    "django": {
+        "description": "Django (/ˈdʒæŋɡoʊ/ JANG-goh; sometimes stylized as django) is a free and open-source, Python-based web framework that follows the model–template–views (MTV) architectural pattern. It is maintained by the Django Software Foundation (DSF), an independent organization established in the US as a 501(c)(3) non-profit."
+    },
+    "djangorestframework": {
+        "description": "Django REST framework is a powerful and flexible toolkit for building Web APIs. Some reasons you might want to use REST framework: The Web browsable API is a huge usability win for your developers. Authentication policies including packages for OAuth1a and OAuth2."
+    },
+    "docker": {
+        "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. The service has both free and premium tiers. The software that hosts the containers is called Docker Engine. It was first started in 2013 and is developed by Docker, Inc."
+    },
+    "dotnet": {
+        "description": "ASP.NET is an open-source,[2] server-side web-application framework designed for web development to produce dynamic web pages. It was developed by Microsoft to allow programmers to build dynamic web sites, applications and services. The name stands for Active Server Pages Network Enabled Technologies."
+    },
+    "elasticsearch": {
+        "description":"Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. Elasticsearch is developed in Java and is dual-licensed under the source-available Server Side Public License and the Elastic license,[2] while other parts[3] fall under the proprietary (source-available) Elastic License. Official clients are available in Java,[4] .NET[5] (C#), PHP,[6] Python,[7] Ruby[8] and many other languages.[9] According to the DB-Engines ranking, Elasticsearch is the most popular enterprise search engine.[10]"
+    },
+    "expressjs": {
+        "description": "Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js."
+    },
+    "gcp": {
+        "description": "Google Cloud Platform (GCP), offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, Google Drive, and YouTube.[2][disputed – discuss] Alongside a set of management tools, it provides a series of modular cloud services including computing, data storage, data analytics and machine learning.[3] Registration requires a credit card or bank account details.[4]"
+    },
+    "git": {
+        "description": "Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows."
+    },
+    "gitlab": {
+        "description": "GitLab Inc. is an open-core company that operates GitLab, a DevOps software package which can develop, secure, and operate software. The open source software project was created by Ukrainian developer Dmytro Zaporozhets and Dutch developer Sytse Sijbrandij."
+    },
+    "github": {
+        "description": "GitHub, Inc. is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project."
+    },
+    "graphql": {
+        "description": "GraphQL is an open-source data query language and data manipulation language for APIs, and a query runtime engine."
+    },
+    "hasura": {
+        "description": "Hasura gives you instant GraphQL & REST APIs on new & existing data sources. Connect Hasura to your data & get APIs in under a minute."
+    },
+    "html": {
+        "description": "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript."
+    },
+    "hugo": {
+        "description": "The world’s fastest framework for building websites Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+    },
+    "inkscape": {
+        "description": "Inkscape is a free and open-source vector graphics editor used to create vector images, primarily in the Scalable Vector Graphics format. Other formats can be imported and exported. Inkscape can render primitive vector shapes and text."
+    },
+    "iviewui": {
+        "description": "An enterprise-level UI component library based on Vue.js 3 · Serve for thousands of developers."
+    },
+    "javascript": {
+        "description": "JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices."
+    },
+    "jenkins": {
+        "description": "Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat."
+    },
+    "knockoutjs": {
+        "description": "Knockout is a standalone JavaScript implementation of the Model–View–ViewModel pattern with templates. The underlying principles are therefore: \na clear separation between domain data, view components and data to be displayed\n the presence of a clearly defined layer of specialized code to manage the relationships between the view components\n The latter leverages the native event management features of the JavaScript language."
+    },
+    "linux": {
+        "description": "Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds."
+    },
+    "nestjs": {
+        "description": "NestJS is a framework for building efficient, scalable Node.js web applications. It uses modern JavaScript, is built with TypeScript and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming)."
+    },
+    "nginx": {
+        "description": "Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. The software was created by Igor Sysoev and publicly released in 2004. Nginx is free and open-source software, released under the terms of the 2-clause BSD license"
+    },
+    "nodejs": {
+        "description": "Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser."
+    },
+    "nuxt": {
+        "description": "Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js. The framework is advertised as a \"Meta-framework for universal applications\"."
+    },
+    "nuxt3": {
+        "description": "Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js. The framework is advertised as a \"Meta-framework for universal applications\"."
+    },
+    "nx": {
+        "description": "Next generation build system with first class monorepo support and powerful integrations."
+    },
+    "pandas": { 
+        "description" : "pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. It is free software released under the three-clause BSD license. The name is derived from the term \"panel data\", an econometrics term for data sets that include observations over multiple time periods for the same individuals. Its name is a play on the phrase \"Python data analysis\" itself. Wes McKinney started building what would become pandas at AQR Capital while he was a researcher there from 2007 to 2010."
+    },
+    "postgresql": {
+        "description": "PostgreSQL (/ˈpoʊstɡrɛs ˌkjuː ˈɛl/, POHST-gres kyoo el), also known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance. It was originally named POSTGRES, referring to its origins as a successor to the Ingres database developed at the University of California, Berkeley. In 1996, the project was renamed to PostgreSQL to reflect its support for SQL. After a review in 2007, the development team decided to keep the name PostgreSQL and the alias Postgres."
+    },
+    "react": {
+        "description": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library[3] for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies."
+    },
+    "redis": {
+        "description": "Redis (/ˈrɛdɪs/; Remote Dictionary Server) is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indices. The project was developed and maintained by Salvatore Sanfilippo, starting in 2009.[8] From 2015 until 2020, he led a project core team sponsored by Redis Labs.[9] Salvatore Sanfilippo left Redis as the maintainer in 2020.[10] It is open-source software released under a BSD 3-clause license.[5] In 2021, not long after the original author and main maintainer left, Redis Labs dropped the Labs from its name and now is known simply as \"Redis\""
+    },
+    "sass": {
+        "description": "Sass (short for syntactically awesome style sheets) is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the scripting language itself."
+    },
+    "ssr": {
+        "description": "Server-side scripting is a technique used in web development which involves employing scripts on a web server which produces a response customized for each user's (client's) request to the website. The alternative is for the web server itself to deliver a static web page. Scripts can be written in any of a number of server-side scripting languages that are available (see below). Server-side scripting is distinguished from client-side scripting where embedded scripts, such as JavaScript, are run client-side in a web browser, but both techniques are often used together."
+    },
+    "tailwindcss": {
+        "description": "Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables"
+    },
+    "threedsmax": {
+        "description": "Autodesk 3ds Max, formerly 3D Studio and 3D Studio Max, is a professional 3D computer graphics program for making 3D animations, models, games and images. It is developed and produced by Autodesk Media and Entertainment. "
+    },
+    "typescript": {
+        "description": "TypeScript is a free and open source high-level programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript.[5] As it is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs."
+    },
+    "ubuntu": {
+        "description": "Ubuntu is a Linux distribution based on Debian and composed mostly of free and open-source software. Ubuntu is officially released in three editions: Desktop, Server, and Core for Internet of things devices and robots. All of the editions can run on a computer alone, or in a virtual machine."
+    },
+    "visualstudio": {
+        "description": "Visual Studio is an integrated development environment from Microsoft. It is used to develop computer programs including websites, web apps, web services and mobile apps."
+    },
+    "visualstudiocode": {
+        "description": "Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft with the Electron Framework, for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git."
+    },
+    "vuejs": {
+        "description": "Vue.js (commonly referred to as Vue; pronounced \"view\") is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members."
+    },
+    "vuetify": {
+        "description": "Vuetify is a no design skills required UI Library with beautifully handcrafted Vue Components."
+    },
+    "vuex": {
+        "description": "Vuex is a state management pattern + library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion."
+    },
+    "vuerouter": {
+        "description": "Expressive, configurable and convenient routing for Vue.js"
+    },
+    "windows": {
+        "description": "Windows is a group of several proprietary graphical operating system families developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. For example, Windows NT for consumers, Windows Server for servers, and Windows IoT for embedded systems."
+    }
+}

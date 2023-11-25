@@ -1,0 +1,13 @@
+{
+    "label": "Info",
+    "language": {
+        "label": "Language",
+        "es": { "label" : "Spanish" },
+        "en": { "label" : "English" }
+    },
+    "mode": {
+        "label": "Mode",
+        "dark": { "label": "Dark" },
+        "light": { "label": "Light" }
+    }
+}
