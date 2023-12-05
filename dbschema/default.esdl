@@ -13,12 +13,13 @@ module default {
     required identity: ext::auth::Identity;
   }
   
-  scalar type LabelType extending enum<'Date', 'Years', 'Since', 'Version', 'Link', 'Current', 'WorkType', 'Role' >;
+  scalar type LabelType extending enum<'Date', 'Years', 'Since', 'Version', 'Link', 'Country', 'WorkType', 'Role' >;
   scalar type ItemType extending enum<'Work', 'Position', 'Project', 'Skill', 'Root', 'Like', 'Default'>;
   scalar type ModeType extending enum<'dark', 'light'>;
 
   type Label {
-    value: str;
+    es: str;
+    en: str;
     subvalue: str;
     type: LabelType;
     size: str;
@@ -52,8 +53,12 @@ module default {
     multi glow: Glow;
   };
 
+  type Description {
+    es: str;
+    en: str;
+  }
+
   type Item {
-    required key: str;
     label: Label;
     multi sublabels: Label;
     exp: int16;
@@ -61,7 +66,7 @@ module default {
     style: json;
     details: json;
     icon: Icon;
-    description: str;
+    description: Description;
     background: Background;
     colors: Color;
     mode: ModeType;

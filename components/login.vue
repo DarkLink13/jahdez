@@ -4,14 +4,21 @@
     redirect-to="/"
   >
     <div>
-      <u-input :value="email" @change="(e) => updateEmail(e.target.value)" />
       <u-input
+        type="email"
+        :value="email"
+        placeholder="your@email.com"
+        @change="(e) => updateEmail(e.target.value)"
+      />
+      <u-input
+        type="password"
         :value="password"
+        placeholder="password"
         @change="(e) => updatePassword(e.target.value)"
       />
-      <u-button type="button" @click="(e) => !loading && submit()">
+      <button type="button" @click="(e) => !loading && submit()">
         {{ loading ? "Loading" : "Login" }}
-      </u-button>
+      </button>
     </div>
   </EdgeDbAuthEmailLogin>
 </template>

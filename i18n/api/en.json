@@ -1,0 +1,27 @@
+{
+    "node": {
+        "form": {
+            "create": {
+                "label": "Create Node"
+            },
+            "edit": {
+                "label": "Edit Node"
+            },
+            "view": {
+                "label": "View Node"
+            },
+            "item": {
+                "label": "Item"
+            },
+            "details": {
+                "label": "Details"
+            },
+            "children": {
+                "label": "Children"
+            },
+            "position": {
+                "label": "Position"
+            }
+        }
+    }
+}

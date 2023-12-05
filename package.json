@@ -4,13 +4,13 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
+    "@nuxt/devtools": "^1.0.3",
     "@nuxt/types": "^2.17.2",
     "@nuxt/typescript-build": "^3.0.2",
     "@nuxtjs/i18n": "^8.0.0-rc.5",
@@ -30,7 +30,12 @@
   },
   "dependencies": {
     "@edgedb/generate": "^0.4.1",
+    "@iconify-json/fluent": "^1.1.43",
+    "@iconify/vue": "^4.1.1",
     "@nuxt/ui": "^2.11.0",
+    "@vueuse/core": "^10.6.1",
+    "@vueuse/nuxt": "^10.6.1",
+    "compass-mixins": "^0.12.12",
     "edgedb": "^1.4.1",
     "nuxt-icon": "^0.6.6"
   }

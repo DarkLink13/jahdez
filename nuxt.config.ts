@@ -1,11 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  devtools: {
+    enabled: true,
+  },
   debug: true,
   typescript: {
     strict: true,
   },
   modules: [
+    "@vueuse/nuxt",
+    "@nuxt/devtools",
     "@vite-pwa/nuxt",
     "@nuxtjs/i18n",
     "nuxt-icon",
@@ -15,6 +19,12 @@ export default defineNuxtConfig({
   components: {
     dirs: [{ path: "components/base/", prefix: "b" }, { path: "components" }],
   },
+  ui: {
+    icons: ["fluent"],
+    notifications: {
+      position: "top-0 right-0",
+    },
+  } as any,
   css: ["/main.scss"],
   postcss: {
     plugins: {
@@ -23,8 +33,10 @@ export default defineNuxtConfig({
     },
   },
   edgeDb: {
+    generateQueries: false,
+    devtools: true,
     auth: true,
-    oauth: false,
+    oauth: true,
   },
   i18n: {
     locales: [
