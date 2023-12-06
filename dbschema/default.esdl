@@ -75,7 +75,7 @@ module default {
 
   type Node {
     required item: Item;
-    position: int16;
+    required position: int16;
     style: json;
     multi children: Node;
   }

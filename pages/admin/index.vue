@@ -19,16 +19,16 @@
                 <u-button
                   icon="i-fluent-eye-32-regular"
                   variant="ghost"
-                  @click="() => (click(), (newValue = row))"
+                  @click="() => (click(), fetchNode(row.id))"
                 />
               </template>
             </b-edit>
-            <b-edit :refresh="refresh" v-model="newValue" edit>
+            <b-edit :refresh="refresh" v-model="newValue" :id="row.id" edit>
               <template #button="{ click }">
                 <u-button
                   icon="i-fluent-edit-32-regular"
                   variant="ghost"
-                  @click="() => (click(), (newValue = row))"
+                  @click="() => (click(), fetchNode(row.id))"
                 />
               </template>
             </b-edit>
@@ -54,19 +54,22 @@ definePageMeta({
 });
 
 const { data, refresh } = useFetch<INode[]>("/api/node");
-
+const fetchNode = async (id: string) => {
+  const { data } = await useFetch(`/api/node/${id}`);
+  newValue.value = data.value;
+};
 const deleteNode = (id: string) => {
   useFetch(`/api/node/${id}`, { method: "DELETE" }).then(() => {
     refresh();
   });
 };
 
-const newValue = ref<INode>({ item: { type: NodeItemType.Default } });
+const newValue = ref<INode | null>({ item: { type: NodeItemType.Default } });
 
 const columns = [
   { key: "item.label.en", label: "Label" },
   { key: "item.type", label: "Type" },
-  { key: "children", label: "Childrens" },
+  { key: "children.length", label: "Childrens" },
   { key: "actions", label: "Actions" },
 ];
 </script>

@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  plugins: [require("daisyui")],
   content: [
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
+    "./components/**/*.vue",
     "./nuxt.config.ts",
     "./app.vue",
   ],

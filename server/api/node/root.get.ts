@@ -1,13 +1,13 @@
-export default defineEventHandler(async (req) => {
-  const { id } = getRouterParams(req);
+export default defineEventHandler(async () => {
   const client = useEdgeDb();
   const e = useEdgeDbQueryBuilder();
-
   return await e
-    .select(e.Node, () => ({
-      id: true,
+    .select(e.Node, (node) => ({
       item: {
-        label: true,
+        label: {
+          es: true,
+          en: true,
+        },
         action: true,
         details: true,
         exp: true,
@@ -21,12 +21,15 @@ export default defineEventHandler(async (req) => {
       children: {
         id: true,
         item: {
-          label: true,
+          label: {
+            es: true,
+            en: true,
+          },
         },
         position: true,
       },
       position: true,
-      filter_single: { id },
+      filter_single: e.op(node.position, "=", -1),
     }))
     .run(client);
 });

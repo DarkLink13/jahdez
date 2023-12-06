@@ -1,6 +1,6 @@
 <template>
   <div
-    class="overflow-hidden flex items-center h-full absolute w-full bg-black justify-center"
+    class="overflow-hidden flex items-center h-full absolute w-full bg-white justify-center"
   >
     <Background
       v-bind="colorTheme"
