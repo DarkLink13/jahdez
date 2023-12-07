@@ -2,7 +2,7 @@
   <div
     class="overflow-hidden flex items-center h-full absolute w-full bg-white justify-center"
   >
-    <Background
+    <background
       v-bind="colorTheme"
       :style="{
         transform: `translate(${-x / width}px, ${-y / height}px)`,

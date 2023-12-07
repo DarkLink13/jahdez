@@ -1,6 +1,9 @@
 <template>
   <div
-    :class="`bg-slate-50 text-black z-50 absolute h-0 hex
+    :style="{
+      backgroundImage: `linear-gradient(to bottom, ${item.colors?.secondary}, ${item.colors?.primary})`,
+    }"
+    :class="` z-50 absolute h-0 hex
     ${
       root
         ? 'w-[25%] pb-[25%] hover:w-[27%] hover:pb-[27%]'
@@ -8,9 +11,16 @@
     }
     transition-[width,padding] ease-in-out duration-75 shadow-2xl`"
   >
-    <div class="flex items-center justify-center w-full h-full p-2 absolute">
-      <div>
+    <div
+      class="flex items-center justify-center w-full h-full absolute flex-col opacity-20"
+    >
+      {{ position }}
+      <icon :name="item.icon?.key" size="50" />
+      <div class="uppercase">
         {{ item?.label?.[$i18n.locale as "es" | "en"] }}
+      </div>
+      <div v-if="item?.description" class="hexagon-content">
+        {{ item?.description?.[$i18n.locale as "es" | "en"] }}
       </div>
     </div>
   </div>
@@ -18,6 +28,7 @@
 
 <script lang="ts" setup>
 defineProps({
+  position: { type: Number, required: true },
   root: { type: Boolean, default: false },
   item: { type: Object as PropType<INodeItem>, required: true },
 });

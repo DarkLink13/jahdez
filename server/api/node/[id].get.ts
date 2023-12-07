@@ -1,3 +1,5 @@
+import { nodeConfig } from "~/composables/node";
+
 export default defineEventHandler(async (req) => {
   const { id } = getRouterParams(req);
   const client = useEdgeDb();
@@ -6,26 +8,7 @@ export default defineEventHandler(async (req) => {
   return await e
     .select(e.Node, () => ({
       id: true,
-      item: {
-        label: true,
-        action: true,
-        details: true,
-        exp: true,
-        mode: true,
-        style: true,
-        type: true,
-        background: true,
-        colors: true,
-        description: true,
-      },
-      children: {
-        id: true,
-        item: {
-          label: true,
-        },
-        position: true,
-      },
-      position: true,
+      ...nodeConfig,
       filter_single: { id },
     }))
     .run(client);

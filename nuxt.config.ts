@@ -55,6 +55,6 @@ export default defineNuxtConfig({
     defaultLocale: "en",
   },
   imports: {
-    dirs: ["types/*.ts", "store/*.ts", "types/**/*.ts"],
+    dirs: ["types/*.ts", "store/*.ts", "types/**/*.ts", "config/**/*.ts"],
   },
 });

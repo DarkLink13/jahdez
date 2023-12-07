@@ -78,5 +78,6 @@ module default {
     required position: int16;
     style: json;
     multi children: Node;
+    link parent := .<children[Is Node];
   }
 }

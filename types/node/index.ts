@@ -1,9 +1,10 @@
 import type { CSSProperties } from "vue";
 
 export interface INode {
-  id?: string;
+  parent: INode[];
+  id: string;
   item: INodeItem;
-  position?: number;
+  position: number;
   style?: CSSProperties;
-  children?: (INode | undefined | String)[];
+  children?: INode[];
 }
