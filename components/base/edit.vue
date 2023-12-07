@@ -7,7 +7,15 @@
         <node-form v-model="innerValue" />
         <template #footer>
           <div class="flex flex-row justify-between">
-            <u-button @click="isOpen = false" label="Close" color="red" />
+            <u-button
+              @click="
+                () => {
+                  isOpen = false;
+                }
+              "
+              label="Close"
+              color="red"
+            />
             <u-button v-if="!disabled" @click="submit" label="Submit" />
           </div>
         </template>
@@ -20,7 +28,6 @@
 const click = () => (isOpen.value = true);
 const isOpen = ref(false);
 const submit = () => {
-  console.log(props);
   useFetch(props.id ? `/api/node/${props.id}` : "/api/node", {
     method: props.edit ? "PATCH" : "POST",
     body: innerValue.value,

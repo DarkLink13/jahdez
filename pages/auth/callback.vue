@@ -10,3 +10,9 @@
     </EdgeDbOAuthCallback>
   </div>
 </template>
+<script lang="ts" setup>
+definePageMeta({
+  layout: "auth",
+  middleware: "guest",
+});
+</script>

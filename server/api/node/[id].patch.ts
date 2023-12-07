@@ -2,7 +2,18 @@ export default defineEventHandler(async (req) => {
   const { id } = getRouterParams(req);
   const client = useEdgeDb();
   const e = useEdgeDbQueryBuilder();
-  const { children, position, style } = await readBody(req);
+  const { children, position, item, style } = await readBody(req);
+
+  await e
+    .update(e.Item, () => ({
+      filter_single: { id: item.id },
+      set: {
+        description: item.description
+          ? e.insert(e.Description, item.description)
+          : null,
+      },
+    }))
+    .run(client);
 
   return await e
     .update(e.Node, () => ({

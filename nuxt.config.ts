@@ -1,16 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    pageTransition: { name: "translate", mode: "out-in" },
+  },
   devtools: {
     enabled: true,
   },
-  debug: true,
+  debug: process.env.ENVIRONMENT === "develop",
   typescript: {
     strict: true,
   },
   modules: [
     "@vueuse/nuxt",
     "@nuxt/devtools",
-    "@vite-pwa/nuxt",
+    // "@vite-pwa/nuxt",
     "@nuxtjs/i18n",
     "nuxt-icon",
     "nuxt-edgedb-module",
@@ -33,7 +36,6 @@ export default defineNuxtConfig({
     },
   },
   edgeDb: {
-    generateQueries: false,
     devtools: true,
     auth: true,
     oauth: true,
@@ -51,10 +53,10 @@ export default defineNuxtConfig({
         file: "i18n/es.js",
       },
     ],
-
+    strategy: "no_prefix",
     defaultLocale: "en",
   },
   imports: {
-    dirs: ["types/*.ts", "store/*.ts", "types/**/*.ts"],
+    dirs: ["types/*.ts", "store/*.ts", "types/**/*.ts", "config/**/*.ts"],
   },
 });

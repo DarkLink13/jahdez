@@ -12,6 +12,6 @@ export interface INodeItem {
   description?: INodeItemDescription;
   background?: IBackground;
   colors?: INodeItemColor;
-  mode?: "dark" | "light";
-  action?: ((params: any) => void) | boolean;
+  mode?: "dark" | "light" | "es" | "en";
+  action?: boolean;
 }

@@ -1,6 +1,6 @@
 <template>
   <u-form :state="{}" class="flex flex-row gap-2">
-    <u-form-group label="Background" required>
+    <u-form-group label="Background">
       <div class="flex flex-row gap-2 items-center">
         <u-input v-model="innerValue.src" placeholder="Src" class="basis-1/3" />
         <u-input
@@ -26,7 +26,7 @@ const props = defineProps({
 });
 
 const innerValue = computed({
-  get: () => props.modelValue,
+  get: () => props.modelValue ?? { src: "" },
   set: (value: IBackground) => emit("update:modelValue", value),
 });
 </script>

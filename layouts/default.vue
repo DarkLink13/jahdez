@@ -44,7 +44,7 @@ const { identity, logout } = useEdgeDbIdentity();
 const items = [
   [
     {
-      label: identity.value.id,
+      label: identity.value?.id,
       slot: "account",
       disabled: true,
     },

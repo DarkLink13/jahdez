@@ -97,116 +97,19 @@
   </svg>
 </template>
 <script lang="ts" setup>
-const props = defineProps({
-  colors: {
-    type: Object as PropType<IColorConfig>,
-    default: () => ({
-      0: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      1: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      2: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      3: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      4: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      5: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      6: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      7: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      8: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      9: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      10: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      11: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      12: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      13: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      14: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      15: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      16: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      17: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-      parent: {
-        primary: "#2ac7ec",
-        secondary: "#f0e5b1",
-        hover: "white",
-      },
-    }),
-  },
+const colors = useState<IColorConfig>("colors", () => ({}));
+
+defineProps({
   primary: { type: String, default: "#202020" },
   secondary: { type: String, default: "#20202017" },
 });
+
 const animations = computed(() =>
   BackgroundAnimationCircuit.filter(
     (animation) =>
-      props.colors[animation[0].fill] !== undefined &&
-      props.colors[animation[100].fill] !== undefined
-  )
+      colors.value?.[animation[0].fill] !== undefined &&
+      colors.value?.[animation[100].fill] !== undefined,
+  ),
 );
 </script>
 <style>

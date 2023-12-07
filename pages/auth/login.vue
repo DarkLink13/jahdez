@@ -31,12 +31,10 @@
           <UButton
             type="button"
             :loading="loading"
-            @click="async (e) => (await submit(), $router.push('/admin'))"
+            @click="!loading && submit()"
           >
             Login
           </UButton>
-
-          <OAuthProviders />
         </div>
       </template>
     </UCard>

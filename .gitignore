@@ -22,8 +22,10 @@ logs
 .env
 .env.*
 !.env.example
-
+credentials.json
+deployment.yaml
 # edgedb
+ecosystem.config.cjs
 **/*.edgeql.ts
 dbschema/queries.*
 dbschema/seed.*
@@ -31,3 +33,4 @@ dbschema/query-builder
 dbschema/interfaces.ts
 queries/*.query.ts
 dbschema/edgeql-js
+ecosystem.config.cjs
