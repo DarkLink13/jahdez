@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    pageTransition: { name: "translate", mode: "out-in" },
+  },
   devtools: {
     enabled: true,
   },
@@ -54,6 +57,7 @@ export default defineNuxtConfig({
 
     defaultLocale: "en",
   },
+  ssr: false,
   imports: {
     dirs: ["types/*.ts", "store/*.ts", "types/**/*.ts", "config/**/*.ts"],
   },

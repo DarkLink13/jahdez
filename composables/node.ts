@@ -1,5 +1,8 @@
 export const nodeConfig = {
-  parent: true,
+  parent: {
+    id: true,
+    position: true,
+  },
   item: {
     label: {
       es: true,
@@ -16,7 +19,13 @@ export const nodeConfig = {
       size: true,
       top: true,
     },
-    background: true,
+    background: {
+      full: true,
+      height: true,
+      src: true,
+      x: true,
+      y: true,
+    },
     colors: {
       primary: true,
       secondary: true,
@@ -39,6 +48,15 @@ export const nodeConfig = {
       colors: {
         primary: true,
         secondary: true,
+      },
+      action: true,
+      mode: true,
+      background: {
+        full: true,
+        height: true,
+        src: true,
+        x: true,
+        y: true,
       },
     },
     position: true,

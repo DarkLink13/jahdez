@@ -98,7 +98,8 @@
 </template>
 <script lang="ts" setup>
 const colors = useState<IColorConfig>("colors", () => ({}));
-const props = defineProps({
+
+defineProps({
   primary: { type: String, default: "#202020" },
   secondary: { type: String, default: "#20202017" },
 });

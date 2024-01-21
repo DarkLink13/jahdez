@@ -1,13 +1,12 @@
 <template>
   <div
-    class="overflow-hidden flex items-center h-full absolute w-full bg-white justify-center"
+    class="overflow-hidden flex items-center h-full w-full absolute dark:bg-black bg-white justify-center"
   >
     <background
       v-bind="colorTheme"
       :style="{
         transform: `translate(${-x / width}px, ${-y / height}px)`,
         width: '100%',
-        backgroundColor: 'black',
       }"
     />
     <slot />

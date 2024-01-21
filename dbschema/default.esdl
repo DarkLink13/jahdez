@@ -15,7 +15,7 @@ module default {
   
   scalar type LabelType extending enum<'Date', 'Years', 'Since', 'Version', 'Link', 'Country', 'WorkType', 'Role' >;
   scalar type ItemType extending enum<'Work', 'Position', 'Project', 'Skill', 'Root', 'Like', 'Default'>;
-  scalar type ModeType extending enum<'dark', 'light'>;
+  scalar type ModeType extending enum<'dark', 'light', 'es', 'en'>;
 
   type Label {
     es: str;
@@ -38,7 +38,7 @@ module default {
     height: str;
     x: str;
     y: str;
-    full: bool;
+    full: bool; 
   };
   
   type Glow {

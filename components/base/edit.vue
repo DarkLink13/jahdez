@@ -20,7 +20,6 @@
 const click = () => (isOpen.value = true);
 const isOpen = ref(false);
 const submit = () => {
-  console.log(props);
   useFetch(props.id ? `/api/node/${props.id}` : "/api/node", {
     method: props.edit ? "PATCH" : "POST",
     body: innerValue.value,

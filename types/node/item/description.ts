@@ -1,4 +1,4 @@
-export interface INodeDescription {
+export interface INodeItemDescription {
   es: string;
   en: string;
 }
