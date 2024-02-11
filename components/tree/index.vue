@@ -1,9 +1,9 @@
 <template>
   <div class="w-[500px] h-[500px] flex items-center justify-center relative">
     <node
-      :item="node?.item"
-      :position="node?.position"
-      :id="node?.id ?? ''"
+      :item="modelValue?.item"
+      :position="modelValue?.position"
+      :id="modelValue?.id ?? ''"
       :style="{
         transform: `
         translate(${translateEventX * 2}px, ${translateEventY * 2}px)`,
@@ -12,7 +12,7 @@
       @click="() => $emit('goParent')"
     />
     <node
-      v-for="child of node?.children"
+      v-for="child of modelValue?.children"
       :id="child.id"
       :key="child.id"
       :item="child?.item"
@@ -32,7 +32,7 @@
 <script lang="ts" setup>
 const emit = defineEmits(["goChild", "goParent"]);
 defineProps({
-  node: { type: Object as PropType<INode>, required: true },
+  modelValue: { type: Object as PropType<INode>, required: true },
 });
 
 const { beta, gamma } = useDeviceOrientation();

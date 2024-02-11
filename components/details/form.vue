@@ -11,7 +11,14 @@
       v-model="innerValue.details.text"
     />
     <icon-form v-model="innerValue.icon" placeholder="Icon" />
-    <u-textarea v-model="innerValue.description" placeholder="Description" />
+    <u-toggle v-model="description" @update:model-value="onchange"
+      >Description</u-toggle
+    >
+    <label-form
+      v-if="description"
+      v-model="innerValue.description"
+      :input="false"
+    />
     <background-form v-model="innerValue.background" placeholder="Background" />
     <colors-form v-model="innerValue.colors" placeholder="Colors" />
   </u-form>
@@ -23,8 +30,12 @@ const props = defineProps({
 });
 const emit = defineEmits(["update:modelValue"]);
 
+const onchange = () =>
+  !description.value && delete innerValue.value.description;
+
 const innerValue = computed({
   get: () => props.modelValue,
   set: (value: INodeItem) => emit("update:modelValue", value),
 });
+const description = ref(!!innerValue.value.description);
 </script>

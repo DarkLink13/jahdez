@@ -4,6 +4,7 @@ export const nodeConfig = {
     position: true,
   },
   item: {
+    id: true,
     label: {
       es: true,
       en: true,
@@ -30,6 +31,10 @@ export const nodeConfig = {
       primary: true,
       secondary: true,
     },
+    sublabels: {
+      es: true,
+      en: true,
+    },
     description: {
       en: true,
       es: true,
@@ -48,6 +53,10 @@ export const nodeConfig = {
       colors: {
         primary: true,
         secondary: true,
+      },
+      sublabels: {
+        es: true,
+        en: true,
       },
       action: true,
       mode: true,

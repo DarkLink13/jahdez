@@ -54,10 +54,9 @@ export default defineNuxtConfig({
         file: "i18n/es.js",
       },
     ],
-
+    strategy: "no_prefix",
     defaultLocale: "en",
   },
-  ssr: false,
   imports: {
     dirs: ["types/*.ts", "store/*.ts", "types/**/*.ts", "config/**/*.ts"],
   },

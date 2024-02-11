@@ -17,39 +17,58 @@
       <div
         class="flex items-center justify-center w-full h-full absolute flex-col"
       >
-        <img
-          v-if="item.background"
-          :src="backgroundResponsive"
-          :class="
-            root
-              ? position === -1
-                ? 'w-full absolute bottom-0'
-                : `h-[15%]`
-              : 'h-[25%]'
-          "
-        />
-        <icon
-          v-if="item.icon"
-          :name="item.icon?.key"
-          :size="item?.description ? '10%' : '30%'"
-          :color="item?.colors?.primary"
-        />
-        <div
-          class="uppercase text-center h-6 overflow-hidden"
-          :class="position === -1 && 'absolute bottom-7 '"
-          :style="{
-            color: item?.colors?.primary,
-            fontWeight: 800,
-            fontSize: item?.description ? '90%' : '90%',
-          }"
-        >
-          {{ item?.label?.[$i18n.locale as "es" | "en"] }}
+        <div class="h-[25%] justify-end flex flex-col w-full items-center">
+          <img
+            v-if="item.background"
+            :src="backgroundResponsive"
+            :class="
+              root
+                ? position === -1
+                  ? 'w-full absolute bottom-0'
+                  : `h-[50%]`
+                : 'h-full'
+            "
+          />
+          <icon
+            v-if="item.icon"
+            :name="item.icon?.key"
+            :size="item?.description ? '30%' : '100%'"
+            :color="item?.colors?.primary"
+          />
+          <div
+            class="uppercase text-center h-6 overflow-hidden"
+            :class="position === -1 && 'absolute bottom-7'"
+            :style="{
+              color: item?.colors?.primary,
+              fontWeight: 800,
+              fontSize: item?.description ? '90%' : '90%',
+            }"
+          >
+            {{ item?.label?.[$i18n.locale as "es" | "en"] }}
+          </div>
+          <div v-if="item.sublabels" class="text-[10px] opacity-30 text-wrap">
+            {{
+              item.sublabels
+                .map((label) => label?.[$i18n.locale as "es" | "en"])
+                .join(" | ")
+            }}
+          </div>
         </div>
         <div
           v-if="item?.description"
-          class="hexagon-content p-2 dark:text-white text-black opacity-50 text-[90%] h-[60%] text-justify overflow-y-scroll mb-10"
+          class="hexagon-content p-2 dark:text-white text-black opacity-50 text-[90%] h-[50%] text-justify overflow-y-scroll"
         >
           {{ item?.description?.[$i18n.locale as "es" | "en"] }}
+        </div>
+        <div
+          v-if="item.exp || item?.description"
+          class="h-[25%] w-full flex flex-row justify-center"
+        >
+          <b-chart
+            v-if="item.exp"
+            v-model="item.exp"
+            :color="item?.colors?.primary"
+          />
         </div>
       </div>
     </div>
@@ -65,12 +84,11 @@ const props = defineProps({
   item: { type: Object as PropType<INodeItem>, required: true },
 });
 
-const backgroundResponsive = computed(
-  () =>
-    props.item.background?.src.replace(
-      ".png",
-      (width.value < 800 ? "48" : "256") + ".png",
-    ),
+const backgroundResponsive = computed(() =>
+  props.item.background?.src.replace(
+    ".png",
+    (width.value < 800 ? "48" : "256") + ".png",
+  ),
 );
 
 const backgroundBorder = computed(() =>
@@ -81,12 +99,11 @@ const { x: mouseX, y: mouseY } = useMouse();
 const { width, height } = useWindowSize();
 const x = computed(() => Math.ceil((mouseX.value / width.value) * 100) + "%");
 const y = computed(() => Math.ceil((mouseY.value / height.value) * 100) + "%");
-computed(
-  () =>
-    props.item.background?.src.replace(
-      ".png",
-      (width.value < 500 ? "48" : "256") + ".png",
-    ),
+computed(() =>
+  props.item.background?.src.replace(
+    ".png",
+    (width.value < 500 ? "48" : "256") + ".png",
+  ),
 );
 
 const hasDetails = computed(

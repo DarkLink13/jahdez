@@ -18,7 +18,7 @@ const props = defineProps({
 });
 
 const innerValue = computed({
-  get: () => props.modelValue,
+  get: () => props.modelValue ?? { key: "", size: "", top: "" },
   set: (value: IIcon) => emit("update:modelValue", value),
 });
 </script>

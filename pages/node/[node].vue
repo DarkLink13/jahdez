@@ -1,6 +1,11 @@
 <template>
   <tree-transition :index="index" :enter="enter">
-    <tree v-if="data" :node="data" @go-child="goChild" @go-parent="goParent" />
+    <tree
+      v-if="data"
+      v-model="data"
+      @go-child="goChild"
+      @go-parent="goParent"
+    />
   </tree-transition>
 </template>
 
@@ -40,9 +45,6 @@ const goParent = () => {
 };
 
 const goChild = (child: INode) => {
-  index.value = child.position;
-  enter.value = true;
-  router.push(child.id);
   if (child.item.action && child.item.mode) {
     if (["es", "en"].includes(child.item?.mode ?? "")) {
       child.item.mode && setLocale(child.item.mode);
@@ -50,6 +52,10 @@ const goChild = (child: INode) => {
       mode.value = child.item.mode;
     }
     return;
+  } else {
+    index.value = child.position;
+    enter.value = true;
+    router.push(child.id);
   }
 };
 </script>

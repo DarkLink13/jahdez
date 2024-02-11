@@ -55,8 +55,8 @@ definePageMeta({
 
 const { data, refresh } = useFetch<INode[]>("/api/node");
 const fetchNode = async (id: string) => {
-  const { data } = await useFetch(`/api/node/${id}`);
-  newValue.value = data.value;
+  const nodes = await $fetch(`/api/node/${id}`);
+  newValue.value = nodes;
 };
 const deleteNode = (id: string) => {
   useFetch(`/api/node/${id}`, { method: "DELETE" }).then(() => {
