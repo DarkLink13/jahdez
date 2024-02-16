@@ -15,7 +15,7 @@ jobs:
         run: |
           docker build -t gcr.io/darkiink/darkiink .
       - name: Configure gcloud
-        uses: google-github-actions/auth@v0
+        uses: google-github-actions/auth@v1
         with:
           service_account: ${{ secrets.GCP_SA_KEY }}
       - name: Push Docker image to Container Registry
