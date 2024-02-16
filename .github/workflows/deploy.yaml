@@ -10,15 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Build Docker image
         run: |
           docker build -t us-central1-docker.pkg.dev/darkiink/cloud-run-source-deploy/darkiink .
       - name: Configure gcloud
         uses: google-github-actions/auth@v1
         with:
-          workload_identity_provider: "projects/darkiink/locations/global/workloadIdentityPools/pool/providers/github-provider"
-          service_account: "github@darkiink.iam.gserviceaccount.com"
+          workload_identity_provider: "projects/529054540230/locations/global/workloadIdentityPools/github/providers/darkiink"
       - name: Push Docker image to Container Registry
         run: |
           docker push us-central1-docker.pkg.dev/darkiink/cloud-run-source-deploy/darkiink
