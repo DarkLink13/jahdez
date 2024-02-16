@@ -1,5 +1,5 @@
 <template>
-  <div class="relative mt-">
+  <div class="relative mt-1">
     <div id="donut"></div>
     <div class="absolute top-2 left-3" :style="{ color, fontWeight: 700 }">
       {{ modelValue }}

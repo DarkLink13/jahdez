@@ -35,17 +35,6 @@
             :size="item?.description ? '30%' : '100%'"
             :color="item?.colors?.primary"
           />
-          <div
-            class="uppercase text-center h-6 overflow-hidden"
-            :class="position === -1 && 'absolute bottom-7'"
-            :style="{
-              color: item?.colors?.primary,
-              fontWeight: 800,
-              fontSize: item?.description ? '90%' : '90%',
-            }"
-          >
-            {{ item?.label?.[$i18n.locale as "es" | "en"] }}
-          </div>
           <div v-if="item.sublabels" class="text-[10px] opacity-30 text-wrap">
             {{
               item.sublabels
@@ -53,10 +42,19 @@
                 .join(" | ")
             }}
           </div>
+          <div
+            class="uppercase text-center text-[80%] font-semibold min-h-4 leading-3"
+            :class="position === -1 && 'absolute bottom-7'"
+            :style="{
+              color: item?.colors?.primary,
+            }"
+          >
+            {{ item?.label?.[$i18n.locale as "es" | "en"] }}
+          </div>
         </div>
         <div
           v-if="item?.description"
-          class="hexagon-content p-2 dark:text-white text-black opacity-50 text-[90%] h-[50%] text-justify overflow-y-scroll"
+          class="hexagon-content p-2 dark:text-white text-black opacity-50 text-[90%] h-[50%] text-justify overflow-y-auto"
         >
           {{ item?.description?.[$i18n.locale as "es" | "en"] }}
         </div>

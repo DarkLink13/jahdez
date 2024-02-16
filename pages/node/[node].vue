@@ -49,7 +49,7 @@ const goChild = (child: INode) => {
     if (["es", "en"].includes(child.item?.mode ?? "")) {
       child.item.mode && setLocale(child.item.mode);
     } else {
-      mode.value = child.item.mode;
+      mode.preference = child.item.mode;
     }
     return;
   } else {
