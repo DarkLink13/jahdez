@@ -17,7 +17,8 @@ jobs:
       - name: Configure gcloud
         uses: google-github-actions/auth@v1
         with:
-          workload_identity_provider: "projects/529054540230/locations/global/workloadIdentityPools/github/providers/darkiink"
+          workload_identity_provider: "projects/529054540230/locations/global/workloadIdentityPools/github-wip/providers/my-repo"
+          service_account: "github@darkiink.iam.gserviceaccount.com"
       - name: Push Docker image to Container Registry
         run: |
           docker push us-central1-docker.pkg.dev/darkiink/cloud-run-source-deploy/darkiink
