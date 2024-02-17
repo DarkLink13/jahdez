@@ -62,6 +62,20 @@ jobs:
         with:
           credentials_json: "${{ secrets.GOOGLE_CREDENTIALS }}"
 
+      - name: Setup env
+        env:
+          REGION: us-central1
+          CPU: 2000m
+          SERVICE_ACCOUNT: "github-account@darkiink.iam.gserviceaccount.com"
+          IMAGE: ${{ env.REGISTRY_BASE }}/cloud-run-source-deploy/darkiink:${{ github.sha }}
+          MEMORY: 1024Mi
+          maxScale: "2"
+          minScale: "0"
+          SERVICE_NAME: "darkiink"
+          containerConcurrency: 100
+          ingress: all
+        run: eval "echo \"$(cat ./metadata.yaml)\"" > ./metadata.yaml
+
       - name: Deploy
         id: deploy
         uses: google-github-actions/deploy-cloudrun@v0
