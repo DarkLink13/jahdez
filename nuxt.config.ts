@@ -19,6 +19,9 @@ export default defineNuxtConfig({
     "nuxt-edgedb-module",
     "@nuxt/ui",
   ],
+  runtimeConfig: {
+    public: 
+  },
   components: {
     dirs: [{ path: "components/base/", prefix: "b" }, { path: "components" }],
   },

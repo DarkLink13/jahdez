@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-RUN npm run generate
+RUN npm run build
 
 FROM node:16-alpine
 
@@ -16,4 +16,4 @@ WORKDIR /app
 
 COPY --from=build-stage /app .
 
-CMD ["npm", "start"]
+CMD ["node", ".output/server/index.mjs"]
