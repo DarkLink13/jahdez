@@ -9,7 +9,6 @@ metadata:
   generation: 4
   labels:
     cloud.googleapis.com/location: $REGION
-    env: $NODE_ENV
   name: $SERVICE_NAME
 spec:
   template:
@@ -17,16 +16,13 @@ spec:
       annotations:
         autoscaling.knative.dev/minScale: "$minScale"
         autoscaling.knative.dev/maxScale: "$maxScale"
-        run.googleapis.com/vpc-access-egress: private-ranges-only
         # run.googleapis.com/cloudsql-instances: $DB_NAME1,$DB_NAME2,$DB_NAME3
         run.googleapis.com/sandbox: gvisor
-        run.googleapis.com/vpc-access-connector: $VPC_ACCESS_CONNECTOR
     spec:
       containerConcurrency: $containerConcurrency
       serviceAccountName: $SERVICE_ACCOUNT
       containers:
-        - env:
-          image: $IMAGE
+        - image: $IMAGE
           ports:
             - containerPort: 3000
               name: http1
