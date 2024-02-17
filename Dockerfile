@@ -1,19 +1,29 @@
-FROM node:16 as build-stage
+# syntax = docker/dockerfile:1
 
-WORKDIR /app
+ARG NODE_VERSION=18.14.2
 
-COPY package*.json ./
+FROM node:${NODE_VERSION}-slim as base
 
-RUN npm install
+ARG PORT=3000
 
-COPY . .
+ENV NODE_ENV=production
+
+WORKDIR /src
+
+FROM base as build
+
+COPY --link package.json package-lock.json .
+RUN npm install --production=false
+
+COPY --link . .
 
 RUN npm run build
+RUN npm prune
 
-FROM node:16-alpine
+FROM base
 
-WORKDIR /app
+ENV PORT=$PORT
 
-COPY --from=build-stage /app .
+COPY --from=build /src/.output /src/.output
 
-CMD ["node", ".output/server/index.mjs"]
+CMD [ "node", ".output/server/index.mjs" ]

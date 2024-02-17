@@ -13,15 +13,12 @@ export default defineNuxtConfig({
   modules: [
     "@vueuse/nuxt",
     "@nuxt/devtools",
-    "@vite-pwa/nuxt",
+    // "@vite-pwa/nuxt",
     "@nuxtjs/i18n",
     "nuxt-icon",
     "nuxt-edgedb-module",
     "@nuxt/ui",
   ],
-  runtimeConfig: {
-    public: 
-  },
   components: {
     dirs: [{ path: "components/base/", prefix: "b" }, { path: "components" }],
   },
