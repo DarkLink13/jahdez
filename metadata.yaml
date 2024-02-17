@@ -30,6 +30,17 @@ spec:
             limits:
               cpu: $CPU
               memory: $MEMORY
+          env:
+            - name: NUXT_EDGEDB_HOST
+              value: $NUXT_EDGEDB_HOST
+            - name: NUXT_EDGEDB_PORT
+              value: $NUXT_EDGEDB_PORT
+            - name: NUXT_EDGEDB_USER
+              value: $NUXT_EDGEDB_USER
+            - name: NUXT_EDGEDB_PASS
+              value: $NUXT_EDGEDB_PASS
+            - name: NUXT_EDGEDB_DATABASE
+              value: $NUXT_EDGEDB_DATABASE
       timeoutSeconds: 300
   traffic:
     - latestRevision: true

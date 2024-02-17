@@ -74,6 +74,11 @@ jobs:
           SERVICE_NAME: "darkiink"
           containerConcurrency: 100
           ingress: all
+          NUXT_EDGEDB_HOST: ${{ vars.NUXT_EDGEDB_HOST }}
+          NUXT_EDGEDB_PORT: ${{ vars.NUXT_EDGEDB_PORT }}
+          NUXT_EDGEDB_USER: ${{ vars.NUXT_EDGEDB_USER }}
+          NUXT_EDGEDB_PASS: ${{ vars.NUXT_EDGEDB_PASS }}
+          NUXT_EDGEDB_DATABASE: ${{ vars.NUXT_EDGEDB_DATABASE }}
         run: eval "echo \"$(cat ./metadata.yaml)\"" > ./metadata.yaml
 
       - name: Deploy
