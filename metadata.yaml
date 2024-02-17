@@ -19,7 +19,7 @@ spec:
         # run.googleapis.com/cloudsql-instances: $DB_NAME1,$DB_NAME2,$DB_NAME3
         run.googleapis.com/sandbox: gvisor
     spec:
-      containerConcurrency: $containerConcurrency
+      containerConcurrency: "$containerConcurrency"
       serviceAccountName: $SERVICE_ACCOUNT
       containers:
         - image: $IMAGE
