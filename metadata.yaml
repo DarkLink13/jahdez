@@ -34,7 +34,7 @@ spec:
             - name: NUXT_EDGEDB_HOST
               value: $NUXT_EDGEDB_HOST
             - name: NUXT_EDGEDB_PORT
-              value: $NUXT_EDGEDB_PORT
+              value: '$NUXT_EDGEDB_PORT'
             - name: NUXT_EDGEDB_USER
               value: $NUXT_EDGEDB_USER
             - name: NUXT_EDGEDB_PASS
