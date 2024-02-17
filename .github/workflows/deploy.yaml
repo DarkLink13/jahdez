@@ -22,7 +22,7 @@ jobs:
         uses: google-github-actions/auth@v2
         with:
           credentials_json: "${{ secrets.GOOGLE_CREDENTIALS }}"
-
+          token_format: access_token
       - name: Inject slug/short variables
         uses: rlespinasse/github-slug-action@v3
 
