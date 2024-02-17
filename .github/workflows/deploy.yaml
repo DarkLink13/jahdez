@@ -23,6 +23,7 @@ jobs:
         with:
           credentials_json: "${{ secrets.GOOGLE_CREDENTIALS }}"
           token_format: access_token
+
       - name: Inject slug/short variables
         uses: rlespinasse/github-slug-action@v3
 
@@ -65,5 +66,5 @@ jobs:
         id: deploy
         uses: google-github-actions/deploy-cloudrun@v0
         with:
-          metadata: ./metadata.yaml.yaml
+          metadata: ./metadata.yaml
           region: us-central1
