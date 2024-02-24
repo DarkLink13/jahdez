@@ -55,7 +55,7 @@ const goChild = (child: INode) => {
   } else {
     index.value = child.position;
     enter.value = true;
-    router.push(child.id);
+    router.push(child?.id);
   }
 };
 </script>

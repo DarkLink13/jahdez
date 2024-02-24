@@ -13,8 +13,8 @@
     />
     <node
       v-for="child of modelValue?.children"
-      :id="child.id"
-      :key="child.id"
+      :id="child?.id"
+      :key="child?.id"
       :item="child?.item"
       :position="child?.position"
       :style="{
