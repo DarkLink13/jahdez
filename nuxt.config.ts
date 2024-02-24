@@ -36,10 +36,6 @@ export default defineNuxtConfig({
     },
   },
   edgeDb: {
-    generateQueryBuilder: false,
-    projectInit: false,
-    installCli: false,
-    generateQueries: false,
     devtools: true,
     auth: true,
     oauth: true,
