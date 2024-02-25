@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
-  debug: true,
+  debug: process.env.ENVIRONMENT === "develop",
   typescript: {
     strict: true,
   },
