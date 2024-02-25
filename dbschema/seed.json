@@ -1,0 +1,4329 @@
+{
+  "Skill": {
+    "angularmaterial": {
+      "item": {
+        "label": {
+          "es": "Angular Material",
+          "en": "Angular Material"
+        },
+        "sublabels": [
+          {
+            "type": "Version",
+            "es": "6-10",
+            "en": "6-10"
+          },
+          {
+            "type": "Years",
+            "es": "3",
+            "en": "3"
+          }
+        ],
+        "exp": 70,
+        "type": "Skill",
+        "description": {
+          "en": "Material Design components for Angular",
+          "es": "Componentes de Material Design para Angular"
+        },
+        "background": {
+          "src": "/assets/img/angularmaterial.png"
+        },
+        "colors": {
+          "primary": "#313f8d",
+          "secondary": "#3f51b5",
+          "hover": "#6270c2"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "angular2": {
+      "item": {
+        "label": {
+          "es": "Angular 2+",
+          "en": "Angular 2+"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "4",
+            "en": "4"
+          }
+        ],
+        "exp": 85,
+        "type": "Skill",
+        "description": {
+          "en": "Angular (also referred to as \"Angular 2+\") is a TypeScript-based, free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS. Angular is a Single Page Application Framework which is used for creating Fast Web Applications. It uses concepts of SPA in which UI is delivered in the beginning of application request and later only data is requested which makes SPA applications fast.",
+          "es": "Angular (también conocido como \"Angular 2+\") es un marco de aplicación web de código abierto, gratuito y basado en TypeScript dirigido por el equipo de Angular en Google y por una comunidad de individuos y corporaciones. Angular es una reescritura completa del mismo equipo que creó AngularJS. Angular es un marco de aplicación de una sola página que se utiliza para crear aplicaciones web rápidas. Utiliza conceptos de SPA en los que la interfaz de usuario se entrega al comienzo de la solicitud de la aplicación y luego solo se solicitan datos, lo que hace que las aplicaciones de SPA sean rápidas."
+        },
+        "background": {
+          "src": "/assets/img/angular2.png"
+        },
+        "colors": {
+          "primary": "#c4002b",
+          "secondary": "#de002d",
+          "hover": "#ec5f5f"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "angularjs": {
+      "item": {
+        "label": {
+          "es": "AngularJS",
+          "en": "AngularJS"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "<1",
+            "en": "<1"
+          }
+        ],
+        "exp": 30,
+        "type": "Skill",
+        "description": {
+          "en": "AngularJS is a discontinued free and open-source JavaScript-based web framework for developing single-page applications. It was maintained mainly by Google and a community of individuals and corporations. It aimed to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in web applications and progressive web applications.",
+          "es": "AngularJS es un marco web basado en JavaScript gratuito y de código abierto descontinuado para desarrollar aplicaciones de una sola página. Fue mantenido principalmente por Google y una comunidad de individuos y corporaciones. Su objetivo era simplificar tanto el desarrollo como la prueba de dichas aplicaciones al proporcionar un marco para las arquitecturas de modelo-vista-controlador (MVC) y modelo-vista-modelo (MVVM) del lado del cliente, junto con los componentes comúnmente utilizados en aplicaciones web y progresivo. aplicaciones web."
+        },
+        "background": {
+          "src": "/assets/img/angularjs.png"
+        },
+        "colors": {
+          "primary": "#c4002b",
+          "secondary": "#de002d",
+          "hover": "#b3b3b3"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "iviewui": {
+      "item": {
+        "label": {
+          "es": "IView UI",
+          "en": "IView UI"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "1",
+            "en": "1"
+          }
+        ],
+        "exp": 40,
+        "type": "Skill",
+        "description": {
+          "en": "An enterprise-level UI component library based on Vue.js 3 · Serve for thousands of developers.",
+          "es": "Una biblioteca de componentes de interfaz de usuario de nivel empresarial basada en Vue.js 3 · Sirve para miles de desarrolladores."
+        },
+        "background": {
+          "src": "/assets/img/iview.png"
+        },
+        "colors": {
+          "primary": "#296af6",
+          "secondary": "#50cee5",
+          "hover": "#85efbe"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "vuejs": {
+      "item": {
+        "label": {
+          "es": "Vue.js",
+          "en": "Vue.js"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "4",
+            "en": "4"
+          },
+          {
+            "type": "Version",
+            "es": "2,3",
+            "en": "2,3"
+          }
+        ],
+        "exp": 85,
+        "type": "Skill",
+        "description": {
+          "en": "Vue.js (commonly referred to as Vue; pronounced \"view\") is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.",
+          "es": "Vue.js (comúnmente conocido como Vue; pronunciado \"vista\") es un marco JavaScript de interfaz de modelo-vista-modelo de vista de código abierto para crear interfaces de usuario y aplicaciones de una sola página. Fue creado por Evan You y es mantenido por él y el resto de los miembros activos del equipo central."
+        },
+        "background": {
+          "src": "/assets/img/vuejs.png"
+        },
+        "colors": {
+          "primary": "#2b475e",
+          "secondary": "#078876",
+          "hover": "#00c68f"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "djangorestframework": {
+      "item": {
+        "label": {
+          "es": "Django Rest Framework",
+          "en": "Django Rest Framework"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "3",
+            "en": "3"
+          },
+          {
+            "type": "Version",
+            "es": "2,3",
+            "en": "2,3"
+          }
+        ],
+        "exp": 70,
+        "type": "Skill",
+        "description": {
+          "en": "Django REST framework is a powerful and flexible toolkit for building Web APIs. Some reasons you might want to use REST framework: The Web browsable API is a huge usability win for your developers. Authentication policies including packages for OAuth1a and OAuth2.",
+          "es": "Django REST framework es un conjunto de herramientas potente y flexible para crear API web. Algunas razones por las que podría querer usar el marco REST: La API navegable por la Web es una gran ganancia de usabilidad para sus desarrolladores. Políticas de autenticación que incluyen paquetes para OAuth1a y OAuth2."
+        },
+        "background": {
+          "src": "/assets/img/djangorestframework.png"
+        },
+        "colors": {
+          "primary": "#2c2c2c",
+          "secondary": "#7f2d2d",
+          "hover": "#d7d7d7"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "pandas": {
+      "item": {
+        "label": {
+          "es": "Pandas",
+          "en": "Pandas"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "1",
+            "en": "1"
+          },
+          {
+            "type": "Version",
+            "es": "1",
+            "en": "1"
+          }
+        ],
+        "exp": 30,
+        "type": "Skill",
+        "description": {
+          "en": "pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. It is free software released under the three-clause BSD license. The name is derived from the term \"panel data\", an econometrics term for data sets that include observations over multiple time periods for the same individuals. Its name is a play on the phrase \"Python data analysis\" itself. Wes McKinney started building what would become pandas at AQR Capital while he was a researcher there from 2007 to 2010.",
+          "es": "pandas es una biblioteca de software escrita para el lenguaje de programación Python para la manipulación y el análisis de datos. En particular, ofrece estructuras de datos y operaciones para manipular tablas numéricas y series de tiempo. Es software libre publicado bajo la licencia BSD de tres cláusulas. El nombre se deriva del término \"panel de datos\", un término econométrico para conjuntos de datos que incluyen observaciones durante múltiples períodos de tiempo para las mismas personas. Su nombre es un juego de palabras con la frase \"Análisis de datos de Python\". Wes McKinney comenzó a construir lo que se convertiría en pandas en AQR Capital mientras era investigador allí de 2007 a 2010."
+        },
+        "background": {
+          "src": "/assets/img/pandas.png"
+        },
+        "colors": {
+          "primary": "#130754",
+          "secondary": "#e70488",
+          "hover": "#ffca00"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "django": {
+      "item": {
+        "label": {
+          "es": "Django",
+          "en": "Django"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "3",
+            "en": "3"
+          },
+          {
+            "type": "Version",
+            "es": "2,3",
+            "en": "2,3"
+          }
+        ],
+        "exp": 70,
+        "type": "Skill",
+        "description": {
+          "en": "Django (/ˈdʒæŋɡoʊ/ JANG-goh; sometimes stylized as django) is a free and open-source, Python-based web framework that follows the model–template–views (MTV) architectural pattern. It is maintained by the Django Software Foundation (DSF), an independent organization established in the US as a 501(c)(3) non-profit.",
+          "es": "Django (/ˈdʒæŋɡoʊ/ JANG-goh; a veces estilizado como django) es un marco web gratuito y de código abierto basado en Python que sigue el patrón arquitectónico modelo-plantilla-vistas (MTV). Es mantenido por Django Software Foundation (DSF), una organización independiente establecida en los EE. UU. como una organización sin fines de lucro 501(c)(3)."
+        },
+        "background": {
+          "src": "/assets/img/django.png"
+        },
+        "colors": {
+          "primary": "#0a2f20",
+          "secondary": "#356357",
+          "hover": "#a2d9a9"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "postgresql": {
+      "item": {
+        "label": {
+          "es": "PostgreSQL",
+          "en": "PostgreSQL"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "5",
+            "en": "5"
+          },
+          {
+            "type": "Version",
+            "es": "9-15",
+            "en": "9-15"
+          }
+        ],
+        "exp": 85,
+        "type": "Skill",
+        "description": {
+          "en": "PostgreSQL (/ˈpoʊstɡrɛs ˌkjuː ˈɛl/, POHST-gres kyoo el), also known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance. It was originally named POSTGRES, referring to its origins as a successor to the Ingres database developed at the University of California, Berkeley. In 1996, the project was renamed to PostgreSQL to reflect its support for SQL. After a review in 2007, the development team decided to keep the name PostgreSQL and the alias Postgres.",
+          "es": "PostgreSQL (/ˈpoʊstɡrɛs ˌkjuː ˈɛl/, POHST-gres kyoo el), también conocido como Postgres, es un sistema de administración de bases de datos relacionales (RDBMS) gratuito y de código abierto que enfatiza la extensibilidad y el cumplimiento de SQL. Originalmente se llamó POSTGRES, en referencia a sus orígenes como sucesora de la base de datos Ingres desarrollada en la Universidad de California, Berkeley. En 1996, se cambió el nombre del proyecto a PostgreSQL para reflejar su compatibilidad con SQL. Después de una revisión en 2007, el equipo de desarrollo decidió mantener el nombre PostgreSQL y el alias Postgres."
+        },
+        "background": {
+          "src": "/assets/img/postgresql.png"
+        },
+        "colors": {
+          "primary": "#306792",
+          "secondary": "#000000",
+          "hover": "#ffffff"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "redis": {
+      "item": {
+        "label": {
+          "es": "Redis",
+          "en": "Redis"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "1",
+            "en": "1"
+          },
+          {
+            "type": "Version",
+            "es": "5",
+            "en": "5"
+          }
+        ],
+        "exp": 30,
+        "type": "Skill",
+        "description": {
+          "en": "Redis (/ˈrɛdɪs/; Remote Dictionary Server) is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indices. The project was developed and maintained by Salvatore Sanfilippo, starting in 2009.[8] From 2015 until 2020, he led a project core team sponsored by Redis Labs.[9] Salvatore Sanfilippo left Redis as the maintainer in 2020.[10] It is open-source software released under a BSD 3-clause license.[5] In 2021, not long after the original author and main maintainer left, Redis Labs dropped the Labs from its name and now is known simply as \"Redis\"",
+          "es": "Redis (/ˈrɛdɪs/; Remote Dictionary Server) es un almacén de estructura de datos en memoria, que se utiliza como una base de datos de clave-valor distribuida en memoria, caché y agente de mensajes, con durabilidad opcional. Redis admite diferentes tipos de estructuras de datos abstractos, como cadenas, listas, mapas, conjuntos, conjuntos ordenados, HyperLogLogs, mapas de bits, flujos e índices espaciales. El proyecto fue desarrollado y mantenido por Salvatore Sanfilippo, a partir de 2009.[8] Desde 2015 hasta 2020, dirigió un equipo central de proyecto patrocinado por Redis Labs.[9] Salvatore Sanfilippo dejó a Redis como mantenedor en 2020.[10] Es un software de código abierto lanzado bajo una licencia BSD de 3 cláusulas.[5] En 2021, poco después de que el autor original y el mantenedor principal se fueran, Redis Labs eliminó Labs de su nombre y ahora se conoce simplemente como \"Redis\"."
+        },
+        "background": {
+          "src": "/assets/img/redis.png"
+        },
+        "colors": {
+          "primary": "#a32321",
+          "secondary": "#dc382d",
+          "hover": "#ffffff"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "elasticsearch": {
+      "item": {
+        "label": {
+          "es": "ElasticSearch",
+          "en": "ElasticSearch"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "2",
+            "en": "2"
+          },
+          {
+            "type": "Version",
+            "es": "7,8",
+            "en": "7,8"
+          }
+        ],
+        "exp": 45,
+        "type": "Skill",
+        "description": {
+          "en": "Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. Elasticsearch is developed in Java and is dual-licensed under the source-available Server Side Public License and the Elastic license,[2] while other parts[3] fall under the proprietary (source-available) Elastic License. Official clients are available in Java,[4] .NET[5] (C#), PHP,[6] Python,[7] Ruby[8] and many other languages.[9] According to the DB-Engines ranking, Elasticsearch is the most popular enterprise search engine.[10]",
+          "es": "Elasticsearch es un motor de búsqueda basado en la biblioteca Lucene. Proporciona un motor de búsqueda de texto completo distribuido y con capacidad para múltiples inquilinos con una interfaz web HTTP y documentos JSON sin esquema. Elasticsearch está desarrollado en Java y tiene una licencia dual bajo la licencia pública del lado del servidor disponible en la fuente y la licencia de Elastic,[2] mientras que otras partes[3] se encuentran bajo la licencia patentada de Elastic (disponible en la fuente). Los clientes oficiales están disponibles en Java,[4] .NET[5] (C#), PHP,[6] Python,[7] Ruby[8] y muchos otros lenguajes.[9] Según la clasificación de DB-Engines, Elasticsearch es el motor de búsqueda empresarial más popular.[10]"
+        },
+        "background": {
+          "src": "/assets/img/elasticsearch.png"
+        },
+        "colors": {
+          "primary": "#343741",
+          "secondary": "#00bfb3",
+          "hover": "#fec514"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "linux": {
+      "item": {
+        "label": {
+          "es": "Linux",
+          "en": "Linux"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "3",
+            "en": "3"
+          }
+        ],
+        "type": "Skill",
+        "description": {
+          "en": "Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds.",
+          "es": "Linux es una familia de sistemas operativos similares a Unix de código abierto basados ​​en el kernel de Linux, un kernel de sistema operativo lanzado por primera vez el 17 de septiembre de 1991 por Linus Torvalds."
+        },
+        "background": {
+          "src": "/assets/img/linux.png"
+        },
+        "colors": {
+          "primary": "#fc6d26",
+          "secondary": "#f2a832",
+          "hover": "#f2d115"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "git": {
+      "item": {
+        "label": {
+          "es": "Git",
+          "en": "Git"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "5",
+            "en": "5"
+          }
+        ],
+        "exp": 75,
+        "type": "Skill",
+        "description": {
+          "en": "Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.",
+          "es": "Git es un sistema de control de versiones distribuido que rastrea los cambios en cualquier conjunto de archivos de computadora, generalmente se usa para coordinar el trabajo entre programadores que desarrollan código fuente en colaboración durante el desarrollo de software. Sus objetivos incluyen la velocidad, la integridad de los datos y la compatibilidad con flujos de trabajo no lineales y distribuidos."
+        },
+        "background": {
+          "src": "/assets/img/git.png"
+        },
+        "colors": {
+          "primary": "#e24329",
+          "secondary": "#fc6d26",
+          "hover": "#fca326"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "jenkins": {
+      "item": {
+        "label": {
+          "es": "Jenkins",
+          "en": "Jenkins"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "1",
+            "en": "1"
+          }
+        ],
+        "exp": 20,
+        "type": "Skill",
+        "description": {
+          "en": "Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat.",
+          "es": "Jenkins es un servidor de automatización de código abierto. Ayuda a automatizar las partes del desarrollo de software relacionadas con la creación, las pruebas y la implementación, lo que facilita la integración continua y la entrega continua. Es un sistema basado en servidor que se ejecuta en contenedores de servlets como Apache Tomcat."
+        },
+        "background": {
+          "src": "/assets/img/jenkins.png"
+        },
+        "colors": {
+          "primary": "#335061",
+          "secondary": "#d33833",
+          "hover": "#f0d6b7"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "javascript": {
+      "item": {
+        "label": {
+          "es": "Javascript",
+          "en": "Javascript"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "5",
+            "en": "5"
+          }
+        ],
+        "exp": 85,
+        "type": "Skill",
+        "description": {
+          "en": "JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.",
+          "es": "JavaScript (/ˈdʒɑːvəskrɪpt/), a menudo abreviado como JS, es un lenguaje de programación que es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. A partir de 2022, el 98 % de los sitios web usan JavaScript en el lado del cliente para el comportamiento de la página web, a menudo incorporando bibliotecas de terceros. Todos los principales navegadores web tienen un motor de JavaScript dedicado para ejecutar el código en los dispositivos de los usuarios."
+        },
+        "background": {
+          "src": "/assets/img/javascript.png"
+        },
+        "colors": {
+          "primary": "#e8960f",
+          "secondary": "#f7d800",
+          "hover": "#f7e771"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "typescript": {
+      "item": {
+        "label": {
+          "es": "Typescript",
+          "en": "Typescript"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "5",
+            "en": "5"
+          }
+        ],
+        "exp": 95,
+        "type": "Skill",
+        "description": {
+          "en": "TypeScript is a free and open source high-level programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript.[5] As it is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.",
+          "es": "TypeScript es un lenguaje de programación de alto nivel gratuito y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto sintáctico estricto de JavaScript y agrega escritura estática opcional al lenguaje. Está diseñado para el desarrollo de grandes aplicaciones y se transpila a JavaScript.[5] Como es un superconjunto de JavaScript, los programas JavaScript existentes también son programas TypeScript válidos."
+        },
+        "background": {
+          "src": "/assets/img/typescript.png"
+        },
+        "colors": {
+          "primary": "#1867c0",
+          "secondary": "#1697f6",
+          "hover": "#aeddff"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "nodejs": {
+      "item": {
+        "label": {
+          "es": "NodeJS",
+          "en": "NodeJS"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "3",
+            "en": "3"
+          },
+          {
+            "type": "Version",
+            "es": "12-18",
+            "en": "12-18"
+          }
+        ],
+        "exp": 85,
+        "type": "Skill",
+        "description": {
+          "en": "Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.",
+          "es": "Node.js es un entorno de servidor de código abierto multiplataforma que puede ejecutarse en Windows, Linux, Unix, macOS y más. Node.js es un entorno de tiempo de ejecución de JavaScript de back-end, se ejecuta en el motor de JavaScript V8 y ejecuta el código de JavaScript fuera de un navegador web."
+        },
+        "background": {
+          "src": "/assets/img/nodejs.png"
+        },
+        "colors": {
+          "primary": "#313131",
+          "secondary": "#4e8e49",
+          "hover": "#78c839"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "html": {
+      "item": {
+        "label": {
+          "es": "HTML",
+          "en": "HTML"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "5",
+            "en": "5"
+          }
+        ],
+        "exp": 85,
+        "type": "Skill",
+        "description": {
+          "en": "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.",
+          "es": "El lenguaje de marcado de hipertexto o HTML es el lenguaje de marcado estándar para documentos diseñados para mostrarse en un navegador web. A menudo es asistido por tecnologías tales como hojas de estilo en cascada (CSS) y lenguajes de secuencias de comandos como JavaScript."
+        },
+        "background": {
+          "src": "/assets/img/html.png"
+        },
+        "colors": {
+          "primary": "#c4002b",
+          "secondary": "#de002d",
+          "hover": "#ec5f5f"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "css": {
+      "item": {
+        "label": {
+          "es": "CSS",
+          "en": "CSS"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "5",
+            "en": "5"
+          }
+        ],
+        "exp": 85,
+        "type": "Skill",
+        "description": {
+          "en": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]",
+          "es": "Cascading Style Sheets (CSS) es un lenguaje de hojas de estilo utilizado para describir la presentación de un documento escrito en un lenguaje de marcado como HTML o XML (incluidos los dialectos XML como SVG, MathML o XHTML).[1] CSS es una tecnología fundamental de la World Wide Web, junto con HTML y JavaScript.[2]"
+        },
+        "background": {
+          "src": "/assets/img/css.png"
+        },
+        "colors": {
+          "primary": "#572b8a",
+          "secondary": "#027fbc",
+          "hover": "#2c98bd"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "materialdesign": {
+      "item": {
+        "label": {
+          "es": "Material Design",
+          "en": "Material Design"
+        },
+        "type": "Skill",
+        "description": {},
+        "background": {
+          "src": "/assets/img/materialdesign.png"
+        },
+        "colors": {
+          "primary": "#828282",
+          "secondary": "#999999",
+          "hover": "#c3c3c3"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "vuetify": {
+      "item": {
+        "label": {
+          "es": "Vuetify",
+          "en": "Vuetify"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "3",
+            "en": "3"
+          }
+        ],
+        "exp": 85,
+        "type": "Skill",
+        "description": {
+          "en": "Vuetify is a no design skills required UI Library with beautifully handcrafted Vue Components.",
+          "es": "Vuetify es una biblioteca de interfaz de usuario que no requiere habilidades de diseño con componentes Vue bellamente hechos a mano."
+        },
+        "background": {
+          "src": "/assets/img/vuetify.png"
+        },
+        "colors": {
+          "primary": "#1867c0",
+          "secondary": "#1697f6",
+          "hover": "#aeddff"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "nuxt": {
+      "item": {
+        "label": {
+          "es": "Nuxt",
+          "en": "Nuxt"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "4",
+            "en": "4"
+          },
+          {
+            "type": "Version",
+            "es": "2.x",
+            "en": "2.x"
+          }
+        ],
+        "exp": 90,
+        "type": "Skill",
+        "description": {
+          "en": "Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js. The framework is advertised as a \"Meta-framework for universal applications\".",
+          "es": "Nuxt.js es una biblioteca JavaScript gratuita y de código abierto basada en Vue.js, Node.js, Webpack y Babel.js. Nuxt está inspirado en Next.js, que es un framework de propósito similar, basado en React.js. El marco se anuncia como \"Meta-marco para aplicaciones universales\"."
+        },
+        "background": {
+          "src": "/assets/img/nuxt2.png"
+        },
+        "colors": {
+          "primary": "#2b475e",
+          "secondary": "#078876",
+          "hover": "#00c68f"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "python": {
+      "item": {
+        "label": {
+          "es": "Python",
+          "en": "Python"
+        },
+        "sublabels": [
+          {
+            "type": "Version",
+            "es": "2.7-3.x",
+            "en": "2.7-3.x"
+          },
+          {
+            "type": "Years",
+            "es": "3",
+            "en": "3"
+          }
+        ],
+        "exp": 85,
+        "type": "Skill",
+        "description": {},
+        "background": {
+          "src": "/assets/img/python.png"
+        },
+        "colors": {
+          "primary": "#336d9e",
+          "secondary": "#202124",
+          "hover": "#f7d54d"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "graphql": {
+      "item": {
+        "label": {
+          "es": "GraphQL",
+          "en": "GraphQL"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "3",
+            "en": "3"
+          }
+        ],
+        "exp": 90,
+        "type": "Skill",
+        "description": {
+          "en": "GraphQL is an open-source data query language and data manipulation language for APIs, and a query runtime engine.",
+          "es": "GraphQL es un lenguaje de consulta de datos de código abierto y un lenguaje de manipulación de datos para API y un motor de tiempo de ejecución de consultas."
+        },
+        "background": {
+          "src": "/assets/img/graphql.png"
+        },
+        "colors": {
+          "primary": "#d5007c",
+          "secondary": "#d932a2",
+          "hover": "#c2c2c2"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "apollo": {
+      "item": {
+        "label": {
+          "es": "Apollo",
+          "en": "Apollo"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "3",
+            "en": "3"
+          }
+        ],
+        "exp": 85,
+        "type": "Skill",
+        "description": {
+          "en": "Apollo GraphOS is the all-purpose hub for your GraphQL API, empowering developers across your stack to ship early, ship often, and ship safely.",
+          "es": "Apollo GraphQL es el centro multiusos para su API de GraphQL, que permite a los desarrolladores de su pila enviar antes, con frecuencia y de forma segura."
+        },
+        "background": {
+          "src": "/assets/img/apollo.png"
+        },
+        "colors": {
+          "primary": "#303134",
+          "secondary": "#56595d",
+          "hover": "#FFFFFF"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "hasura": {
+      "item": {
+        "label": {
+          "es": "Hasura",
+          "en": "Hasura"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "1",
+            "en": "1"
+          },
+          {
+            "type": "Version",
+            "es": "1",
+            "en": "1"
+          }
+        ],
+        "exp": 60,
+        "type": "Skill",
+        "description": {
+          "en": "Hasura gives you instant GraphQL & REST APIs on new & existing data sources. Connect Hasura to your data & get APIs in under a minute.",
+          "es": "Hasura le brinda API REST y GraphQL instantáneas en fuentes de datos nuevas y existentes. Conecte Hasura a sus datos y obtenga API en menos de un minuto."
+        },
+        "background": {
+          "src": "/assets/img/hasura.png"
+        },
+        "colors": {
+          "primary": "#0f2750",
+          "secondary": "#0c5292",
+          "hover": "#1eb4d4"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "hugo": {
+      "item": {
+        "label": {
+          "es": "Hugo",
+          "en": "Hugo"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "<1",
+            "en": "<1"
+          }
+        ],
+        "exp": 20,
+        "type": "Skill",
+        "description": {
+          "en": "The world’s fastest framework for building websites Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.",
+          "es": "El marco más rápido del mundo para crear sitios web Hugo es uno de los generadores de sitios estáticos de código abierto más populares. Con su increíble velocidad y flexibilidad, Hugo hace que la construcción de sitios web sea divertida nuevamente."
+        },
+        "background": {
+          "src": "/assets/img/hugo.png"
+        },
+        "colors": {
+          "primary": "#bf1678",
+          "secondary": "#2f9a9c",
+          "hover": "#fcd900"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "vuerouter": {
+      "item": {
+        "label": {
+          "es": "VueRouter",
+          "en": "VueRouter"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "3",
+            "en": "3"
+          }
+        ],
+        "exp": 75,
+        "type": "Skill",
+        "description": {
+          "en": "Expressive, configurable and convenient routing for Vue.js",
+          "es": "Enrutamiento expresivo, configurable y conveniente para Vue.js"
+        },
+        "background": {
+          "src": "/assets/img/vuerouter.png"
+        },
+        "colors": {
+          "primary": "#2b475e",
+          "secondary": "#078876",
+          "hover": "#00c68f"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "vuex": {
+      "item": {
+        "label": {
+          "es": "Vuex",
+          "en": "Vuex"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "3",
+            "en": "3"
+          }
+        ],
+        "exp": 75,
+        "type": "Skill",
+        "description": {
+          "en": "Vuex is a state management pattern + library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion.",
+          "es": "Vuex es un patrón de gestión de estado + biblioteca para aplicaciones Vue.js. Sirve como un almacén centralizado para todos los componentes de una aplicación, con reglas que garantizan que el estado solo se puede modificar de forma predecible."
+        },
+        "background": {
+          "src": "/assets/img/vuex.png"
+        },
+        "colors": {
+          "primary": "#2b475e",
+          "secondary": "#078876",
+          "hover": "#00c68f"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "ssr": {
+      "item": {
+        "label": {
+          "es": "SSR",
+          "en": "SSR"
+        },
+        "type": "Skill",
+        "description": {
+          "en": "Server-side scripting is a technique used in web development which involves employing scripts on a web server which produces a response customized for each user's (client's) request to the website. The alternative is for the web server itself to deliver a static web page. Scripts can be written in any of a number of server-side scripting languages that are available (see below). Server-side scripting is distinguished from client-side scripting where embedded scripts, such as JavaScript, are run client-side in a web browser, but both techniques are often used together.",
+          "es": "La secuencia de comandos del lado del servidor es una técnica utilizada en el desarrollo web que implica el empleo de secuencias de comandos en un servidor web que produce una respuesta personalizada para la solicitud de cada usuario (cliente) al sitio web. La alternativa es que el propio servidor web entregue una página web estática. Las secuencias de comandos se pueden escribir en cualquiera de los lenguajes de secuencias de comandos del lado del servidor que están disponibles (consulte a continuación). Las secuencias de comandos del lado del servidor se distinguen de las secuencias de comandos del lado del cliente, donde las secuencias de comandos incrustadas, como JavaScript, se ejecutan en el lado del cliente en un navegador web, pero ambas técnicas a menudo se usan juntas."
+        },
+        "background": {
+          "src": "/assets/img/ssr.png"
+        },
+        "colors": {
+          "primary": "#1867c0",
+          "secondary": "#1697f6",
+          "hover": "#aeddff"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "expressjs": {
+      "item": {
+        "label": {
+          "es": "ExpressJS",
+          "en": "ExpressJS"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "1",
+            "en": "1"
+          },
+          {
+            "type": "Version",
+            "es": "4.17",
+            "en": "4.17"
+          }
+        ],
+        "exp": 60,
+        "type": "Skill",
+        "description": {
+          "en": "Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.",
+          "es": "Express.js, o simplemente Express, es un marco de aplicaciones web back-end para crear API RESTful con Node.js, lanzado como software gratuito y de código abierto bajo la licencia MIT. Está diseñado para crear aplicaciones web y API. Se le ha llamado el marco de servidor estándar de facto para Node.js."
+        },
+        "background": {
+          "src": "/assets/img/expressjs.png"
+        },
+        "colors": {
+          "hover": "#FFFFFF"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "nestjs": {
+      "item": {
+        "label": {
+          "es": "NestJS",
+          "en": "NestJS"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "2",
+            "en": "2"
+          },
+          {
+            "type": "Version",
+            "es": "7.3-9.3",
+            "en": "7.3-9.3"
+          }
+        ],
+        "exp": 75,
+        "type": "Skill",
+        "description": {
+          "en": "NestJS is a framework for building efficient, scalable Node.js web applications. It uses modern JavaScript, is built with TypeScript and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).",
+          "es": "NestJS es un marco para crear aplicaciones web Node.js eficientes y escalables. Utiliza JavaScript moderno, está construido con TypeScript y combina elementos de OOP (Programación Orientada a Objetos), FP (Programación Funcional) y FRP (Programación Reactiva Funcional)."
+        },
+        "background": {
+          "src": "/assets/img/nestjs.png"
+        },
+        "colors": {
+          "primary": "#a50101",
+          "secondary": "#d13e66",
+          "hover": "#e66161"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "gcp": {
+      "item": {
+        "label": {
+          "es": "Google Cloud Platform",
+          "en": "Google Cloud Platform"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "1",
+            "en": "1"
+          }
+        ],
+        "exp": 30,
+        "type": "Skill",
+        "description": {
+          "en": "Google Cloud Platform (GCP), offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, Google Drive, and YouTube.[2][disputed – discuss] Alongside a set of management tools, it provides a series of modular cloud services including computing, data storage, data analytics and machine learning.[3] Registration requires a credit card or bank account details.[4]",
+          "es": "Google Cloud Platform (GCP), ofrecido por Google, es un conjunto de servicios de computación en la nube que se ejecuta en la misma infraestructura que Google usa internamente para sus productos de usuario final, como la Búsqueda de Google, Gmail, Google Drive y YouTube.[2][discutido – discutir] Junto un conjunto de herramientas de gestión, proporciona una serie de servicios modulares en la nube que incluyen computación, almacenamiento de datos, análisis de datos y aprendizaje automático.[3] El registro requiere una tarjeta de crédito o detalles de una cuenta bancaria.[4]"
+        },
+        "background": {
+          "src": "/assets/img/gcp.png"
+        },
+        "colors": {
+          "primary": "#e34133",
+          "secondary": "#4081ec",
+          "hover": "#f3b605"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "dotnet": {
+      "item": {
+        "label": {
+          "es": "ASP.NET Framefork",
+          "en": "ASP.NET Framefork"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "2",
+            "en": "2"
+          },
+          {
+            "type": "Version",
+            "es": "4.8",
+            "en": "4.8"
+          }
+        ],
+        "exp": 45,
+        "type": "Skill",
+        "description": {
+          "en": "ASP.NET is an open-source,[2] server-side web-application framework designed for web development to produce dynamic web pages. It was developed by Microsoft to allow programmers to build dynamic web sites, applications and services. The name stands for Active Server Pages Network Enabled Technologies.",
+          "es": "ASP.NET es un marco de aplicación web del lado del servidor de código abierto[2] diseñado para el desarrollo web para producir páginas web dinámicas. Fue desarrollado por Microsoft para permitir a los programadores crear sitios web, aplicaciones y servicios dinámicos. El nombre significa Active Server Pages Network Enabled Technologies."
+        },
+        "background": {
+          "src": "/assets/img/dotnet.png"
+        },
+        "colors": {
+          "primary": "#572b8a",
+          "secondary": "#027fbc",
+          "hover": "#2c98bd"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "knockoutjs": {
+      "item": {
+        "label": {
+          "es": "Knockout.JS",
+          "en": "Knockout.JS"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "1",
+            "en": "1"
+          },
+          {
+            "type": "Version",
+            "es": "3.5",
+            "en": "3.5"
+          }
+        ],
+        "exp": 45,
+        "type": "Skill",
+        "description": {
+          "en": "Knockout is a standalone JavaScript implementation of the Model–View–ViewModel pattern with templates. The underlying principles are therefore: \na clear separation between domain data, view components and data to be displayed\n the presence of a clearly defined layer of specialized code to manage the relationships between the view components\n The latter leverages the native event management features of the JavaScript language.",
+          "es": "Knockout es una implementación de JavaScript independiente del patrón Model-View-ViewModel con plantillas. Por lo tanto, los principios subyacentes son: \n una separación clara entre los datos del dominio, los componentes de la vista y los datos que se mostrarán\n la presencia de una capa claramente definida de código especializado para gestionar las relaciones entre los componentes de la vista\n Este último aprovecha la gestión de eventos nativos Características del lenguaje JavaScript."
+        },
+        "background": {
+          "src": "/assets/img/knockoutjs.png"
+        },
+        "colors": {
+          "primary": "#9a1015",
+          "secondary": "#d72f23",
+          "hover": "#e65231"
+        },
+        "action": false
+      },
+      "position": 6
+    },
+    "tailwindcss": {
+      "item": {
+        "label": {
+          "es": "Tailwind CSS",
+          "en": "Tailwind CSS"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "<1",
+            "en": "<1"
+          },
+          {
+            "type": "Version",
+            "es": "3.0",
+            "en": "3.0"
+          }
+        ],
+        "exp": 45,
+        "type": "Skill",
+        "description": {
+          "en": "Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables",
+          "es": "Tailwind CSS es un marco CSS de código abierto. La principal característica de esta librería es que, a diferencia de otros frameworks CSS como Bootstrap, no proporciona una serie de clases predefinidas para elementos como botones o tablas."
+        },
+        "background": {
+          "src": "/assets/img/tailwindcss.png"
+        },
+        "colors": {
+          "primary": "#3593a9",
+          "secondary": "#f2f2f2",
+          "hover": "#35b3eb"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "react": {
+      "item": {
+        "label": {
+          "es": "React",
+          "en": "React"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "<1",
+            "en": "<1"
+          },
+          {
+            "type": "Version",
+            "es": "18.2",
+            "en": "18.2"
+          }
+        ],
+        "exp": 45,
+        "type": "Skill",
+        "description": {
+          "en": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library[3] for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.",
+          "es": "React (también conocida como React.js o ReactJS) es una biblioteca JavaScript front-end gratuita y de código abierto[3] para crear interfaces de usuario basadas en componentes. Lo mantiene Meta (anteriormente Facebook) y una comunidad de desarrolladores y empresas individuales."
+        },
+        "background": {
+          "src": "/assets/img/react.png"
+        },
+        "colors": {
+          "primary": "#212121",
+          "secondary": "#00d2f7",
+          "hover": "#5ed3f3"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "nx": {
+      "item": {
+        "label": {
+          "es": "Nx",
+          "en": "Nx"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "2",
+            "en": "2"
+          }
+        ],
+        "exp": 50,
+        "type": "Skill",
+        "description": {
+          "en": "Next generation build system with first class monorepo support and powerful integrations.",
+          "es": "Sistema de compilación de próxima generación con soporte monorepo de primera clase e integraciones potentes."
+        },
+        "background": {
+          "src": "/assets/img/nx.png"
+        },
+        "colors": {
+          "primary": "#002f56",
+          "secondary": "#48c4e5",
+          "hover": "#96d8e9"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "nuxt3": {
+      "item": {
+        "label": {
+          "es": "Nuxt3",
+          "en": "Nuxt3"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "1",
+            "en": "1"
+          },
+          {
+            "type": "Version",
+            "es": "3",
+            "en": "3"
+          }
+        ],
+        "exp": 80,
+        "type": "Skill",
+        "description": {
+          "en": "Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js. The framework is advertised as a \"Meta-framework for universal applications\".",
+          "es": "Nuxt3 es una biblioteca JavaScript gratuita y de código abierto basada en Nuxt.js, Vue.js, Node.js, Webpack y Babel.js. Nuxt3 está inspirado en Next.js, que es un framework de propósito similar, basado en React.js. El marco se anuncia como \"Meta-marco para aplicaciones universales\"."
+        },
+        "background": {
+          "src": "/assets/img/nuxt3.png"
+        },
+        "colors": {
+          "primary": "#2b475e",
+          "secondary": "#078876",
+          "hover": "#00c68f"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "windows": {
+      "item": {
+        "label": {
+          "es": "Windows",
+          "en": "Windows"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "15",
+            "en": "15"
+          },
+          {
+            "type": "Version",
+            "es": "XP,7,8,8.1,10,11",
+            "en": "XP,7,8,8.1,10,11"
+          }
+        ],
+        "type": "Skill",
+        "description": {
+          "en": "Windows is a group of several proprietary graphical operating system families developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. For example, Windows NT for consumers, Windows Server for servers, and Windows IoT for embedded systems.",
+          "es": "Windows es un grupo de varias familias de sistemas operativos gráficos patentados desarrollados y comercializados por Microsoft. Cada familia atiende a un determinado sector de la industria informática. Por ejemplo, Windows NT para consumidores, Windows Server para servidores y Windows IoT para sistemas integrados."
+        },
+        "background": {
+          "src": "/assets/img/windows.png"
+        },
+        "colors": {
+          "primary": "#0656c6",
+          "secondary": "#018ce9",
+          "hover": "#02a5eb"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "ubuntu": {
+      "item": {
+        "label": {
+          "es": "Ubuntu",
+          "en": "Ubuntu"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "3",
+            "en": "3"
+          },
+          {
+            "type": "Version",
+            "es": "18-21",
+            "en": "18-21"
+          }
+        ],
+        "type": "Skill",
+        "description": {
+          "en": "Ubuntu is a Linux distribution based on Debian and composed mostly of free and open-source software. Ubuntu is officially released in three editions: Desktop, Server, and Core for Internet of things devices and robots. All of the editions can run on a computer alone, or in a virtual machine.",
+          "es": "Ubuntu es una distribución de Linux basada en Debian y compuesta principalmente por software libre y de código abierto. Ubuntu se lanza oficialmente en tres ediciones: Desktop, Server y Core para dispositivos y robots de Internet de las cosas. Todas las ediciones pueden ejecutarse solo en una computadora o en una máquina virtual."
+        },
+        "background": {
+          "src": "/assets/img/ubuntu.png"
+        },
+        "colors": {
+          "primary": "#fc6d26",
+          "secondary": "#f2a832",
+          "hover": "#f2d115"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "os": {
+      "item": {
+        "label": {
+          "es": "OS",
+          "en": "OS"
+        },
+        "type": "Skill",
+        "icon": {
+          "key": "icon-park-outline:config"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#0656c6",
+          "secondary": "#018ce9",
+          "hover": "#02a5eb"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "visualstudio": {
+      "item": {
+        "label": {
+          "es": "Visual Studio",
+          "en": "Visual Studio"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "1",
+            "en": "1"
+          }
+        ],
+        "type": "Skill",
+        "description": {
+          "en": "Visual Studio is an integrated development environment from Microsoft. It is used to develop computer programs including websites, web apps, web services and mobile apps.",
+          "es": "Visual Studio es un entorno de desarrollo integrado de Microsoft. Se utiliza para desarrollar programas informáticos, incluidos sitios web, aplicaciones web, servicios web y aplicaciones móviles."
+        },
+        "background": {
+          "src": "/assets/img/visualstudio.png"
+        },
+        "colors": {
+          "primary": "#683c9a",
+          "secondary": "#8857be",
+          "hover": "#bc8cf3"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "visualstudiocode": {
+      "item": {
+        "label": {
+          "es": "Visual Studio Code",
+          "en": "Visual Studio Code"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "5",
+            "en": "5"
+          }
+        ],
+        "type": "Skill",
+        "description": {
+          "en": "Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft with the Electron Framework, for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.",
+          "es": "Visual Studio Code, También conocido comúnmente como VS Code, es un editor de código fuente creado por Microsoft con Electron Framework, para Windows, Linux y macOS. Las características incluyen soporte para depuración, resaltado de sintaxis, finalización de código inteligente, fragmentos, refactorización de código y Git incorporado."
+        },
+        "background": {
+          "src": "/assets/img/visualstudiocode.png"
+        },
+        "colors": {
+          "primary": "#115c9f",
+          "secondary": "#347eb1",
+          "hover": "#3aa0e7"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "ide": {
+      "item": {
+        "label": {
+          "es": "IDE",
+          "en": "IDE"
+        },
+        "type": "Skill",
+        "icon": {
+          "key": "carbon:tool-kit"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#683c9a",
+          "secondary": "#8857be",
+          "hover": "#bc8cf3"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "docker": {
+      "item": {
+        "label": {
+          "es": "Docker",
+          "en": "Docker"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "2",
+            "en": "2"
+          }
+        ],
+        "exp": 30,
+        "type": "Skill",
+        "description": {
+          "en": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. The service has both free and premium tiers. The software that hosts the containers is called Docker Engine. It was first started in 2013 and is developed by Docker, Inc.",
+          "es": "Docker es un conjunto de productos de plataforma como servicio que utilizan la virtualización a nivel del sistema operativo para entregar software en paquetes denominados contenedores. El servicio tiene niveles gratuitos y premium. El software que aloja los contenedores se llama Docker Engine. Se inició por primera vez en 2013 y es desarrollado por Docker, Inc."
+        },
+        "background": {
+          "src": "/assets/img/docker.png"
+        },
+        "colors": {
+          "primary": "#683c9a",
+          "secondary": "#8857be",
+          "hover": "#bc8cf3"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "nginx": {
+      "item": {
+        "label": {
+          "es": "NGinx",
+          "en": "NGinx"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "1",
+            "en": "1"
+          }
+        ],
+        "exp": 10,
+        "type": "Skill",
+        "description": {
+          "en": "Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. The software was created by Igor Sysoev and publicly released in 2004. Nginx is free and open-source software, released under the terms of the 2-clause BSD license",
+          "es": "Nginx es un servidor web que también se puede utilizar como proxy inverso, equilibrador de carga, proxy de correo y caché HTTP. El software fue creado por Igor Sysoev y lanzado públicamente en 2004. Nginx es un software gratuito y de código abierto, lanzado bajo los términos de la licencia BSD de 2 cláusulas."
+        },
+        "background": {
+          "src": "/assets/img/nginx.png"
+        },
+        "colors": {
+          "primary": "#1d532f",
+          "secondary": "#1a6e37",
+          "hover": "#018e37"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "adobephotoshop": {
+      "item": {
+        "label": {
+          "es": "Adobe Photoshop",
+          "en": "Adobe Photoshop"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "10",
+            "en": "10"
+          }
+        ],
+        "exp": 50,
+        "type": "Skill",
+        "description": {
+          "en": "Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1987 by Thomas and John Knoll. Since then, the software has become the most used tool for professional digital art, especially in raster graphics editing.",
+          "es": "Adobe Photoshop es un editor de gráficos de trama desarrollado y publicado por Adobe Inc. para Windows y macOS. Fue creado originalmente en 1987 por Thomas y John Knoll. Desde entonces, el software se ha convertido en la herramienta más utilizada para el arte digital profesional, especialmente en la edición de gráficos de trama."
+        },
+        "background": {
+          "src": "/assets/img/adobephotoshop.png"
+        },
+        "colors": {
+          "primary": "#001d34",
+          "secondary": "#0043ff",
+          "hover": "#2fa3f7"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "threedsmax": {
+      "item": {
+        "label": {
+          "es": "Autodesk 3ds Max",
+          "en": "Autodesk 3ds Max"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "10",
+            "en": "10"
+          }
+        ],
+        "exp": 40,
+        "type": "Skill",
+        "description": {
+          "en": "Autodesk 3ds Max, formerly 3D Studio and 3D Studio Max, is a professional 3D computer graphics program for making 3D animations, models, games and images. It is developed and produced by Autodesk Media and Entertainment. ",
+          "es": "Autodesk 3ds Max, anteriormente 3D Studio y 3D Studio Max, es un programa profesional de gráficos por computadora en 3D para crear animaciones, modelos, juegos e imágenes en 3D. Es desarrollado y producido por Autodesk Media and Entertainment."
+        },
+        "background": {
+          "src": "/assets/img/3dsmax.png"
+        },
+        "colors": {
+          "primary": "#015051",
+          "secondary": "#016b6b",
+          "hover": "#09a1a1"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "inkscape": {
+      "item": {
+        "label": {
+          "es": "Inkscape",
+          "en": "Inkscape"
+        },
+        "sublabels": [
+          {
+            "type": "Years",
+            "es": "1",
+            "en": "1"
+          }
+        ],
+        "exp": 35,
+        "type": "Skill",
+        "description": {
+          "en": "Inkscape is a free and open-source vector graphics editor used to create vector images, primarily in the Scalable Vector Graphics format. Other formats can be imported and exported. Inkscape can render primitive vector shapes and text.",
+          "es": "Inkscape es un editor de gráficos vectoriales gratuito y de código abierto que se utiliza para crear imágenes vectoriales, principalmente en formato de gráficos vectoriales escalables. Se pueden importar y exportar otros formatos. Inkscape puede representar formas vectoriales y texto primitivos."
+        },
+        "background": {
+          "src": "/assets/img/inkscape.png"
+        },
+        "colors": {
+          "primary": "#1c1c24",
+          "secondary": "#484e60",
+          "hover": "#c9c8ce"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "dp": {
+      "item": {
+        "label": {
+          "es": "Programación dinámica",
+          "en": "Dynamic Programming"
+        },
+        "exp": 60,
+        "type": "Skill",
+        "icon": {
+          "key": "ion:lock-combination"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#be5504",
+          "secondary": "#fc6a03",
+          "hover": "#d6880d"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "bruteforce": {
+      "item": {
+        "label": {
+          "es": "Fuerza bruta",
+          "en": "Brute Force"
+        },
+        "exp": 80,
+        "type": "Skill",
+        "icon": {
+          "key": "mdi:arm-flex-outline"
+        },
+        "description": {
+          "en": "A brute force algorithm solves a problem through exhaustion: it goes through all possible choices until a solution is found. The time complexity of a brute force algorithm is often proportional to the input size. Brute force algorithms are simple and consistent, but very slow.",
+          "es": "A brute force algorithm solves a problem through exhaustion: it goes through all possible choices until a solution is found. The time complexity of a brute force algorithm is often proportional to the input size. Brute force algorithms are simple and consistent, but very slow."
+        },
+        "colors": {
+          "primary": "#920118",
+          "secondary": "#b60000",
+          "hover": "#d02b40"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "graphtheory": {
+      "item": {
+        "label": {
+          "es": "Teoría de grafos",
+          "en": "Graph Theory"
+        },
+        "exp": 50,
+        "type": "Skill",
+        "icon": {
+          "key": "mdi:family-tree"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#1d532f",
+          "secondary": "#1a6e37",
+          "hover": "#018e37"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "numbertheory": {
+      "item": {
+        "label": {
+          "es": "Teoría de números",
+          "en": "Number Theory"
+        },
+        "exp": 65,
+        "type": "Skill",
+        "icon": {
+          "key": "ooui:mathematics"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#034938",
+          "secondary": "#25a394",
+          "hover": "#87ffff"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "gametheory": {
+      "item": {
+        "label": {
+          "es": "Teoría de juego",
+          "en": "Game Theory"
+        },
+        "exp": 30,
+        "type": "Skill",
+        "icon": {
+          "key": "mdi:gamepad-square-outline"
+        },
+        "description": {
+          "en": "Game theory is the study of mathematical models of strategic interactions among rational agents. It has applications in all fields of social science, as well as in logic, systems science and computer science.",
+          "es": "La teoría de juegos es el estudio de modelos matemáticos de interacciones estratégicas entre agentes racionales. Tiene aplicaciones en todos los campos de las ciencias sociales, así como en la lógica, la ciencia de sistemas y la informática."
+        },
+        "colors": {
+          "primary": "#0656c6",
+          "secondary": "#018ce9",
+          "hover": "#02a5eb"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "datastructure": {
+      "item": {
+        "label": {
+          "es": "Estructuras de datos",
+          "en": "Data Structures"
+        },
+        "exp": 70,
+        "type": "Skill",
+        "icon": {
+          "key": "carbon:data-unstructured"
+        },
+        "description": {
+          "en": "A data structure is a named location that can be used to store and organize data. And, an algorithm is a collection of steps to solve a particular problem. Learning data structures and algorithms allow us to write efficient and optimized computer programs.",
+          "es": "Una estructura de datos es una ubicación con nombre que se puede utilizar para almacenar y organizar datos. Y, un algoritmo es una colección de pasos para resolver un problema particular. El aprendizaje de estructuras de datos y algoritmos nos permite escribir programas informáticos eficientes y optimizados."
+        },
+        "colors": {
+          "primary": "#f2a832",
+          "secondary": "#f7d100",
+          "hover": "#f7e771"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "implementation": {
+      "item": {
+        "label": {
+          "es": "Implementación",
+          "en": "Implementation"
+        },
+        "exp": 80,
+        "type": "Skill",
+        "icon": {
+          "key": "mdi:code-json"
+        },
+        "description": {
+          "en": "The Ad Hoc problems are problems that cannot be classified anywhere else in the categories with well-studied solutions since each problem description and its corresponding solution are unique. These problems don’t fall under standard categories, there is no specific or general technique exists to solve them. Many Ad Hoc problems are easy, but this does not apply to all Ad Hoc problems.",
+          "es": "Los problemas Ad Hoc o de implementación son problemas que no se pueden clasificar en ningún otro lugar de las categorías con soluciones bien estudiadas ya que cada descripción del problema y su correspondiente solución son únicas. Estos problemas no pertenecen a categorías estándar, no existe una técnica específica o general para resolverlos. Muchos problemas Ad Hoc son fáciles, pero esto no se aplica a todos los problemas Ad Hoc."
+        },
+        "colors": {
+          "primary": "#3636b8",
+          "secondary": "#5051cd",
+          "hover": "#8889dc"
+        },
+        "action": false
+      },
+      "position": 6
+    },
+    "greedy": {
+      "item": {
+        "label": {
+          "es": "Algoritmos Golosos",
+          "en": "Greedy"
+        },
+        "exp": 40,
+        "type": "Skill",
+        "icon": {
+          "key": "mdi:candy-outline"
+        },
+        "description": {
+          "en": "A greedy algorithm is a simple, intuitive algorithm that is used in optimization problems. The algorithm makes the optimal choice at each step as it attempts to find the overall optimal way to solve the entire problem.",
+          "es": "Un algoritmo goloso es un algoritmo simple e intuitivo que se utiliza en problemas de optimización. El algoritmo hace la elección óptima en cada paso mientras intenta encontrar la forma óptima general de resolver todo el problema."
+        },
+        "colors": {
+          "primary": "#52206a",
+          "secondary": "#944dad",
+          "hover": "#a688dd"
+        },
+        "action": false
+      },
+      "position": 7
+    }
+  },
+  "Position": {
+    "juniorfrontend": {
+      "item": {
+        "label": {
+          "es": "Desarrollador front-end",
+          "en": "FrontEnd Developer"
+        },
+        "sublabels": [
+          {
+            "type": "Role",
+            "es": "junior",
+            "en": "junior"
+          },
+          {
+            "type": "Date",
+            "es": "2018-09,2020-01",
+            "en": "2018-09,2020-01"
+          },
+          {
+            "subvalue": "fulltime",
+            "type": "WorkType",
+            "es": "onsite",
+            "en": "onsite"
+          }
+        ],
+        "exp": 85,
+        "type": "Position",
+        "icon": {
+          "key": "mdi:code-tags"
+        },
+        "description": {
+          "en": "I participated in the first version of the administration, providing better usability by 10% for end users.\nI created the second version of the administration using the same stack of the web application, improving the front-office - back-office interaction and deployment.",
+          "es": "Participé en la primera versión de la administración, brindando una mejor usabilidad en un 10% para los usuarios finales.\nCreé la segunda versión de la administración usando la misma pila de la aplicación web, mejorando la interacción y el despliegue de front-office - back-office ."
+        },
+        "colors": {
+          "primary": "#146487",
+          "secondary": "#2e9fd4",
+          "hover": "#8096a7"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "fullstack": {
+      "item": {
+        "label": {
+          "es": "Desarrollador full-stack",
+          "en": "FullStack Developer"
+        },
+        "type": "Position",
+        "icon": {
+          "key": "bi:braces-asterisk"
+        },
+        "description": {
+          "en": "Main frameworks I have worked on as a FullStack developer, click inside to see what technologies these frameworks use",
+          "es": "Principales frameworks en los que he trabajado como desarrollador FullStack, haga clic adentro para ver qué tecnologías utilizan estos frameworks"
+        },
+        "colors": {
+          "primary": "#043a32",
+          "secondary": "#01450f",
+          "hover": "#1aa177"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "devops": {
+      "item": {
+        "label": {
+          "es": "DevOps",
+          "en": "DevOps"
+        },
+        "type": "Position",
+        "icon": {
+          "key": "grommet-icons:console"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#055451",
+          "secondary": "#086519",
+          "hover": "#25b585"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "frontend": {
+      "item": {
+        "label": {
+          "es": "Desarrollador front-end",
+          "en": "Front-End Developer"
+        },
+        "exp": 85,
+        "type": "Position",
+        "icon": {
+          "key": "mdi:code-tags"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#146487",
+          "secondary": "#2e9fd4",
+          "hover": "#8096a7"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "softwareengineer": {
+      "item": {
+        "label": {
+          "es": "Ingeniero de software",
+          "en": "Software Engineer"
+        },
+        "type": "Position",
+        "icon": {
+          "key": "ic:twotone-engineering"
+        },
+        "description": {
+          "en": "Main soft skills, utils, environments and tools that I have used in the development",
+          "es": "Principales soft skills, utils, entornos y herramientas que he utilizado en el desarrollo"
+        },
+        "colors": {
+          "primary": "#e8960f",
+          "secondary": "#f7d800",
+          "hover": "#f7e771"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "backend": {
+      "item": {
+        "label": {
+          "es": "Desarrollador back-end",
+          "en": "Back-End Developer"
+        },
+        "type": "Position",
+        "icon": {
+          "key": "mdi:code-json"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#c0193e",
+          "secondary": "#d84346",
+          "hover": "#dca398"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "web": {
+      "item": {
+        "label": {
+          "es": "Desarrollador web",
+          "en": "Web Developer"
+        },
+        "sublabels": [
+          {
+            "type": "Role",
+            "es": "senior",
+            "en": "senior"
+          },
+          {
+            "type": "Date",
+            "es": "2021-02,2021-03",
+            "en": "2021-02,2021-03"
+          }
+        ],
+        "type": "Position",
+        "icon": {
+          "key": "ci:window-code-block"
+        },
+        "description": {
+          "en": "I started the project from scratch using the latest technologies related to the company. Providing a transparent and usable design, I was able to carry out the application in record time.",
+          "es": "Empecé el proyecto desde cero utilizando las últimas tecnologías afines a la empresa. Aportando un diseño transparente y usable, pude realizar la aplicación en un tiempo récord."
+        },
+        "colors": {
+          "primary": "#c0193e",
+          "secondary": "#d84346",
+          "hover": "#dca398"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "graphicdesigner": {
+      "item": {
+        "label": {
+          "es": "Diseñador grafico",
+          "en": "Graphic Designer"
+        },
+        "type": "Position",
+        "icon": {
+          "key": "carbon:color-palette"
+        },
+        "description": {
+          "en": "Main tools I have worked on as a graphic design",
+          "es": "Principales herramientas en las que he trabajado como diseñador gráfico"
+        },
+        "colors": {
+          "primary": "#ec0567",
+          "secondary": "#e97bac",
+          "hover": "#efc3c3"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "algorithmsdev": {
+      "item": {
+        "label": {
+          "es": "Desarrollador de algoritmos",
+          "en": "Algorithms Developer"
+        },
+        "type": "Position",
+        "icon": {
+          "key": "carbon:boolean"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#1000b5",
+          "secondary": "#0043ff",
+          "hover": "#0090f9"
+        },
+        "action": false
+      },
+      "position": 5
+    }
+  },
+  "Project": {
+    "apklis": {
+      "item": {
+        "label": {
+          "subvalue": "https://www.apklis.cu",
+          "type": "Link",
+          "es": "APKlis",
+          "en": "APKlis"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2018-09,2022-01",
+            "en": "2018-09,2022-01"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "Apklis, also known as the Cuban Play Store, is an online application store developed by the UCI for Android devices.\nIt has its web version and also its application version for android.\nIt is designed to download all Cuban applications and the most from the rest of the world using the ETECSA data network, Nauta or other national navigation means.\nIt has a wide catalog of games, as well as useful applications, from social networks, photo editors, among others.",
+          "es": "Apklis, también conocida como Cuban Play Store, es una tienda de aplicaciones en línea desarrollada por la UCI para dispositivos Android. el resto del mundo utilizando la red de datos de ETECSA, Nauta u otros medios de navegación nacional.\nCuenta con un amplio catálogo de juegos, así como aplicaciones útiles, desde redes sociales, editores de fotos, entre otros."
+        },
+        "background": {
+          "src": "/assets/img/apklis.png"
+        },
+        "colors": {
+          "primary": "#f15323",
+          "secondary": "#ec9107",
+          "hover": "#f0e108"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "sdk": {
+      "item": {
+        "label": {
+          "es": "Copsonic SDK",
+          "en": "Copsonic SDK"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2019-07,2019-08",
+            "en": "2019-07,2019-08"
+          },
+          {
+            "type": "Country",
+            "es": "fr",
+            "en": "fr"
+          },
+          {
+            "subvalue": "parttime",
+            "type": "WorkType",
+            "es": "remote",
+            "en": "remote"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "The CopSonic SDK allows contactless multi-factor authentication based on ultrasounds or sounds. This SDK is the first to introduce an “airgap” with encrypted analog information into the digital circuit. The security level thus achieved by CopSonic reaches current military security levels.",
+          "es": "El SDK de CopSonic permite la autenticación multifactor sin contacto basada en ultrasonidos o sonidos. Este SDK es el primero en introducir un \"espacio de aire\" con información analógica cifrada en el circuito digital. El nivel de seguridad así alcanzado por CopSonic alcanza los niveles actuales de seguridad militar."
+        },
+        "background": {
+          "src": "/assets/img/copsonic.png"
+        },
+        "colors": {
+          "primary": "#a62831",
+          "secondary": "#c01925",
+          "hover": "#c6c8c7"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "sonicqrcode": {
+      "item": {
+        "label": {
+          "type": "Link",
+          "subvalue": "https://sonicqrcode.copsonic.com/",
+          "es": "SonicQRCode",
+          "en": "SonicQRCode"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2019-08,2019-09",
+            "en": "2019-08,2019-09"
+          },
+          {
+            "type": "Country",
+            "es": "fr",
+            "en": "fr"
+          },
+          {
+            "subvalue": "parttime",
+            "type": "WorkType",
+            "es": "remote",
+            "en": "remote"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "The same information as a QR code, but sent over ultrasounds. Increase the interaction distance. No more scanning difficulties.",
+          "es": "La misma información que un código QR, pero enviada por ultrasonidos. Aumentar la distancia de interacción. No más dificultades de escaneo."
+        },
+        "background": {
+          "src": "/assets/img/sonicqrcode.png"
+        },
+        "colors": {
+          "primary": "#e8960f",
+          "secondary": "#f7d800",
+          "hover": "#f7e771"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "sharebill": {
+      "item": {
+        "label": {
+          "es": "ShareBill Demo",
+          "en": "ShareBill Demo"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2019-09,2019-11",
+            "en": "2019-09,2019-11"
+          },
+          {
+            "type": "Country",
+            "es": "fr",
+            "en": "fr"
+          },
+          {
+            "subvalue": "parttime",
+            "type": "WorkType",
+            "es": "remote",
+            "en": "remote"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "This demo is an instance of how a payment service could be implemented using the characteristics of the Copsonic SDK. Using ultrasound, it transferred information once a session is created between the buyer and the host.",
+          "es": "Esta demostración es un ejemplo de cómo se podría implementar un servicio de pago utilizando las características del SDK de Copsonic. Usando ultrasonido, transfirió información una vez que se crea una sesión entre el comprador y el anfitrión."
+        },
+        "background": {
+          "src": "/assets/img/sharebill.png"
+        },
+        "colors": {
+          "primary": "#00134d",
+          "secondary": "#777777",
+          "hover": "#d4d6d4"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "augecrm": {
+      "item": {
+        "label": {
+          "es": "Auge CRM",
+          "en": "Auge CRM"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2020-01,2020-07",
+            "en": "2020-01,2020-07"
+          },
+          {
+            "type": "Country",
+            "es": "mx",
+            "en": "mx"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "CRM system to allowed the company control the main clients of automotive repair system",
+          "es": "Sistema CRM que permitió a la empresa controlar los principales clientes del sistema de reparación automotriz"
+        },
+        "background": {
+          "src": "/assets/img/auge.png"
+        },
+        "colors": {
+          "primary": "#020202",
+          "secondary": "#404040",
+          "hover": "#808080"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "augecs": {
+      "item": {
+        "label": {
+          "es": "Auge CS",
+          "en": "Auge CS"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2020-07,2020-11",
+            "en": "2020-07,2020-11"
+          },
+          {
+            "type": "Country",
+            "es": "mx",
+            "en": "mx"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "Car sales control system. The system made it possible to control the stocks of car parts as well as take care of the sale. Customer payment plan system and direct support",
+          "es": "Sistema de control de ventas de automóviles. El sistema permitía controlar los stocks de autopartes así como encargarse de la venta. Sistema de plan de pago del cliente y soporte directo."
+        },
+        "background": {
+          "src": "/assets/img/auge.png"
+        },
+        "colors": {
+          "primary": "#393939",
+          "secondary": "#828282",
+          "hover": "#c3c3c3"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "evaluamax": {
+      "item": {
+        "label": {
+          "es": "EvaluaMax",
+          "en": "EvaluaMax"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2020-11,2021-02",
+            "en": "2020-11,2021-02"
+          },
+          {
+            "type": "Country",
+            "es": "mx",
+            "en": "mx"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "Survey system for mexican companies. The system allows the control of payment plans, manage statistics and control the flow of cargo from the client.",
+          "es": "Sistema de encuestas para empresas mexicanas. El sistema permite el control de planes de pago, gestionar estadísticas y controlar el flujo de carga del cliente."
+        },
+        "background": {
+          "src": "/assets/img/evaluamax.png"
+        },
+        "colors": {
+          "primary": "#009192",
+          "secondary": "#00d86d",
+          "hover": "#009ffd"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "multillantasmax": {
+      "item": {
+        "label": {
+          "es": "MultillantasMax",
+          "en": "MultillantasMax"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2021-02,2021-03",
+            "en": "2021-02,2021-03"
+          },
+          {
+            "type": "Country",
+            "es": "mx",
+            "en": "mx"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "Find quality tires at the best price for cars, vans, trucks and motorcycles. Tire services, tuning, brakes, suspension, shock absorbers and mechanics in general.",
+          "es": "Encuentra neumáticos de calidad al mejor precio para coches, furgonetas, camiones y motos. Servicios de llantas, afinación, frenos, suspensión, amortiguadores y mecánica en general."
+        },
+        "background": {
+          "src": "/assets/img/multillantasmax.png"
+        },
+        "colors": {
+          "primary": "#2867ab",
+          "secondary": "#c2230d",
+          "hover": "#ffffff"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "vacunaterd": {
+      "item": {
+        "label": {
+          "type": "Link",
+          "subvalue": "https://solicitud.vacunate.gob.do/",
+          "es": "VacunateRD",
+          "en": "VacunateRD"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2021-02,2020-06",
+            "en": "2021-02,2020-06"
+          },
+          {
+            "subvalue": "flexible",
+            "type": "WorkType",
+            "es": "remote",
+            "en": "remote"
+          },
+          {
+            "type": "Country",
+            "es": "dr",
+            "en": "dr"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "The application belong to the dominican goverment and is part of the healthcare system of the Dominican Republic, and the main strategy was to manage the vaccination process efficiently. Given the global impact of the pandemic, the application was launched into production in record time, and was a great help to the Dominican government.VacunateRD is currently being used by millions of citizens in the Dominican Republic for vaccination appointment scheduling. The application was recognized and approved by the president of the republic, giving thanks and positive feedback to the developers.",
+          "es": "La aplicación pertenece al gobierno dominicano y es parte del sistema de salud de la República Dominicana, y la estrategia principal fue administrar el proceso de vacunación de manera eficiente. Dado el impacto global de la pandemia, la aplicación se puso en producción en un tiempo récord y fue de gran ayuda para el gobierno dominicano. Actualmente, VacunateRD está siendo utilizado por millones de ciudadanos en República Dominicana para programar citas de vacunación. La aplicación fue reconocida y aprobada por el presidente de la república, dando gracias y comentarios positivos a los desarrolladores."
+        },
+        "background": {
+          "src": "/assets/img/vacunaterd.png"
+        },
+        "colors": {
+          "primary": "#061e57",
+          "secondary": "#e30f1f",
+          "hover": "#f2f2f2"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "insight": {
+      "item": {
+        "label": {
+          "es": "Insight",
+          "en": "Insight"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2021-11,2022-12",
+            "en": "2021-11,2022-12"
+          },
+          {
+            "type": "Country",
+            "es": "us",
+            "en": "us"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "OpSec Insight™ product management solutions organize contract management, trademark distribution, and product design approvals in one intuitive platform, digitizing and streamlining product lifecycle from concept to phase-out.",
+          "es": "Las soluciones de gestión de productos OpSec Insight™ organizan la gestión de contratos, la distribución de marcas registradas y las aprobaciones de diseño de productos en una plataforma intuitiva, digitalizando y agilizando el ciclo de vida del producto desde el concepto hasta la eliminación."
+        },
+        "background": {
+          "src": "/assets/img/opsecsecurity.png"
+        },
+        "colors": {
+          "primary": "#181e41",
+          "secondary": "#003b78",
+          "hover": "#3d6292"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "ere": {
+      "item": {
+        "label": {
+          "es": "eRE",
+          "en": "eRE"
+        },
+        "sublabels": [
+          {
+            "type": "Role",
+            "es": "senior",
+            "en": "senior"
+          },
+          {
+            "type": "Since",
+            "es": "2023-01",
+            "en": "2023-01"
+          },
+          {
+            "type": "Country",
+            "es": "pr",
+            "en": "pr"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "Online Voting system for the Puerto Rican elections",
+          "es": "Sistema de votación en línea para las elecciones puertorriqueñas"
+        },
+        "background": {
+          "src": "/assets/img/ere.png"
+        },
+        "colors": {
+          "primary": "#000000",
+          "secondary": "#faec17",
+          "hover": "#FFFFFF"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "commerceos": {
+      "item": {
+        "label": {
+          "type": "Link",
+          "subvalue": "https://commerceos.payever.org/",
+          "es": "Commerceos",
+          "en": "Commerceos"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2022-03,2022-08",
+            "en": "2022-03,2022-08"
+          },
+          {
+            "type": "Country",
+            "es": "de",
+            "en": "de"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "The project is a unique e-commerce solution that covers the entire sales cycle, from the online store, point-of-sale software, to payments, customer relationship management, marketing, inventory, and tracking tools. shipment. The intuitive platform seamlessly integrates all aspects of e-commerce and grows with the company's e-commerce needs. The platform removes reliance on market giants, allowing SMBs to have their own independent, robust, company-branded and connected e-commerce platform. This application is used by millions of users and have direct impact in German ecommerce industry. The application was presented in Finovate Europe 2020 achieving significant results.",
+          "es": "El proyecto es una solución de comercio electrónico única que cubre todo el ciclo de ventas, desde la tienda en línea, el software de punto de venta, hasta los pagos, la gestión de relaciones con los clientes, el marketing, el inventario y las herramientas de seguimiento. envío. La plataforma intuitiva integra a la perfección todos los aspectos del comercio electrónico y crece con las necesidades de comercio electrónico de la empresa. La plataforma elimina la dependencia de los gigantes del mercado, lo que permite a las pymes tener su propia plataforma de comercio electrónico independiente, sólida, con la marca de la empresa y conectada. Esta aplicación es utilizada por millones de usuarios y tiene un impacto directo en la industria del comercio electrónico alemán. La aplicación se presentó en Finovate Europe 2020 logrando resultados significativos."
+        },
+        "background": {
+          "src": "/assets/img/commerceos.png"
+        },
+        "colors": {
+          "primary": "#333333",
+          "secondary": "#888888",
+          "hover": "#FFFFFF"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "oxygen": {
+      "item": {
+        "label": {
+          "es": "Oxygen",
+          "en": "Oxygen"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2020-10,2020-11",
+            "en": "2020-10,2020-11"
+          },
+          {
+            "type": "Country",
+            "es": "cu",
+            "en": "cu"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "Social network that allows connectivity with other networks such as Instagram, Facebook. FrontEnd developer.",
+          "es": "Red social que permite la conectividad con otras redes como Instagram, Facebook. Desarrollador FrontEnd."
+        },
+        "background": {
+          "src": "/assets/img/oxygen.png"
+        },
+        "colors": {
+          "primary": "#0043ff",
+          "secondary": "#0090f9",
+          "hover": "#00efff"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "pbetta": {
+      "item": {
+        "label": {
+          "type": "Link",
+          "subvalue": "https://pbetta.vercel.app",
+          "es": "PBetta",
+          "en": "PBetta"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2021-08,2021-09",
+            "en": "2021-08,2021-09"
+          },
+          {
+            "type": "Country",
+            "es": "cu",
+            "en": "cu"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "Web client for medical training and learning system.",
+          "es": "Cliente web para sistema de formación y aprendizaje médico."
+        },
+        "background": {
+          "src": "/assets/img/pbetta.png"
+        },
+        "colors": {
+          "primary": "#0043ff",
+          "secondary": "#006cff",
+          "hover": "#0090f9"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "gymbro": {
+      "item": {
+        "label": {
+          "type": "Link",
+          "subvalue": "https://www.gymbro.pro",
+          "es": "GymBro",
+          "en": "GymBro"
+        },
+        "sublabels": [
+          {
+            "type": "Since",
+            "es": "2023-02",
+            "en": "2023-02"
+          },
+          {
+            "type": "Country",
+            "es": "dr",
+            "en": "dr"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "Social network for lovers of fitness and healthy life",
+          "es": "Red social para amantes del fitness y la vida sana"
+        },
+        "background": {
+          "src": "/assets/img/gymbro.png"
+        },
+        "colors": {
+          "primary": "#4d1600",
+          "secondary": "#c25b00",
+          "hover": "#ffe4b7"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "darklink": {
+      "item": {
+        "label": {
+          "type": "Link",
+          "subvalue": "/",
+          "es": "DarkLink",
+          "en": "DarkLink"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2021-02,2021-03",
+            "en": "2021-02,2021-03"
+          },
+          {
+            "type": "Country",
+            "es": "dr",
+            "en": "dr"
+          }
+        ],
+        "type": "Project",
+        "description": {
+          "en": "Brief neuronal connection about Jorge Amado Hernandez Betancourt (darklink) dev.",
+          "es": "Breve conexión neuronal sobre Jorge Amado Hernández Betancourt (darklink) dev."
+        },
+        "background": {
+          "src": "/assets/img/portfolio.png"
+        },
+        "colors": {
+          "primary": "#3b3b3b",
+          "secondary": "#e9d96d",
+          "hover": "#f3ebab"
+        },
+        "action": false
+      },
+      "position": -1
+    }
+  },
+  "Work": {
+    "uci": {
+      "item": {
+        "label": {
+          "type": "Link",
+          "subvalue": "https://www.uci.cu",
+          "es": "Universidad de las Ciencias Informáticas",
+          "en": "University of Informatic Sciences"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2018-09,2022-01",
+            "en": "2018-09,2022-01"
+          },
+          {
+            "type": "Country",
+            "es": "cu",
+            "en": "cu"
+          },
+          {
+            "subvalue": "fulltime",
+            "type": "WorkType",
+            "es": "hybrid",
+            "en": "hybrid"
+          }
+        ],
+        "type": "Work",
+        "description": {
+          "en": "The University of Informatic Sciences (Spanish: Universidad de las Ciencias Informáticas; UCI, also known as the University of Information Sciences and University of Informatics Sciences) is a Cuban university research center based in the ward of Wajay, Boyeros municipal borough, Havana\nThe UCI has a particular curriculum among other universities in the country. Students follow the principle of linking work and study, which places an emphasis on production as part of the learning process. From the second or third year of study students can be linked to productive projects that contribute to the economy.",
+          "es": "La Universidad de las Ciencias Informáticas (en español: Universidad de las Ciencias Informáticas; UCI, también conocida como Universidad de las Ciencias Informáticas y Universidad de las Ciencias Informáticas) es un centro de investigación universitario cubano con sede en el barrio de Wajay, municipio de Boyeros, La Habana. La UCI tiene un plan de estudios particular entre otras universidades del país. Los estudiantes siguen el principio de vincular el trabajo y el estudio, lo que pone énfasis en la producción como parte del proceso de aprendizaje. A partir del segundo o tercer año de carrera los estudiantes pueden vincularse a proyectos productivos que aporten a la economía."
+        },
+        "background": {
+          "src": "/assets/img/uci.png"
+        },
+        "colors": {
+          "primary": "#05235e",
+          "secondary": "#2c4e9a",
+          "hover": "#2c59e6"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "copsonic": {
+      "item": {
+        "label": {
+          "type": "Link",
+          "subvalue": "https://www.copsonic.com/",
+          "es": "CopSonic",
+          "en": "CopSonic"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2019-07,2019-11",
+            "en": "2019-07,2019-11"
+          },
+          {
+            "type": "Country",
+            "es": "fr",
+            "en": "fr"
+          },
+          {
+            "subvalue": "parttime",
+            "type": "WorkType",
+            "es": "remote",
+            "en": "remote"
+          }
+        ],
+        "type": "Work",
+        "description": {
+          "en": "COPSONIC is a technology that allows communication and interaction between two devices through sound waves. The secure transfer is achieved through microphones and speakers. Now and in the future, mobile, tablets and smart devices will be able to exchange information without compatibility issues unlike Bluetooth LE, NFC.",
+          "es": "COPSONICes una tecnología que permite la comunicación e interacción entre dos dispositivos a través de ondas sonoras. La transferencia segura se logra a través de micrófonos y parlantes. Ahora y en el futuro, los dispositivos móviles, tabletas y dispositivos inteligentes podrán intercambiar información sin problemas de compatibilidad a diferencia de Bluetooth LE, NFC."
+        },
+        "background": {
+          "src": "/assets/img/copsonic.png"
+        },
+        "colors": {
+          "primary": "#a62831",
+          "secondary": "#c01925",
+          "hover": "#c6c8c7"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "augetec": {
+      "item": {
+        "label": {
+          "es": "Auge Tec",
+          "en": "Auge Tec"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2020-01,2021-03",
+            "en": "2020-01,2021-03"
+          },
+          {
+            "type": "Country",
+            "es": "mx",
+            "en": "mx"
+          },
+          {
+            "subvalue": "flexible",
+            "type": "WorkType",
+            "es": "remote",
+            "en": "remote"
+          }
+        ],
+        "type": "Work",
+        "description": {
+          "en": "The company started as automotive repair system. Nowadays are a team of passionate people whose goal is to improve everyone's lives through revolutionary products. Creating great products to solve business problems.The products are designed for small and medium-sized businesses willing to optimize their performance.",
+          "es": "La empresa comenzó como un sistema de reparación de automóviles. Hoy en día somos un equipo de personas apasionadas cuyo objetivo es mejorar la vida de todos a través de productos revolucionarios. Creando excelentes productos para resolver problemas comerciales. Los productos están diseñados para pequeñas y medianas empresas que desean optimizar su rendimiento."
+        },
+        "background": {
+          "src": "/assets/img/auge.png"
+        },
+        "colors": {
+          "primary": "#828282",
+          "secondary": "#999999",
+          "hover": "#c3c3c3"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "cubacitasweb": {
+      "item": {
+        "label": {
+          "es": "Cubacitas Web",
+          "en": "Cubacitas Web"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2020-09,2020-10",
+            "en": "2020-09,2020-10"
+          },
+          {
+            "type": "Country",
+            "es": "cu",
+            "en": "cu"
+          }
+        ],
+        "type": "Work",
+        "description": {},
+        "background": {
+          "src": "/assets/img/cubacitas.png"
+        },
+        "colors": {
+          "primary": "#fe4860",
+          "secondary": "#ff8548",
+          "hover": "#ffa542"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "cubacitas": {
+      "item": {
+        "label": {
+          "type": "Link",
+          "subvalue": "https://www.cubacitas.app/",
+          "es": "Cubacitas",
+          "en": "Cubacitas"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2020-09,2020-10",
+            "en": "2020-09,2020-10"
+          },
+          {
+            "type": "Country",
+            "es": "cu",
+            "en": "cu"
+          },
+          {
+            "subvalue": "parttime",
+            "type": "WorkType",
+            "es": "remote",
+            "en": "remote"
+          }
+        ],
+        "type": "Work",
+        "description": {},
+        "background": {
+          "src": "/assets/img/cubacitas.png"
+        },
+        "colors": {
+          "primary": "#fe4860",
+          "secondary": "#ff8548",
+          "hover": "#ffa542"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "intellisysdcorp": {
+      "item": {
+        "label": {
+          "type": "Link",
+          "subvalue": "https://intellisysdcorp.com/",
+          "es": "Intellisys D Corp",
+          "en": "Intellisys D Corp"
+        },
+        "sublabels": [
+          {
+            "type": "Since",
+            "es": "2021-02",
+            "en": "2021-02"
+          },
+          {
+            "type": "Country",
+            "es": "dr",
+            "en": "dr"
+          },
+          {
+            "subvalue": "fulltime",
+            "type": "WorkType",
+            "es": "hybrid",
+            "en": "hybrid"
+          }
+        ],
+        "type": "Work",
+        "description": {
+          "en": "Intellisys provides Full-Stack software development, Project Management, and QA outsourcing services. We partner with technology businesses globally helping them to build successful engineering teams and create innovative software products through Self-Managed or Embedded delivery teams.",
+          "es": "Intellisys proporciona servicios de externalización de control de calidad, gestión de proyectos y desarrollo de software Full-Stack. Nos asociamos con empresas de tecnología a nivel mundial ayudándolas a construir equipos de ingeniería exitosos y crear productos de software innovadores a través de equipos de entrega integrados o autogestionados."
+        },
+        "background": {
+          "src": "/assets/img/intellisys.png"
+        },
+        "colors": {
+          "primary": "#73abb3",
+          "secondary": "#cfd252",
+          "hover": "#f7f7f7"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "opsecsecurity": {
+      "item": {
+        "label": {
+          "type": "Link",
+          "subvalue": "https://www.opsecsecurity.com/",
+          "es": "Opsec Security",
+          "en": "Opsec Security"
+        },
+        "sublabels": [
+          {
+            "type": "Since",
+            "es": "2021-11",
+            "en": "2021-11"
+          },
+          {
+            "type": "Country",
+            "es": "us",
+            "en": "us"
+          },
+          {
+            "subvalue": "fulltime",
+            "type": "WorkType",
+            "es": "remote",
+            "en": "remote"
+          }
+        ],
+        "type": "Work",
+        "description": {
+          "en": "OpSec Security is the leading provider of integrated online protection and on-product authentication solutions for brands and governments.",
+          "es": "OpSec Security es el proveedor líder de protección en línea integrada y soluciones de autenticación en el producto para marcas y gobiernos."
+        },
+        "background": {
+          "src": "/assets/img/opsecsecurity.png"
+        },
+        "colors": {
+          "primary": "#181e41",
+          "secondary": "#003369",
+          "hover": "#003369"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "payever": {
+      "item": {
+        "label": {
+          "type": "Link",
+          "subvalue": "https://getpayever.com/",
+          "es": "payever",
+          "en": "payever"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "2022-03,2022-08",
+            "en": "2022-03,2022-08"
+          },
+          {
+            "type": "Country",
+            "es": "de",
+            "en": "de"
+          },
+          {
+            "subvalue": "fulltime",
+            "type": "WorkType",
+            "es": "remote",
+            "en": "remote"
+          }
+        ],
+        "type": "Work",
+        "description": {},
+        "background": {
+          "src": "/assets/img/payever.png"
+        },
+        "colors": {
+          "primary": "#333333",
+          "secondary": "#888888",
+          "hover": "#FFFFFF"
+        },
+        "action": false
+      },
+      "position": 6
+    },
+    "freelancer": {
+      "item": {
+        "label": {
+          "es": "Freelancer",
+          "en": "Freelancer"
+        },
+        "sublabels": [
+          {
+            "type": "Since",
+            "es": "2018-09",
+            "en": "2018-09"
+          },
+          {
+            "subvalue": "flexible",
+            "type": "WorkType",
+            "es": "freelancer",
+            "en": "freelancer"
+          }
+        ],
+        "type": "Work",
+        "icon": {
+          "key": "simple-icons:freelancer"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#e8960f",
+          "secondary": "#f7d800",
+          "hover": "#f7e771"
+        },
+        "action": false
+      },
+      "position": 11
+    }
+  },
+  "Root": {
+    "work": {
+      "item": {
+        "label": {
+          "es": "Trabajos",
+          "en": "Works"
+        },
+        "type": "Root",
+        "icon": {
+          "key": "material-symbols:work-outline"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#002c71",
+          "secondary": "#1a4a97",
+          "hover": "#244f93"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "skill": {
+      "item": {
+        "label": {
+          "es": "Habilidades",
+          "en": "Skills"
+        },
+        "type": "Root",
+        "icon": {
+          "key": "carbon:skill-level"
+        },
+        "description": {
+          "en": "Main branches within which different abilities and technologies can be witnessed, click to access the child nodes to see details",
+          "es": "Ramas principales dentro de las cuales se pueden presenciar diferentes habilidades y tecnologías, haga clic para acceder a los nodos secundarios para ver detalles"
+        },
+        "colors": {
+          "primary": "#281b62",
+          "secondary": "#403084",
+          "hover": "#5a48b5"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "like": {
+      "item": {
+        "label": {
+          "es": "Gustos",
+          "en": "Likes"
+        },
+        "type": "Root",
+        "icon": {
+          "key": "ph:heart-bold"
+        },
+        "description": {
+          "en": "Here is a quick view of my main likes separated into branches, click on the nodes to see inside the branches",
+          "es": "Aquí hay una vista rápida de mis principales gustos separados en ramas, haga clic en los nodos para ver dentro de las ramas"
+        },
+        "colors": {
+          "primary": "#6d1414",
+          "secondary": "#952727",
+          "hover": "#bb4141"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "contact": {
+      "item": {
+        "label": {
+          "es": "Contacto",
+          "en": "Contact"
+        },
+        "type": "Root",
+        "icon": {
+          "key": "material-symbols:android-contacts-outline"
+        },
+        "description": {
+          "en": "If you liked my profile, I invite you to contact me by any of these ways.",
+          "es": "Si te ha gustado mi perfil, te invito a contactarme por cualquiera de estas vías."
+        },
+        "colors": {
+          "primary": "#77380c",
+          "secondary": "#914916",
+          "hover": "#b76d39"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "light": {
+      "item": {
+        "label": {
+          "color": "#243746",
+          "es": "Claro",
+          "en": "Light"
+        },
+        "type": "Root",
+        "icon": {
+          "key": "material-symbols:light-mode-outline-sharp"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#000000",
+          "secondary": "#222222",
+          "hover": "#444444"
+        },
+        "mode": "light",
+        "action": true
+      },
+      "position": 1
+    },
+    "dark": {
+      "item": {
+        "label": {
+          "color": "#ebf4f1",
+          "es": "Oscuro",
+          "en": "Dark"
+        },
+        "type": "Root",
+        "icon": {
+          "key": "material-symbols:dark-mode-outline-sharp"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#888888",
+          "secondary": "#AAAAAA",
+          "hover": "#EEEEEE"
+        },
+        "mode": "dark",
+        "action": true
+      },
+      "position": 5
+    },
+    "mode": {
+      "item": {
+        "label": {
+          "es": "Mode",
+          "en": "Mode"
+        },
+        "type": "Root",
+        "icon": {
+          "key": "fluent:dark-theme-20-filled"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#FFFFFF",
+          "secondary": "#777777",
+          "hover": "#000000"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "en": {
+      "item": {
+        "label": {
+          "es": "Inglés",
+          "en": "English"
+        },
+        "type": "Root",
+        "icon": {
+          "key": "emojione-monotone:flag-for-united-kingdom"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#ed4c5c",
+          "secondary": "#2a5f9e",
+          "hover": "#cdb5b9"
+        },
+        "action": true
+      },
+      "position": 1
+    },
+    "es": {
+      "item": {
+        "label": {
+          "es": "Español",
+          "en": "Spanish"
+        },
+        "type": "Root",
+        "icon": {
+          "key": "emojione-monotone:flag-for-spain"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#ffce31",
+          "secondary": "#ed4c5c",
+          "hover": "#ffffff"
+        },
+        "action": true
+      },
+      "position": 5
+    },
+    "language": {
+      "item": {
+        "label": {
+          "es": "Idioma",
+          "en": "Language"
+        },
+        "type": "Root",
+        "icon": {
+          "key": "ion:language"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#cdb5b9",
+          "secondary": "#9075af",
+          "hover": "#cdb5b9"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "info": {
+      "item": {
+        "label": {
+          "es": "Información",
+          "en": "Info"
+        },
+        "type": "Root",
+        "icon": {
+          "key": "material-symbols:info-outline-rounded"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#604c08",
+          "secondary": "#7b661c",
+          "hover": "#95813c"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "certification": {
+      "item": {
+        "label": {
+          "es": "Certificaciones",
+          "en": "Certifications"
+        },
+        "type": "Root",
+        "icon": {
+          "key": "ph:medal-duotone"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#043e26",
+          "secondary": "#0e4d33",
+          "hover": "#25664b"
+        },
+        "action": false
+      },
+      "position": 5
+    }
+  },
+  "Like": {
+    "fitness": {
+      "item": {
+        "label": {
+          "es": "Hacer ejercicios",
+          "en": "Fitness"
+        },
+        "type": "Like",
+        "icon": {
+          "key": "material-symbols:fitness-center"
+        },
+        "description": {
+          "en": "I really like to exercise, I do strength exercises 6 times a week and I do walking cardio 2-3 times a week.",
+          "es": "Me gusta mucho hacer ejercicio, hago ejercicios de fuerza 6 veces a la semana y hago cardio caminando 2-3 veces a la semana."
+        },
+        "colors": {
+          "primary": "#920118",
+          "secondary": "#b60000",
+          "hover": "#f76464"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "darksiders": {
+      "item": {
+        "label": {
+          "es": "DarkSiders",
+          "en": "DarkSiders"
+        },
+        "sublabels": [
+          {
+            "type": "Version",
+            "es": "1,2,3",
+            "en": "1,2,3"
+          }
+        ],
+        "exp": 80,
+        "type": "Like",
+        "description": {
+          "en": "Darksiders is a hack and slash action-adventure video game franchise created by Vigil Games, now developed by Gunfire Games, which consists of some of the original members of Vigil.",
+          "es": "Darksiders es una franquicia de videojuegos de acción y aventuras hack and slash creada por Vigil Games, ahora desarrollada por Gunfire Games, que consta de algunos de los miembros originales de Vigil."
+        },
+        "background": {
+          "src": "/assets/img/darksiders.png"
+        },
+        "colors": {
+          "primary": "#fda172",
+          "secondary": "#f7d100",
+          "hover": "#f7e771"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "residentevil": {
+      "item": {
+        "label": {
+          "es": "Resident Evil",
+          "en": "Resident Evil"
+        },
+        "sublabels": [
+          {
+            "type": "Version",
+            "es": "4, 7: Biohazard, 8: Village",
+            "en": "4, 7: Biohazard, 8: Village"
+          }
+        ],
+        "exp": 70,
+        "type": "Like",
+        "description": {
+          "en": "Resident Evil, known in Japan as Biohazard, is a Japanese horror game series and media franchise created by Capcom. It consists of survival horror, third-person shooter and first-person shooter games, with players typically surviving in environments filled with zombies and other creatures.",
+          "es": "Resident Evil, conocido en Japón como Biohazard, es una serie de juegos de terror japonesa y una franquicia de medios creada por Capcom. Consiste en juegos de terror de supervivencia, disparos en tercera persona y disparos en primera persona, con jugadores que generalmente sobreviven en entornos llenos de zombis y otras criaturas."
+        },
+        "background": {
+          "src": "/assets/img/residentevil.png"
+        },
+        "colors": {
+          "primary": "#920118",
+          "secondary": "#b60000",
+          "hover": "#f76464"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "tloz": {
+      "item": {
+        "label": {
+          "es": "The Legend of Zelda",
+          "en": "The Legend of Zelda"
+        },
+        "sublabels": [
+          {
+            "type": "Version",
+            "es": "Link's Awakening, Ocarina of Time, Majora's Mask, The Wind Waker, The Minish Cap, Twilight Princess, Skyward Sword, Breath of the Wild",
+            "en": "Link's Awakening, Ocarina of Time, Majora's Mask, The Wind Waker, The Minish Cap, Twilight Princess, Skyward Sword, Breath of the Wild"
+          }
+        ],
+        "exp": 100,
+        "type": "Like",
+        "description": {
+          "en": "The Legend of Zelda is an action-adventure game franchise created by the Japanese game designers Shigeru Miyamoto and Takashi Tezuka. It is primarily developed and published by Nintendo, although some portable installments and re-releases have been outsourced to Flagship, Vanpool, and Grezzo.",
+          "es": "The Legend of Zelda es una franquicia de juegos de acción y aventuras creada por los diseñadores de juegos japoneses Shigeru Miyamoto y Takashi Tezuka. Es desarrollado y publicado principalmente por Nintendo, aunque algunas entregas portátiles y relanzamientos se han subcontratado a Flagship, Vanpool y Grezzo."
+        },
+        "background": {
+          "src": "/assets/img/tloz.png"
+        },
+        "colors": {
+          "primary": "#52206a",
+          "secondary": "#944dad",
+          "hover": "#a688dd"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "gaming": {
+      "item": {
+        "label": {
+          "es": "Juego de PC",
+          "en": "Gaming"
+        },
+        "type": "Like",
+        "icon": {
+          "key": "mdi:gamepad-variant-outline"
+        },
+        "description": {
+          "en": "These are the main games that I like, in the details of each one the bar indicates how much I like them",
+          "es": "Estos son los principales juegos que me gustan, en los detalles de cada uno la barra indica cuanto me gustan"
+        },
+        "colors": {
+          "primary": "#52206a",
+          "secondary": "#944dad",
+          "hover": "#a688dd"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "programming": {
+      "item": {
+        "label": {
+          "es": "Programación",
+          "en": "Programming"
+        },
+        "type": "Like",
+        "icon": {
+          "key": "ic:outline-code"
+        },
+        "description": {
+          "en": "These are the main technologies and areas within the programming that I like the most, click to see details within each one",
+          "es": "Estas son las principales tecnologías y áreas dentro de la programación que más me gustan, haz click para ver detalles dentro de cada una"
+        },
+        "colors": {
+          "primary": "#001d34",
+          "secondary": "#0043ff",
+          "hover": "#2fa3f7"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "brasilfc": {
+      "item": {
+        "label": {
+          "es": "Brasil",
+          "en": "Brazil"
+        },
+        "type": "Like",
+        "description": {
+          "en": "The Brazil national football team, nicknamed Seleção Canarinha, represents Brazil in men's international football and is administered by the Brazilian Football Confederation, the governing body for football in Brazil. They have been a member of FIFA since 1923 and a member of CONMEBOL since 1916.",
+          "es": "La selección de fútbol de Brasil, apodada Seleção Canarinha, representa a Brasil en el fútbol internacional masculino y es administrada por la Confederación Brasileña de Fútbol, ​​el organismo rector del fútbol en Brasil. Ha sido miembro de la FIFA desde 1923 y miembro de la CONMEBOL desde 1916."
+        },
+        "background": {
+          "src": "/assets/img/brasilfc.png"
+        },
+        "colors": {
+          "primary": "#002e95",
+          "secondary": "#018f54",
+          "hover": "#f2c101"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "barca": {
+      "item": {
+        "label": {
+          "es": "FC Barcelona",
+          "en": "FC Barcelona"
+        },
+        "type": "Like",
+        "description": {
+          "en": "Futbol Club Barcelona, commonly referred to as Barcelona and colloquially known as Barça, is a professional football club based in Barcelona, Catalonia, Spain, that competes in La Liga, the top flight of Spanish football.",
+          "es": "Futbol Club Barcelona, ​​comúnmente conocido como Barcelona y coloquialmente conocido como Barça, es un club de fútbol profesional con sede en Barcelona, ​​Cataluña, España, que compite en La Liga, la máxima categoría del fútbol español."
+        },
+        "background": {
+          "src": "/assets/img/barca.png"
+        },
+        "colors": {
+          "primary": "#004d98",
+          "secondary": "#a50044",
+          "hover": "#edbb00"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "soccer": {
+      "item": {
+        "label": {
+          "es": "Fútbol",
+          "en": "Soccer"
+        },
+        "type": "Like",
+        "icon": {
+          "key": "ph:soccer-ball"
+        },
+        "description": {
+          "en": "I really enjoy watching football matches, I was a huge fan of Ronaldinho since I was little. These are my favorite team of all time.",
+          "es": "Disfruto mucho viendo los partidos de fútbol, ​​soy un gran fanático de Ronaldinho desde que era pequeño. Estos son mi equipo favorito de todos los tiempos."
+        },
+        "colors": {
+          "primary": "#1d532f",
+          "secondary": "#1a6e37",
+          "hover": "#018e37"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "metallica": {
+      "item": {
+        "label": {
+          "es": "Metallica",
+          "en": "Metallica"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/metallica.png"
+        },
+        "colors": {
+          "primary": "#828282",
+          "secondary": "#999999",
+          "hover": "#c3c3c3"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "a7x": {
+      "item": {
+        "label": {
+          "es": "Avenged Sevenfold",
+          "en": "Avenged Sevenfold"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/a7x.png"
+        },
+        "colors": {
+          "primary": "#3636b8",
+          "secondary": "#5051cd",
+          "hover": "#8889dc"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "aa": {
+      "item": {
+        "label": {
+          "es": "System of a Down",
+          "en": "System of a Down"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/soad.png"
+        },
+        "colors": {
+          "primary": "#fda172",
+          "secondary": "#f7d100",
+          "hover": "#f7e771"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "bmth": {
+      "item": {
+        "label": {
+          "es": "Bring me the Horizont",
+          "en": "Bring me the Horizont"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/bmth.png"
+        },
+        "colors": {
+          "primary": "#3638c1",
+          "secondary": "#d02b40",
+          "hover": "#87ffff"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "sipknot": {
+      "item": {
+        "label": {
+          "es": "Slipknot",
+          "en": "Slipknot"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/slipknot.png"
+        },
+        "colors": {
+          "primary": "#920118",
+          "secondary": "#b60000",
+          "hover": "#f76464"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "rock": {
+      "item": {
+        "label": {
+          "es": "Rock",
+          "en": "Rock"
+        },
+        "type": "Like",
+        "icon": {
+          "key": "icon-park-twotone:rock-gesture"
+        },
+        "description": {
+          "en": "Rock music is a broad genre of popular music that originated as \"rock and roll\" in the United States in the late 1940s and early 1950s, developing into a range of different styles in the mid-1960s and later, particularly in the United States and United Kingdom.[3] It has its roots in 1940s and 1950s rock and roll, a style that drew directly from the blues and rhythm and blues genres of African-American music and from country music. Rock also drew strongly from a number of other genres such as electric blues and folk, and incorporated influences from jazz, classical, and other musical styles. For instrumentation, rock has centered on the electric guitar, usually as part of a rock group with electric bass guitar, drums, and one or more singers. Usually, rock is song-based music with a 4/4 time signature using a verse–chorus form, but the genre has become extremely diverse. Like pop music, lyrics often stress romantic love but also address a wide variety of other themes that are frequently social or political. Rock was the most popular genre of music in the United States and much of the Western world from the 1950s to the 2010s.",
+          "es": "Rock es un amplio género de música popular que se originó como \"rock and roll\" en los Estados Unidos a fines de la década de 1940 y principios de la de 1950, y se convirtió en una variedad de estilos diferentes a mediados de la década de 1960 y más tarde, particularmente en los Estados Unidos. y Reino Unido.[3] Tiene sus raíces en el rock and roll de las décadas de 1940 y 1950, un estilo que se inspiró directamente en los géneros de blues y rhythm and blues de la música afroamericana y de la música country. El rock también se basó en gran medida en otros géneros, como el blues eléctrico y el folk, e incorporó influencias del jazz, la música clásica y otros estilos musicales. Para la instrumentación, el rock se ha centrado en la guitarra eléctrica, generalmente como parte de un grupo de rock con bajo eléctrico, batería y uno o más cantantes. Por lo general, el rock es música basada en canciones con un compás de 4/4 que usa una forma de verso-estribillo, pero el género se ha vuelto extremadamente diverso. Al igual que la música pop, las letras a menudo enfatizan el amor romántico, pero también abordan una amplia variedad de otros temas que suelen ser sociales o políticos. El rock fue el género musical más popular en los Estados Unidos y gran parte del mundo occidental desde la década de 1950 hasta la de 2010."
+        },
+        "colors": {
+          "primary": "#a50044",
+          "secondary": "#d02b40",
+          "hover": "#c3484d"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "calvinharris": {
+      "item": {
+        "label": {
+          "es": "Calvin Harris",
+          "en": "Calvin Harris"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/calvinharris.png"
+        },
+        "colors": {
+          "primary": "#3636b8",
+          "secondary": "#5051cd",
+          "hover": "#8889dc"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "martingarrix": {
+      "item": {
+        "label": {
+          "es": "Martin Garrix",
+          "en": "Martin Garrix"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/martingarrix.png"
+        },
+        "colors": {
+          "primary": "#1d532f",
+          "secondary": "#1a6e37",
+          "hover": "#018e37"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "davidguetta": {
+      "item": {
+        "label": {
+          "es": "David Guetta",
+          "en": "David Guetta"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/davidguetta.png"
+        },
+        "colors": {
+          "primary": "#fda172",
+          "secondary": "#f7d100",
+          "hover": "#f7e771"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "skrillex": {
+      "item": {
+        "label": {
+          "es": "Skrillex",
+          "en": "Skrillex"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/skrillex.png"
+        },
+        "colors": {
+          "primary": "#920118",
+          "secondary": "#b60000",
+          "hover": "#f76464"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "ee": {
+      "item": {
+        "label": {
+          "es": "Electrónica",
+          "en": "Electronic"
+        },
+        "type": "Like",
+        "icon": {
+          "key": "majesticons:adjustments-line"
+        },
+        "description": {
+          "en": "Electronic music is a genre of music that employs electronic musical instruments, digital instruments, or circuitry-based music technology in its creation. It includes both music made using electronic and electromechanical means (electroacoustic music). Pure electronic instruments depended entirely on circuitry-based sound generation, for instance using devices such as an electronic oscillator, theremin, or synthesizer. Electromechanical instruments can have mechanical parts such as strings, hammers, and electric elements including magnetic pickups, power amplifiers and loudspeakers. Such electromechanical devices include the telharmonium, Hammond organ, electric piano and the electric guitar.",
+          "es": "La música electrónica es un género de música que emplea instrumentos musicales electrónicos, instrumentos digitales o tecnología musical basada en circuitos en su creación. Incluye tanto la música realizada con medios electrónicos como electromecánicos (música electroacústica). Los instrumentos electrónicos puros dependían por completo de la generación de sonido basada en circuitos, por ejemplo, utilizando dispositivos como un oscilador electrónico, un theremin o un sintetizador. Los instrumentos electromecánicos pueden tener partes mecánicas como cuerdas, martillos y elementos eléctricos que incluyen pastillas magnéticas, amplificadores de potencia y altavoces. Dichos dispositivos electromecánicos incluyen el telarmonio, el órgano Hammond, el piano eléctrico y la guitarra eléctrica."
+        },
+        "colors": {
+          "primary": "#3636b8",
+          "secondary": "#5051cd",
+          "hover": "#8889dc"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "50cent": {
+      "item": {
+        "label": {
+          "es": "50 Cent",
+          "en": "50 Cent"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/50cent.png"
+        },
+        "colors": {
+          "primary": "#920118",
+          "secondary": "#b60000",
+          "hover": "#f76464"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "postmalone": {
+      "item": {
+        "label": {
+          "es": "Post Malone",
+          "en": "Post Malone"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/postmalone.png"
+        },
+        "colors": {
+          "primary": "#fda172",
+          "secondary": "#f7d100",
+          "hover": "#f7e771"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "eminem": {
+      "item": {
+        "label": {
+          "es": "Eminem",
+          "en": "Eminem"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/eminem.png"
+        },
+        "colors": {
+          "primary": "#1d532f",
+          "secondary": "#1a6e37",
+          "hover": "#018e37"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "losaldeanos": {
+      "item": {
+        "label": {
+          "es": "Los Aldeanos",
+          "en": "Los Aldeanos"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/losaldeanos.png"
+        },
+        "colors": {
+          "primary": "#3636b8",
+          "secondary": "#5051cd",
+          "hover": "#8889dc"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "rap": {
+      "item": {
+        "label": {
+          "es": "Rap",
+          "en": "Rap"
+        },
+        "type": "Like",
+        "icon": {
+          "key": "ph:microphone-stage-bold"
+        },
+        "description": {
+          "en": "Rapping (also rhyming, flowing, spitting,[1] emceeing[2] or MCing[2][3]) is known to be a musical form of vocal delivery that incorporates \"rhyme, rhythmic speech, and street vernacular\".[4] It is performed or chanted, usually over a backing beat or musical accompaniment.[4] The components of rap include \"content\" (what is being said e.g. lyrics), \"flow\" (rhythm, rhyme), and \"delivery\" (cadence, tone).[5] Rap differs from spoken-word poetry in that it is usually performed off-time to musical accompaniment.[6] Rap is a primary ingredient of hip hop music commonly associated with that genre; however, the origins of rap predate hip-hop culture by many years.",
+          "es": "Rapping (también rimado, fluido, escupido,[1] maestro de ceremonias[2] o MCing[2][3]) se sabe que es una forma musical de entrega vocal que incorpora \"rima, discurso rítmico y lengua vernácula callejera\".[ 4] Se realiza o se canta, generalmente sobre un ritmo de fondo o acompañamiento musical.[4] Los componentes del rap incluyen \"contenido\" (lo que se dice, por ejemplo, letras), \"flujo\" (ritmo, rima) y \"entrega\" (cadencia, tono).[5] El rap se diferencia de la poesía hablada en que generalmente se realiza fuera de tiempo con acompañamiento musical.[6] El rap es un ingrediente principal de la música hip hop comúnmente asociado con ese género; sin embargo, los orígenes del rap son anteriores a la cultura hip-hop por muchos años."
+        },
+        "colors": {
+          "primary": "#25a394",
+          "secondary": "#00a19d",
+          "hover": "#87ffff"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "franksinatra": {
+      "item": {
+        "label": {
+          "es": "Frank Sinatra",
+          "en": "Frank Sinatra"
+        },
+        "type": "Like",
+        "description": {},
+        "background": {
+          "src": "/assets/img/franksinatra.png"
+        },
+        "colors": {
+          "primary": "#3636b8",
+          "secondary": "#5051cd",
+          "hover": "#8889dc"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "npre": {
+      "item": {
+        "label": {
+          "es": "Otros",
+          "en": "Others"
+        },
+        "type": "Like",
+        "icon": {
+          "key": "mdi:music-clef-treble"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#034938",
+          "secondary": "#018f54",
+          "hover": "#25a394"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "music": {
+      "item": {
+        "label": {
+          "es": "Música",
+          "en": "Music"
+        },
+        "type": "Like",
+        "icon": {
+          "key": "ph:music-notes-duotone"
+        },
+        "description": {
+          "en": "I really like music, I spend most of the day listening, either through a stereo or through headphones, within these the genres that I like the most are these, click to see groups for each genre",
+          "es": "Me gusta mucho la música, paso la mayor parte del día escuchándola, ya sea a través de un estéreo o a través de auriculares, dentro de estos los géneros que más me gustan son estos, haz clic para ver los grupos de cada género"
+        },
+        "colors": {
+          "primary": "#fda172",
+          "secondary": "#f7d100",
+          "hover": "#f7e771"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "painting": {
+      "item": {
+        "label": {
+          "es": "Pintura",
+          "en": "Painting"
+        },
+        "type": "Like",
+        "icon": {
+          "key": "carbon:color-palette"
+        },
+        "description": {
+          "en": "I really like drawing and painting, since I was a child I was in drawing and painting schools, I participated in competitions and exhibitions. When I grew up I changed this hobby to my love of graphic design, but I still really enjoy painting.",
+          "es": "Me gusta mucho dibujar y pintar, desde niña estuve en escuelas de dibujo y pintura, participé en concursos y exposiciones. Cuando crecí cambié este pasatiempo por mi amor por el diseño gráfico, pero todavía disfruto mucho pintar."
+        },
+        "colors": {
+          "primary": "#be5504",
+          "secondary": "#fc6a03",
+          "hover": "#fda172"
+        },
+        "action": false
+      },
+      "position": 5
+    }
+  },
+  "Default": {
+    "email": {
+      "item": {
+        "label": {
+          "es": "Correo electrónico",
+          "en": "Email"
+        },
+        "sublabels": [
+          {
+            "type": "Link",
+            "subvalue": "mailto:darklink1302@gmail.com",
+            "es": "darklink1302@gmail.com",
+            "en": "darklink1302@gmail.com"
+          }
+        ],
+        "type": "Default",
+        "icon": {
+          "key": "material-symbols:mail-outline"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#05235e",
+          "secondary": "#2c4e9a",
+          "hover": "#2c59e6"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "phonenumber": {
+      "item": {
+        "label": {
+          "es": "Número de teléfono",
+          "en": "Phone Number"
+        },
+        "sublabels": [
+          {
+            "type": "Link",
+            "subvalue": "tel:+18094936290",
+            "es": "+18094936290",
+            "en": "+18094936290"
+          }
+        ],
+        "type": "Default",
+        "icon": {
+          "key": "material-symbols:call-outline"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#c4002b",
+          "secondary": "#de002d",
+          "hover": "#ec5f5f"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "linkedin": {
+      "item": {
+        "label": {
+          "es": "Perfil de Linkedin",
+          "en": "LinkedIn Profile"
+        },
+        "sublabels": [
+          {
+            "type": "Link",
+            "subvalue": "https://www.linkedin.com/in/jorgeamadohernandez/",
+            "es": "@jorgeamadohernandez",
+            "en": "@jorgeamadohernandez"
+          }
+        ],
+        "type": "Default",
+        "icon": {
+          "key": "ph:linkedin-logo"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#212121",
+          "secondary": "#00d2f7",
+          "hover": "#5ed3f3"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "instagram": {
+      "item": {
+        "label": {
+          "es": "Perfil de Instagram",
+          "en": "Instagram Profile"
+        },
+        "sublabels": [
+          {
+            "type": "Link",
+            "subvalue": "https://www.instagram.com/darklink1302/",
+            "es": "@darklink1302",
+            "en": "@darklink1302"
+          }
+        ],
+        "type": "Default",
+        "icon": {
+          "key": "mdi:instagram"
+        },
+        "description": {},
+        "colors": {
+          "primary": "#fe4860",
+          "secondary": "#ff8548",
+          "hover": "#ffa542"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "angularintermediate": {
+      "item": {
+        "label": {
+          "es": "Angular (Intermedio)",
+          "en": "Angular (Intermediate)"
+        },
+        "sublabels": [
+          {
+            "type": "Link",
+            "subvalue": "https://www.hackerrank.com/certificates/79dae210a5c7",
+            "es": "ID: 79dae210a5c7",
+            "en": "ID: 79dae210a5c7"
+          },
+          {
+            "type": "Date",
+            "es": "21-09-2022",
+            "en": "21-09-2022"
+          }
+        ],
+        "type": "Default",
+        "description": {
+          "en": "It covers topics like Routing, NgModules, Observables for data transmission and event handling, Dependency Injections, and APIs.",
+          "es": "Cubre temas como enrutamiento, NgModules, observables para transmisión de datos y manejo de eventos, inyecciones de dependencia y API"
+        },
+        "background": {
+          "src": "/assets/img/angular2.png"
+        },
+        "colors": {
+          "primary": "#c4002b",
+          "secondary": "#de002d",
+          "hover": "#ec5f5f"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "javascriptbasic": {
+      "item": {
+        "label": {
+          "es": "JavaScript (Básico)",
+          "en": "JavaScript (Basic)"
+        },
+        "sublabels": [
+          {
+            "type": "Link",
+            "subvalue": "https://www.hackerrank.com/certificates/757933f8c987",
+            "es": "ID: 757933f8c987",
+            "en": "ID: 757933f8c987"
+          },
+          {
+            "type": "Date",
+            "es": "19-01-2022",
+            "en": "19-01-2022"
+          }
+        ],
+        "type": "Default",
+        "description": {
+          "en": "It covers topics like, Functions, Currying, Hoisting, Scope, Inheritance, Events and Error Handling.",
+          "es": "Abarca temas como funciones, procesamiento, elevación, alcance, herencia, eventos y manejo de errores."
+        },
+        "background": {
+          "src": "/assets/img/javascript.png"
+        },
+        "colors": {
+          "primary": "#e8960f",
+          "secondary": "#f7d800",
+          "hover": "#f7e771"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "nodebasic": {
+      "item": {
+        "label": {
+          "es": "Node (Básico)",
+          "en": "Node (Basic)"
+        },
+        "sublabels": [
+          {
+            "type": "Link",
+            "subvalue": "https://www.hackerrank.com/certificates/e2f6e0262fbd",
+            "es": "ID: e2f6e0262fbd",
+            "en": "ID: e2f6e0262fbd"
+          },
+          {
+            "type": "Date",
+            "es": "19-01-2022",
+            "en": "19-01-2022"
+          }
+        ],
+        "type": "Default",
+        "description": {
+          "en": "It covers topics like Package and Modules Management, Callbacks, Event Loop, Event Emitter, Buffers, Streams and File Systems",
+          "es": "Abarca temas como la gestión de paquetes y módulos, devoluciones de llamada, bucle de eventos, emisor de eventos, búferes, transmisiones y sistemas de archivos."
+        },
+        "background": {
+          "src": "/assets/img/nodejs.png"
+        },
+        "colors": {
+          "primary": "#313131",
+          "secondary": "#4e8e49",
+          "hover": "#78c839"
+        },
+        "action": false
+      },
+      "position": 2
+    },
+    "problemsolvingbasic": {
+      "item": {
+        "label": {
+          "es": "Resolución de problemas (básico)",
+          "en": "Problem Solving (Basic)"
+        },
+        "sublabels": [
+          {
+            "type": "Link",
+            "subvalue": "https://www.hackerrank.com/certificates/b54e92826714",
+            "es": "ID: b54e92826714",
+            "en": "ID: b54e92826714"
+          },
+          {
+            "type": "Date",
+            "es": "19-01-2022",
+            "en": "19-01-2022"
+          }
+        ],
+        "type": "Default",
+        "icon": {
+          "key": "carbon:boolean"
+        },
+        "description": {
+          "en": "It covers basic topics of Data Structures (such as Arrays, Strings) and Algorithms (such as Sorting and Searching).",
+          "es": "Cubre temas básicos de estructuras de datos (como matrices, cadenas) y algoritmos (como clasificación y búsqueda)."
+        },
+        "colors": {
+          "primary": "#1000b5",
+          "secondary": "#0043ff",
+          "hover": "#0090f9"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "pythonbasic": {
+      "item": {
+        "label": {
+          "es": "Python (Básico)",
+          "en": "Python (Basic)"
+        },
+        "sublabels": [
+          {
+            "type": "Link",
+            "subvalue": "https://www.hackerrank.com/certificates/f4b6eac84565",
+            "es": "ID: f4b6eac84565",
+            "en": "ID: f4b6eac84565"
+          },
+          {
+            "type": "Date",
+            "es": "18-01-2022",
+            "en": "18-01-2022"
+          }
+        ],
+        "type": "Default",
+        "description": {
+          "en": "It covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes",
+          "es": "Cubre temas como tipos escalares, operadores y flujo de control, cadenas, colecciones e iteraciones, modularidad, objetos y tipos y clases."
+        },
+        "background": {
+          "src": "/assets/img/python.png"
+        },
+        "colors": {
+          "primary": "#336d9e",
+          "secondary": "#202124",
+          "hover": "#f7d54d"
+        },
+        "action": false
+      },
+      "position": 4
+    },
+    "hackerrank": {
+      "item": {
+        "label": {
+          "es": "HackerRank",
+          "en": "HackerRank"
+        },
+        "type": "Default",
+        "description": {
+          "en": "HackerRank is the market-leading technical assessment and remote interview solution for hiring developers. Start hiring at the pace of innovation!",
+          "es": "HackerRank es la solución de entrevistas remotas y evaluación técnica líder en el mercado para contratar desarrolladores. ¡Empiece a contratar al ritmo de la innovación!"
+        },
+        "background": {
+          "src": "/assets/img/hackerrank.png"
+        },
+        "colors": {
+          "primary": "#39424e",
+          "secondary": "#008143",
+          "hover": "#32c766"
+        },
+        "action": false
+      },
+      "position": 1
+    },
+    "icpcregional": {
+      "item": {
+        "label": {
+          "es": "Certificado de Participación en las Finales del Caribe del ICPC 2017",
+          "en": "Certificate of Participation in ICPC Caribbean Finals 2017"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "10-2017",
+            "en": "10-2017"
+          }
+        ],
+        "type": "Default",
+        "description": {
+          "en": "Each year, the ICPC regionals begin at local competitions among classmates to determine who may represent their university. Success at one level leads to an invitation to the next. Each region progresses differently, but the end result is the same, the best teams advance. The final regional contest determines the teams advancing to the World Finals.",
+          "es": "Cada año, las regionales del CIPC comienzan en competencias locales entre compañeros de clase para determinar quién puede representar a su universidad. El éxito en un nivel lleva a una invitación al siguiente. Cada región progresa de forma diferente, pero el resultado final es el mismo, avanzan los mejores equipos. El concurso regional final determina los equipos que avanzan a las finales mundiales."
+        },
+        "background": {
+          "src": "/assets/img/icpc.png"
+        },
+        "colors": {
+          "primary": "#b12a1c",
+          "secondary": "#4a82c3",
+          "hover": "#fdba31"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "icpc": {
+      "item": {
+        "label": {
+          "es": "ICPC - Concurso Internacional de Programación Universitaria",
+          "en": "ICPC - International Collegiate Programming Contest"
+        },
+        "type": "Default",
+        "description": {
+          "en": "The International Collegiate Programming Contest is an algorithmic programming contest for college students. Teams of three, representing their university, work to solve the most real-world problems, fostering collaboration, creativity, innovation, and the ability to perform under pressure. Through training and competition, teams challenge each other to raise the bar on the possible. Quite simply, it is the oldest, largest, and most prestigious programming contest in the world.",
+          "es": "El Concurso Internacional de Programación Universitaria es un concurso de programación algorítmica para estudiantes universitarios. Equipos de tres, en representación de su universidad, trabajan para resolver la mayoría de los problemas del mundo real, fomentando la colaboración, la creatividad, la innovación y la capacidad de desempeñarse bajo presión. A través del entrenamiento y la competencia, los equipos se desafían entre sí para elevar el nivel de lo posible. Sencillamente, es el concurso de programación más antiguo, grande y prestigioso del mundo."
+        },
+        "background": {
+          "src": "/assets/img/icpc.png"
+        },
+        "colors": {
+          "primary": "#b12a1c",
+          "secondary": "#4a82c3",
+          "hover": "#fdba31"
+        },
+        "action": false
+      },
+      "position": 3
+    },
+    "specialprice": {
+      "item": {
+        "label": {
+          "es": "Precio especial",
+          "en": "Special Price"
+        },
+        "sublabels": [
+          {
+            "type": "Date",
+            "es": "26-05-2018",
+            "en": "26-05-2018"
+          }
+        ],
+        "type": "Default",
+        "description": {
+          "en": "The Union of Informaticians of Cuba granted the special prize to the work: 'System to determine exact answer in the C.U.B.A platform (Unified Content for Advanced Search)' of the speaker Jorge Amado Hernandez Betancourt as a diploma thesis, within the framework of the XXIII National Student Forum University students of Social, Economic, Natural, Humanistic and Exact Sciences in Villa Clara",
+          "es": "La Unión de Informáticos de Cuba otorgó el premio especial a la obra: 'Sistema para determinar respuesta exacta en la plataforma C.U.B.A (Contenido Unificado para Búsqueda Avanzada)' del disertante Jorge Amado Hernández Betancourt como tesis de diploma, en el marco de la XXIII Foro Nacional de Estudiantes Universitarios de Ciencias Sociales, Económicas, Naturales, Humanísticas y Exactas en Villa Clara"
+        },
+        "background": {
+          "src": "/assets/img/uic.png"
+        },
+        "colors": {
+          "primary": "#3e133e",
+          "secondary": "#5f1d5f",
+          "hover": "#886a8a"
+        },
+        "action": false
+      },
+      "position": 0
+    },
+    "uic": {
+      "item": {
+        "label": {
+          "es": "UIC - Unión de Informáticos de Cuba",
+          "en": "UIC - Union of Informaticians of Cuba"
+        },
+        "type": "Default",
+        "description": {
+          "en": "The Union of Informaticians of Cuba is a social, self-financed and non-profit organization of Information and Communication Technologies (ICT) professionals.",
+          "es": "La Unión de Informáticos de Cuba es una organización social, autofinanciada y sin fines de lucro de profesionales de las Tecnologías de la Información y las Comunicaciones (TIC)."
+        },
+        "background": {
+          "src": "/assets/img/uic.png"
+        },
+        "colors": {
+          "primary": "#3e133e",
+          "secondary": "#5f1d5f",
+          "hover": "#886a8a"
+        },
+        "action": false
+      },
+      "position": 5
+    },
+    "tree": {
+      "item": {
+        "label": {
+          "color": "white",
+          "bottom": "70%",
+          "es": "darklink",
+          "en": "darklink"
+        },
+        "type": "Default",
+        "description": {},
+        "background": {
+          "src": "/assets/img/avatar.png",
+          "full": true
+        },
+        "colors": {
+          "primary": "#2ac7ec",
+          "secondary": "#f0e5b1",
+          "hover": "white"
+        },
+        "action": false
+      },
+      "position": -1
+    }
+  }
+}
