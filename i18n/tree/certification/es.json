@@ -1,0 +1,42 @@
+{
+    "label": "Certificaciones",
+    "hackerrank": {
+        "description": "HackerRank es la solución de entrevistas remotas y evaluación técnica líder en el mercado para contratar desarrolladores. ¡Empiece a contratar al ritmo de la innovación!",
+        "angularintermediate": {
+            "label": "Angular (Intermedio)",
+            "description": "Cubre temas como enrutamiento, NgModules, observables para transmisión de datos y manejo de eventos, inyecciones de dependencia y API"
+        },
+        "javascriptbasic": {
+            "label": "JavaScript (Básico)",
+            "description": "Abarca temas como funciones, procesamiento, elevación, alcance, herencia, eventos y manejo de errores."
+        },
+        "nodebasic": {
+            "label": "Node (Básico)",
+            "description": "Abarca temas como la gestión de paquetes y módulos, devoluciones de llamada, bucle de eventos, emisor de eventos, búferes, transmisiones y sistemas de archivos."
+        },
+        "pythonbasic": {
+            "label": "Python (Básico)",
+            "description": "Cubre temas como tipos escalares, operadores y flujo de control, cadenas, colecciones e iteraciones, modularidad, objetos y tipos y clases."
+        },
+        "problemsolvingbasic": {
+            "label": "Resolución de problemas (básico)",
+            "description": "Cubre temas básicos de estructuras de datos (como matrices, cadenas) y algoritmos (como clasificación y búsqueda)."
+        }
+    },
+    "icpc": {
+        "label": "ICPC - Concurso Internacional de Programación Universitaria",
+        "description": "El Concurso Internacional de Programación Universitaria es un concurso de programación algorítmica para estudiantes universitarios. Equipos de tres, en representación de su universidad, trabajan para resolver la mayoría de los problemas del mundo real, fomentando la colaboración, la creatividad, la innovación y la capacidad de desempeñarse bajo presión. A través del entrenamiento y la competencia, los equipos se desafían entre sí para elevar el nivel de lo posible. Sencillamente, es el concurso de programación más antiguo, grande y prestigioso del mundo.",
+        "icpcregional": {
+            "label": "Certificado de Participación en las Finales del Caribe del ICPC 2017",
+            "description": "Cada año, las regionales del CIPC comienzan en competencias locales entre compañeros de clase para determinar quién puede representar a su universidad. El éxito en un nivel lleva a una invitación al siguiente. Cada región progresa de forma diferente, pero el resultado final es el mismo, avanzan los mejores equipos. El concurso regional final determina los equipos que avanzan a las finales mundiales."
+        }
+    },
+    "uic": {
+        "label": "UIC - Unión de Informáticos de Cuba",
+        "description": "La Unión de Informáticos de Cuba es una organización social, autofinanciada y sin fines de lucro de profesionales de las Tecnologías de la Información y las Comunicaciones (TIC).",
+        "specialprice": {
+            "label": "Precio especial",
+            "description": "La Unión de Informáticos de Cuba otorgó el premio especial a la obra: 'Sistema para determinar respuesta exacta en la plataforma C.U.B.A (Contenido Unificado para Búsqueda Avanzada)' del disertante Jorge Amado Hernández Betancourt como tesis de diploma, en el marco de la XXIII Foro Nacional de Estudiantes Universitarios de Ciencias Sociales, Económicas, Naturales, Humanísticas y Exactas en Villa Clara"
+        }
+    }
+}

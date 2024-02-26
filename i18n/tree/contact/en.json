@@ -1,0 +1,16 @@
+{
+    "label": "Contact",
+    "description": "If you liked my profile, I invite you to contact me by any of these ways.",
+    "email": {
+        "label": "Email"
+    },
+    "phonenumber": {
+        "label": "Phone Number"
+    },
+    "linkedin": {
+        "label": "LinkedIn Profile"
+    },
+    "instagram": {
+        "label": "Instagram Profile"
+    }
+}

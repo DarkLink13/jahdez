@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "darkiink",
+  "private_key_id": "e1255d1028db7c3d635ebb744edd4ae779f7767c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxwP5fD+JTnrxN\n8xQHtsfe6MdM2IoN3aEvj0D3ZAP+mtRUX0zX0ai1BXtPxpyix3dPVG1TpuCzfI43\npMj9pldq5H5+Mnll30PYZoNZlQvMLdKSW7syYedYAuCgSaACC8LPskTWGD2+EFYY\n8OBVZ/pDlKLa5X4NwwQ8JJBueDt/5ndZkvLmAB36U6Jrr6Fu5mTLGwzWWA5/dtgG\nRgBbt8CpSr/BRgAszSZG5LikkRzqPcQZnRZ+AX6bHIqA80iOp9ZS7aisJS5DNwnE\nWj0O968SNbNacpt6HrPVYpzV5dN/OKf/D0FmGXImcGZIAPpsZ5Az+kVMKjX/tWH4\n38ZqR7qXAgMBAAECggEABMTELjcGCoSU0anb7N8NmqB3uaCKMkKysHdxNecpfPBD\nZ6YM24daNXevA14KgArGMSB3NF94N2h32kH3SxK7f/h0SkdpXqnFhK3aB+e0jXw3\nN3Ty3zBQMq9qaPJrXVKvyGmkaMf1Xr7Kcy3XHtjEwSu2I2rfswJ7Km/irgwCBfV/\nOXiwmvHw3qWxaVzLxC6P/Cd3YlRR1GhOIecztHAfstBC+ctQtQVqICVoFRA83B0j\nQV/gT8jOm1maZMqErZcRVYFpmCemPbUnVXIYRWqRoGemBBa8TdUpisbTB8sixjrO\nC+uDQy5mSEpn7rpyv93840hCoQAfShXIMsSX8w0W9QKBgQDd7WhbeDSnAsHtFZCT\nYDjvwAAbcNUCvHFfzmF9FWESIy3imooKzwWdfw4cHZ9mjVUJxaCHkh9FcmcQjt3e\nJd3nB5WY8nvhggDh2g+Gbmcbbf5PmSfYE0tOk0B/eFYzCouFkky+5xrcxAevg9it\na7A8hyKwV6dDvXuI/lvEJPO4TQKBgQDNC2Y0wtJ03gGS6q6nBRetSeST5gc7tLt4\nuM1xWEXqyipKUtW00FRc2OTSxRJKcRmldMDIulw7nIhHVq+kMwADpO3BHMJoZGcl\neVYKAmlBveZrfHTb7ScEGW52+AyerfX4XEX9aHNRBNRhqgOisdX2z9a+09W600mz\nn5D8FfOwcwKBgG7PQqMhYxDc9J1/ff/INMWpFaSd8w35r5ZJwy2khiJ7REb4KOL6\nuXAJZ68sL1ISUZqefegTUt/nHoULAMcSGzlm9RA4SxivQ+eBbO0PpRXyFuABtf5S\nq/Bg3/yFxmyX4FBiW0WauTPwAXJmn8L/mTCvvOdV7OOK8erWLlXCqZqlAoGANLJI\nSykCw4xG5UYxKrWRVzTVbPlCRKL3R1hfXFDubyAT7FQLnlOoStBnRo/lWoJkr/Qo\nk63phFx/Xa42p8F/sHATtny4rfGX3LapWRszh/TRIjCzK85wJ4qNrD+lpqZYv8Kf\nLjhI4rqWBp+WHZsMvUi/DP4OQNyKZYKN1Wui3GcCgYEAkja6ql4bcNdN05ztyFSs\nsJJ/SBX5tgNt/4F9L4lbK7pxkd1Q4Iaioi7WO5i10hE8EUi2S8sq78r1m5yAlmKU\nLYf7ZWq9hy6knmyO4HAwptOFsNUsTbNp/RJnuCY33NQRWems9tnFtSJzwGl+QcRr\nYFfYnDkaeT8DqawXwBWeE9k=\n-----END PRIVATE KEY-----\n",
+  "client_email": "github-account@darkiink.iam.gserviceaccount.com",
+  "client_id": "112744000805368304552",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-account%40darkiink.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,16 @@
+{
+    "label": "Contacto",
+    "description": "Si te ha gustado mi perfil, te invito a contactarme por cualquiera de estas vías.",
+    "email": {
+        "label": "Correo electrónico"
+    },
+    "phonenumber": {
+        "label": "Número de teléfono"
+    },
+    "linkedin": {
+        "label": "Perfil de Linkedin"
+    },
+    "instagram": {
+        "label": "Perfil de Instagram"
+    }
+}

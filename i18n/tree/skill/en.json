@@ -1,0 +1,60 @@
+{
+    "label": "Skills",
+    "description": "Main branches within which different abilities and technologies can be witnessed, click to access the child nodes to see details",
+    "frontend": {
+        "label": "FrontEnd Developer",
+        "description": "Main frameworks I have worked on as a FrontEnd developer, click inside to see what technologies these frameworks use"
+    },
+    "backend": {
+        "label": "BackEnd Developer",
+        "description": "Main frameworks I have worked on as a BackEnd developer, click inside to see what technologies these frameworks use"
+    },
+    "fullstack": {
+        "label": "FullStack Developer",
+        "description": "Main frameworks I have worked on as a FullStack developer, click inside to see what technologies these frameworks use"
+    },
+    "softwareengineer": {
+        "label": "Software Engineer",
+        "description": "Main soft skills, utils, environments and tools that I have used in the development"
+    },
+    "graphicdesigner": {
+        "label": "Graphic Designer",
+        "description": "Main tools I have worked on as a graphic design"
+    },
+    "algorithmsdev": {
+        "label": "Algorithms Developer",
+        "description": "Main branches inside algorithms that i have studied",
+        "bruteforce": {
+            "label": "Brute Force",
+            "description": "A brute force algorithm solves a problem through exhaustion: it goes through all possible choices until a solution is found. The time complexity of a brute force algorithm is often proportional to the input size. Brute force algorithms are simple and consistent, but very slow."
+        },
+        "datastructure": {
+            "label": "Data Structures",
+            "description": "A data structure is a named location that can be used to store and organize data. And, an algorithm is a collection of steps to solve a particular problem. Learning data structures and algorithms allow us to write efficient and optimized computer programs."
+        },
+        "dp": {
+            "label": "Dynamic Programming",
+            "description": "Dynamic programming is a computer programming technique where an algorithmic problem is first broken down into sub-problems, the results are saved, and then the sub-problems are optimized to find the overall solution — which usually has to do with finding the maximum and minimum range of the algorithmic query."
+        },
+        "gametheory": {
+            "label": "Game Theory",
+            "description": "Game theory is the study of mathematical models of strategic interactions among rational agents. It has applications in all fields of social science, as well as in logic, systems science and computer science."
+        },
+        "graphtheory": {
+            "label": "Graph Theory",
+            "description": "In mathematics, graph theory is the study of graphs, which are mathematical structures used to model pairwise relations between objects. A graph in this context is made up of vertices (also called nodes or points) which are connected by edges (also called links or lines)."
+        },
+        "greedy": {
+            "label": "Greedy",
+            "description": "A greedy algorithm is a simple, intuitive algorithm that is used in optimization problems. The algorithm makes the optimal choice at each step as it attempts to find the overall optimal way to solve the entire problem."
+        },
+        "implementation": {
+            "label": "Implementation",
+            "description": "The Ad Hoc problems are problems that cannot be classified anywhere else in the categories with well-studied solutions since each problem description and its corresponding solution are unique. These problems don’t fall under standard categories, there is no specific or general technique exists to solve them. Many Ad Hoc problems are easy, but this does not apply to all Ad Hoc problems."
+        },
+        "numbertheory": {
+            "label": "Number Theory",
+            "description": "Number theory is a branch of pure mathematics devoted primarily to the study of the integers and arithmetic functions. German mathematician Carl Friedrich Gauss said, \"Mathematics is the queen of the sciences—and number theory is the queen of mathematics.\""
+        }
+    }
+}

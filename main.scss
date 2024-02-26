@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --link: #1b3b80;
+  --color: #070707;
+  --color-primary: #151515;
+  --color-secondary: #151515;
+  --color-hover: #252525;
+  --bg: rgb(245 245 244);
+  --bg-primary: #ffffff;
+  --bg-secondary: #cccccc;
+  --bg-hover: #eeeeee;
+}
+
+.dark {
+  --link: #5a7cc7;
+  --color: #dddddd;
+  --color-primary: #ffffff;
+  --color-secondary: #cccccc;
+  --bg: black;
+  --bg-primary: #151515;
+  --bg-secondary: #151515;
+  --bg-hover: #252525;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}

@@ -1,0 +1,36 @@
+{
+    "next": "Next",
+    "prev": "Prev",
+    "country": {
+        "title": "Country: ",
+        "de": "Germany",
+        "cu": "Cuba",
+        "us": "United States",
+        "pr": "Puerto Rico",
+        "dr": "Dominican Republic",
+        "fr": "France",
+        "mx": "Mexico"
+    },
+    "workType": {
+        "hybrid": "Hybrid",
+        "remote": "Remote",
+        "onsite": "OnSite",
+        "freelancer": "Freelancer"
+    },
+    "workSchedule": {
+        "fulltime": "Full Time",
+        "parttime": "Part Time",
+        "flexible": "Flexible"
+    },
+    "role": {
+        "senior": "Senior",
+        "junior": "Junior",
+        "midlevel": "Mid-Level",
+        "collaborator": "Collaborator",
+        "mainarchitect": "Main Architect",
+        "teamlead": "Team Lead"
+    },
+    "since": "Since",
+    "versions": "Versions: ",
+    "years": "Years"
+}

@@ -1,0 +1,175 @@
+{
+    "label": "Works",
+    "uci": {
+        "label": "University of Informatic Sciences",
+        "description": "The University of Informatic Sciences (Spanish: Universidad de las Ciencias Informáticas; UCI, also known as the University of Information Sciences and University of Informatics Sciences) is a Cuban university research center based in the ward of Wajay, Boyeros municipal borough, Havana\nThe UCI has a particular curriculum among other universities in the country. Students follow the principle of linking work and study, which places an emphasis on production as part of the learning process. From the second or third year of study students can be linked to productive projects that contribute to the economy.",
+        "apklis": {
+            "description": "Apklis, also known as the Cuban Play Store, is an online application store developed by the UCI for Android devices.\nIt has its web version and also its application version for android.\nIt is designed to download all Cuban applications and the most from the rest of the world using the ETECSA data network, Nauta or other national navigation means.\nIt has a wide catalog of games, as well as useful applications, from social networks, photo editors, among others.",
+            "juniorfrontend": {
+                "label": "FrontEnd Developer",
+                "description": "I participated in the first version of the administration, providing better usability by 10% for end users.\nI created the second version of the administration using the same stack of the web application, improving the front-office - back-office interaction and deployment."
+            },
+            "fullstack": {
+                "label": "FullStack Developer",
+                "description": "I improved the response time of the application by more than 50%, reducing the amount of unnecessary data volume that is exchanged from the backend. Improve overall application performance by increasing search and index system modeling by more than 50%. I Developed the payment system providing fail-safe solutions to an asynchronous banking system. I made improvements to the web client, improving usability by 15% using more attractive and intuitive graphic resources for the end user.\nI developed the payment module on the web client side and on the administration side for the sellers. \n I trained junior developers and did pair programming in order to be more effective on the development process."
+            },
+            "devops": {
+                "label": "DevOps",
+                "description": "I helped with the deployment configuration, continuous integration, I improved the performance of the application using containers and load balancers, through the use of script I was able to optimize processes and access different third-party services.\n I helped in the modeling of databases and services, improving the integration of the platform with other services and increasing performance."
+            },
+            "frontend": {
+                "label": "FrontEnd Developer",
+                "description": "I developed the third version of the administration, improving the usability of the site by more than 50% using modern frameworks and best practices, improving more than 50% of the backend response time, reducing the number of requests."
+            }
+        }
+    },
+    "opsecsecurity": {
+        "description": "OpSec Security is the leading provider of integrated online protection and on-product authentication solutions for brands and governments.",
+        "insight": {
+            "description": "OpSec Insight™ product management solutions organize contract management, trademark distribution, and product design approvals in one intuitive platform, digitizing and streamlining product lifecycle from concept to phase-out.",
+            "fullstack": {
+                "label": "FullStack Developer",
+                "description": "I participated in the development of the company's insight system, providing optimized solutions that improved the customer's user experience."
+            }
+        },
+        "ere": {
+            "description": "Online Voting system for the Puerto Rican elections",
+            "fullstack": {
+                "label": "FullStack Developer",
+                "description": "I was part of the development of the voting system called eRE for the Puerto Rican elections. As a Full Stack senior developer These were my main activities in the development of it. \n- Participated in the development of the web application , using a range of technologies including Entity Framework, React, Tailwind CSS, ASP.NET, and Clean Architecture. \n- Worked closely with other developers, designers, and project managers to ensure that the eRE system was designed and implemented to meet the needs of Puerto Rican voters, incorporating feedback and input from a range of stakeholders.\n- Developed clear and comprehensive system architecture and data models to guide the implementation of the eRE system, ensuring that it was scalable, reliable, and secure, with appropriate controls in place to protect the integrity of the voting process.\n- Implemented the user interface for the eRE system using React and Tailwind CSS, creating an intuitive and user-friendly interface that made it easy for voters to cast their ballots and monitor the progress of the election in real-time.\n- Created clear and comprehensive documentation of the eRE system, including system architecture, data models, coding practices, and testing protocols, to facilitate ongoing maintenance and updates as needed, as well as provide training and support to new team members."
+            }
+        }
+    },
+    "copsonic": {
+        "description": "COPSONIC is a technology that allows communication and interaction between two devices through sound waves. The secure transfer is achieved through microphones and speakers. Now and in the future, mobile, tablets and smart devices will be able to exchange information without compatibility issues unlike Bluetooth LE, NFC.",
+        "sdk": {
+            "description": "The CopSonic SDK allows contactless multi-factor authentication based on ultrasounds or sounds. This SDK is the first to introduce an “airgap” with encrypted analog information into the digital circuit. The security level thus achieved by CopSonic reaches current military security levels.",
+            "softwareengineer": {
+                "label": "Software Engineer",
+                "description": "I mainly developed as a quality insurer, carried out project documentation, and quality tests."
+            }
+        },
+        "sonicqrcode": {
+            "description": "The same information as a QR code, but sent over ultrasounds. Increase the interaction distance. No more scanning difficulties.",
+            "softwareengineer": {
+                "label": "Software Engineer",
+                "description": "I mainly developed as a quality insurer, carried out project documentation, and quality tests."
+            }
+        },
+        "sharebill": {
+            "description": "This demo is an instance of how a payment service could be implemented using the characteristics of the Copsonic SDK. Using ultrasound, it transferred information once a session is created between the buyer and the host.",
+            "frontend": {
+                "label": "FrontEnd Developer",
+                "description": "I was a junior developer of the web application. Providing precise and simple solutions."
+            },
+            "softwareengineer": {
+                "label": "Software Engineer",
+                "description": "I mainly developed as a quality insurer, carried out project documentation, and quality tests."
+            }
+        }
+    },
+    "augetec": {
+        "description": "The company started as automotive repair system. Nowadays are a team of passionate people whose goal is to improve everyone's lives through revolutionary products. Creating great products to solve business problems.The products are designed for small and medium-sized businesses willing to optimize their performance.",
+        "augecrm": {
+            "description": "CRM system to allowed the company control the main clients of automotive repair system",
+            "frontend": {
+                "label": "FrontEnd Developer",
+                "description": "I started working on the project already started, that is, the legacy code. From an initial version with errors and lacking in design patterns, I gradually converted it and made it fully functional, developing innovative solutions and improving usability by more than 50%, helping the client to have better interaction with the platform."
+            },
+            "backend": {
+                "label": "Backend Developer",
+                "description": "I helped in some queries, and improve the filters to improve response time in the client-server."
+            }
+        },
+        "augecs": {
+            "description": "Car sales control system. The system made it possible to control the stocks of car parts as well as take care of the sale. Customer payment plan system and direct support",
+            "frontend": {
+                "label": "FrontEnd Developer",
+                "description": "I started the project from scratch using the latest technologies related to the company. Providing a transparent and usable design, I was able to carry out the application in record time."
+            },
+            "backend": {
+                "label": "Backend Developer",
+                "description": "I helped in some queries, and improve the filters to improve response time in the client-server."
+            }
+        },
+        "evaluamax": {
+            "description": "Survey system for mexican companies. The system allows the control of payment plans, manage statistics and control the flow of cargo from the client.",
+            "frontend": {
+                "label": "FrontEnd Developer",
+                "description": "I started the project from scratch using the latest technologies related to the company. Providing a transparent and usable design, I was able to carry out the application in record time."
+            },
+            "backend": {
+                "label": "Backend Developer",
+                "description": "I helped in some queries, and improve the filters to improve response time in the client-server."
+            }
+        },
+        "multillantasmax": {
+            "description": "Find quality tires at the best price for cars, vans, trucks and motorcycles. Tire services, tuning, brakes, suspension, shock absorbers and mechanics in general.",
+            "web": {
+                "label": "Web Developer",
+                "description": "I started the project from scratch using the latest technologies related to the company. Providing a transparent and usable design, I was able to carry out the application in record time."
+            }
+        }
+    },
+    "cubacitas": {
+        "cubacitasweb": {
+            "frontend": {
+                "label": "FrontEnd Developer",
+                "description": "I entered the project as the main developer of what would be the web front end of the application. Developing the front end from scratch, present a demo with the basic structure exactly the same as the android application in record time. The web project was discontinued due to lack of design and backend."
+            }
+        }
+    },
+    "intellisysdcorp": {
+        "description": "Intellisys provides Full-Stack software development, Project Management, and QA outsourcing services. We partner with technology businesses globally helping them to build successful engineering teams and create innovative software products through Self-Managed or Embedded delivery teams.",
+        "vacunaterd": {
+            "description": "The application belong to the dominican goverment and is part of the healthcare system of the Dominican Republic, and the main strategy was to manage the vaccination process efficiently. Given the global impact of the pandemic, the application was launched into production in record time, and was a great help to the Dominican government.VacunateRD is currently being used by millions of citizens in the Dominican Republic for vaccination appointment scheduling. The application was recognized and approved by the president of the republic, giving thanks and positive feedback to the developers.",
+            "backend": {
+                "label": "Backend Developer",
+                "description": "As backend lead here are the main tasks in which I participated:\n - Developed the backend of the vaccination appointment system of the Dominican Republic, VacunateRD, serving as the Main REST/RESTful APIs for the pre-appointment system.\n- Improved the consultation time of the citizen system by 20% and the vaccination center system by 50% through the use of data structures and optimized database queries.\n- Prepared the migration of the initial project to newer technologies, including NestJS and TypeORM ORMs.\n- Provided support to junior developers."
+            },
+            "devops": {
+                "label": "DevOps",
+                "description": "As main architect and devops, here are the main tasks in which I participated: \n- Modeled and architected the database, and integrated and deployed the application in Google Cloud Platform using Node.js and TypeScript.\n- Contributed to the continuous improvement of the application's performance and security, using DevOps practices and PostgreSQL for data management."
+            }
+        }
+    },
+    "payever": {
+        "commerceos": {
+            "description": "The project is a unique e-commerce solution that covers the entire sales cycle, from the online store, point-of-sale software, to payments, customer relationship management, marketing, inventory, and tracking tools. shipment. The intuitive platform seamlessly integrates all aspects of e-commerce and grows with the company's e-commerce needs. The platform removes reliance on market giants, allowing SMBs to have their own independent, robust, company-branded and connected e-commerce platform. This application is used by millions of users and have direct impact in German ecommerce industry. The application was presented in Finovate Europe 2020 achieving significant results.",
+            "frontend": {
+                "label": "FrontEnd Developer",
+                "description": "My main activities as a senior front end developer were:\n- Worked collaboratively with other developers, designers, and project managers to ensure that the applications were developed to meet the needs of millions of users in the German fashion industry, with a focus on delivering high-quality user experiences and reliable functionality.\n- Made significant contributions to the code of the message application, reducing the total time of requests to the server by 20%, which improved overall performance and responsiveness for users.\n- Increased the performance of the chat application by 50% through the implementation of background processes, optimizing the application's processing and improving its reliability.\n- Participated in the development of the contact, appointment, and product applications within the CommerceOS platform,  working primarily as a FrontEnd developer using Angular 2+, nx, Typescript, HTML, CSS, GraphQL, Angular 2+, Node.js, and others.. Contributing to the overall functionality and user experience of the platform.\n- Worked closely with other developers to ensure that code was clean, efficient, and easy to maintain, with a strong focus on code quality and testing to ensure that the applications met high standards of performance and reliability."
+            }
+        }
+    },
+    "freelancer": {
+        "oxygen": {
+            "description": "Social network that allows connectivity with other networks such as Instagram, Facebook. FrontEnd developer.",
+            "frontend": {
+                "label": "FrontEnd Developer",
+                "description": "I entered the project as the main developer of what would be the web front end of the application. Developing the front end from scratch, present a demo with the basic structure in record time. The web project was discontinued due to lack of design and backend."
+            }
+        },
+        "pbetta": {
+            "description": "Web client for medical training and learning system.",
+            "frontend": {
+                "label": "FrontEnd Developer",
+                "description": "I entered the project as the main developer of what would be the web front end of the application. The project was released ad expected"
+            }
+        },
+        "darklink": {
+            "description": "Brief neuronal connection about Jorge Amado Hernandez Betancourt (darklink) dev.",
+            "frontend": {
+                "label": "FrontEnd Developer",
+                "description": "Project made by my own hand, entirely: design, code, etc."
+            }
+        },
+        "gymbro": {
+            "description": "Social network for lovers of fitness and healthy life",
+            "fullstack": {
+                "label": "FullStack Developer",
+                "description": "CEO and Founder of the project, FullStack developer"
+            }
+        }
+    }
+}
