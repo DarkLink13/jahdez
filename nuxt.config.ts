@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   },
   modules: [
     "@vueuse/nuxt",
+    "@sidebase/nuxt-pdf",
     "@nuxt/devtools",
     // "@vite-pwa/nuxt",
     "@nuxtjs/i18n",

@@ -32,7 +32,10 @@
 <script lang="ts" setup>
 const emit = defineEmits(["goChild", "goParent"]);
 defineProps({
-  modelValue: { type: Object as PropType<INode>, required: true },
+  modelValue: {
+    type: Object as PropType<INode>,
+    required: false,
+  },
 });
 
 const { beta, gamma } = useDeviceOrientation();
