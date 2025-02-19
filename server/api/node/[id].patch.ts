@@ -8,9 +8,10 @@ export default defineEventHandler(async (req) => {
     .update(e.Item, () => ({
       filter_single: { id: item.id },
       set: {
-        description: item.description
-          ? e.insert(e.Description, item.description)
-          : null,
+        ...(item.label ? { label: e.insert(e.Label, item.label) } : {}),
+        ...(item.description
+          ? { description: e.insert(e.Description, item.description) }
+          : {}),
       },
     }))
     .run(client);
