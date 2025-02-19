@@ -14,6 +14,23 @@
           color-interpolation-filters="sRGB"
         />
       </filter>
+      <linearGradient inkscape:collect="always" id="linearGradient22182">
+        <stop id="gradientLines0" offset="0" :stop-color="primary" />
+        <stop id="gradientLines1" offset="1" :stop-color="secondary" />
+      </linearGradient>
+      <radialGradient
+        inkscape:collect="always"
+        xlink:href="#linearGradient22182"
+        id="gradientLines"
+        cx="68.52227"
+        cy="66.330383"
+        fx="68.52227"
+        fy="66.330383"
+        r="64.358574"
+        gradientTransform="matrix(1,0,0,1.440977,0,-30.532397)"
+        gradientUnits="userSpaceOnUse"
+      />
+
       <radialGradient
         id="gradientLines"
         cx="0"
@@ -77,14 +94,7 @@
         stroke-width="1.5"
       />
     </g> -->
-    <g filter="url(#glowNodes)">
-      <path
-        :d="BackgroundCircuit"
-        fill="none"
-        stroke="url(#gradientLines)"
-        stroke-width="1.5"
-      />
-    </g>
+    <background-back />
     <g filter="url(#glowDot)">
       <background-circle
         v-for="(animation, index) of animations"

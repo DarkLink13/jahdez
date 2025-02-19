@@ -19,7 +19,7 @@ const { x, y } = useMouse();
 const { height, width } = useWindowSize();
 
 const colorTheme = computed(() => ({
-  primary: colorMode.value === "light" ? "#DDDDDD" : "#202020",
+  primary: colorMode.value === "light" ? "#AAAAAA90" : "#20202090",
   secondary: colorMode.value === "light" ? "#DDDDDD20" : "#20202017",
 }));
 </script>
