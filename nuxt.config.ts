@@ -2,6 +2,13 @@
 export default defineNuxtConfig({
   app: {
     pageTransition: { name: "translate", mode: "out-in" },
+    head: {
+      link: [
+        { rel: "icon", href: "/favicon.ico", sizes: "any" },
+        { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
+        { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
+      ],
+    },
   },
   devtools: {
     enabled: true,
