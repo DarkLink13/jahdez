@@ -1,5 +1,15 @@
 {
     "label": "Trabajos",
+    "udt": {
+        "description": "UDT es un proveedor de soluciones tecnológicas con sede en Estados Unidos.",
+        "atms": {
+            "description": "Aplicaciones de negocio construidas en Zoho Creator, respaldadas por servicios orientados a eventos en Azure.",
+            "software": {
+                "label": "Desarrollador de Software",
+                "description": "Desarrollé aplicaciones front-end en Zoho Creator.\n- Construí servicios backend en Azure: Azure Functions con disparadores HTTP, procesamiento orientado a eventos con Event Hubs y Service Bus, y almacenamiento con Azure Storage y servicios de datos de Azure.\n- Diseñé consultas y modelos de datos en Microsoft SQL Server.\n- Escribí scripts de automatización e integración en PowerShell, JavaScript y TypeScript."
+            }
+        }
+    },
     "uci": {
         "label": "Universidad de las Ciencias Informáticas",
         "description": "La Universidad de las Ciencias Informáticas (en español: Universidad de las Ciencias Informáticas; UCI, también conocida como Universidad de las Ciencias Informáticas y Universidad de las Ciencias Informáticas) es un centro de investigación universitario cubano con sede en el barrio de Wajay, municipio de Boyeros, La Habana. La UCI tiene un plan de estudios particular entre otras universidades del país. Los estudiantes siguen el principio de vincular el trabajo y el estudio, lo que pone énfasis en la producción como parte del proceso de aprendizaje. A partir del segundo o tercer año de carrera los estudiantes pueden vincularse a proyectos productivos que aporten a la economía.",

@@ -1,5 +1,15 @@
 {
     "label": "Works",
+    "udt": {
+        "description": "UDT is a technology solutions provider based in the United States.",
+        "atms": {
+            "description": "Business applications built on Zoho Creator, backed by event-driven services on Azure.",
+            "software": {
+                "label": "Software Developer",
+                "description": "Developed front-end applications on Zoho Creator.\n- Built backend services on Azure: HTTP-triggered Azure Functions, event-driven processing with Event Hubs and Service Bus, and storage with Azure Storage and Azure data services.\n- Designed queries and data models on Microsoft SQL Server.\n- Wrote automation and integration scripts in PowerShell, JavaScript and TypeScript."
+            }
+        }
+    },
     "uci": {
         "label": "University of Informatic Sciences",
         "description": "The University of Informatic Sciences (Spanish: Universidad de las Ciencias Informáticas; UCI, also known as the University of Information Sciences and University of Informatics Sciences) is a Cuban university research center based in the ward of Wajay, Boyeros municipal borough, Havana\nThe UCI has a particular curriculum among other universities in the country. Students follow the principle of linking work and study, which places an emphasis on production as part of the learning process. From the second or third year of study students can be linked to productive projects that contribute to the economy.",
