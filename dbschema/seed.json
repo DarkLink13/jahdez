@@ -1071,8 +1071,8 @@
     "dotnet": {
       "item": {
         "label": {
-          "es": "ASP.NET Framefork",
-          "en": "ASP.NET Framefork"
+          "es": "ASP.NET Framework",
+          "en": "ASP.NET Framework"
         },
         "sublabels": [
           {
@@ -2326,8 +2326,8 @@
         "sublabels": [
           {
             "type": "Date",
-            "es": "2021-02,2020-06",
-            "en": "2021-02,2020-06"
+            "es": "2021-02,2021-06",
+            "en": "2021-02,2021-06"
           },
           {
             "subvalue": "flexible",
@@ -2406,9 +2406,9 @@
             "en": "senior"
           },
           {
-            "type": "Since",
-            "es": "2023-01",
-            "en": "2023-01"
+            "type": "Date",
+            "es": "2023-01,2023-06",
+            "en": "2023-01,2023-06"
           },
           {
             "type": "Country",
@@ -2827,9 +2827,9 @@
         },
         "sublabels": [
           {
-            "type": "Since",
-            "es": "2021-02",
-            "en": "2021-02"
+            "type": "Date",
+            "es": "2021-02,2024-06",
+            "en": "2021-02,2024-06"
           },
           {
             "type": "Country",
@@ -2870,9 +2870,9 @@
         },
         "sublabels": [
           {
-            "type": "Since",
-            "es": "2021-11",
-            "en": "2021-11"
+            "type": "Date",
+            "es": "2021-11,2023-06",
+            "en": "2021-11,2023-06"
           },
           {
             "type": "Country",
@@ -4252,8 +4252,8 @@
     "specialprice": {
       "item": {
         "label": {
-          "es": "Precio especial",
-          "en": "Special Price"
+          "es": "Premio especial",
+          "en": "Special Prize"
         },
         "sublabels": [
           {
