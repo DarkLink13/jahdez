@@ -1,0 +1,35 @@
+{
+  "email": "Correo",
+  "password": "Contraseña",
+  "showPassword": "Mostrar contraseña",
+  "hidePassword": "Ocultar contraseña",
+  "login": {
+    "title": "Bienvenido de nuevo",
+    "subtitle": "Inicia sesión para acceder al panel de administración",
+    "submit": "Iniciar sesión",
+    "noAccount": "¿No tienes cuenta?",
+    "link": "Regístrate",
+    "error": "No se pudo iniciar sesión"
+  },
+  "signup": {
+    "title": "Crea una cuenta",
+    "subtitle": "Regístrate para acceder al panel de administración",
+    "submit": "Crear cuenta",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "link": "Inicia sesión",
+    "error": "No se pudo crear la cuenta",
+    "successTitle": "Revisa tu correo",
+    "successDescription": "Enviamos un enlace de verificación a {email}. Ábrelo para activar tu cuenta."
+  },
+  "errors": {
+    "emailRequired": "El correo es obligatorio",
+    "emailInvalid": "Introduce un correo válido",
+    "passwordRequired": "La contraseña es obligatoria",
+    "passwordTooShort": "La contraseña debe tener al menos {min} caracteres",
+    "invalidCredentials": "Correo o contraseña incorrectos.",
+    "alreadyRegistered": "Ya existe una cuenta con este correo.",
+    "unverified": "Tu correo aún no está verificado. Revisa tu bandeja de entrada.",
+    "network": "No se pudo conectar con el servidor. Revisa tu conexión e inténtalo de nuevo.",
+    "server": "El servidor tuvo un problema. Inténtalo de nuevo en un momento."
+  }
+}

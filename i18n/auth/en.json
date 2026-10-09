@@ -1,0 +1,35 @@
+{
+  "email": "Email",
+  "password": "Password",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Sign in to access the admin panel",
+    "submit": "Sign in",
+    "noAccount": "Don't have an account?",
+    "link": "Sign up",
+    "error": "Couldn't sign in"
+  },
+  "signup": {
+    "title": "Create an account",
+    "subtitle": "Sign up to get access to the admin panel",
+    "submit": "Create account",
+    "hasAccount": "Already have an account?",
+    "link": "Sign in",
+    "error": "Couldn't create the account",
+    "successTitle": "Check your inbox",
+    "successDescription": "We sent a verification link to {email}. Open it to activate your account."
+  },
+  "errors": {
+    "emailRequired": "Email is required",
+    "emailInvalid": "Enter a valid email",
+    "passwordRequired": "Password is required",
+    "passwordTooShort": "Password must be at least {min} characters",
+    "invalidCredentials": "Incorrect email or password.",
+    "alreadyRegistered": "An account with this email already exists.",
+    "unverified": "Your email hasn't been verified yet. Check your inbox.",
+    "network": "Can't reach the server. Check your connection and try again.",
+    "server": "The server ran into a problem. Please try again in a moment."
+  }
+}
