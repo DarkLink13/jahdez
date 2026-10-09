@@ -10,6 +10,7 @@
       }"
       root
       @click="() => $emit('goParent')"
+      @contextmenu.prevent="() => printNode(modelValue)"
     />
     <node
       v-for="child of modelValue?.children"
@@ -25,6 +26,7 @@
           ${translateY(child.position, windowRatio) + translateEventY}px) `,
       }"
       @click="() => $emit('goChild', child)"
+      @contextmenu.prevent="() => printNode(child)"
     />
   </div>
 </template>
@@ -56,4 +58,8 @@ const translateEventX = computed(() => (-x.value / width.value) * 5);
 const translateEventY = computed(() => (-y.value / height.value) * 5);
 
 const windowRatio = computed(() => Math.min(width.value, height.value));
+
+// Right click exports the clicked node and everything under it.
+const printNode = (node?: INode) =>
+  node?.id && navigateTo(`/pdf/graph/${node.id}?print=1`);
 </script>

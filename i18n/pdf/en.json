@@ -23,5 +23,6 @@
   "projects": "Projects",
   "positions": "Positions",
   "likes": "Likes",
-  "detached": "Nodes that exist in the database but are not linked from the main graph."
+  "detached": "Nodes that exist in the database but are not linked from the main graph.",
+  "notFound": "That node doesn't exist."
 }

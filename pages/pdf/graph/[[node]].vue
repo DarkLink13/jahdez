@@ -5,6 +5,9 @@
     <p v-if="error" class="p-8 text-center text-red-600">
       {{ $t("pdf.loadError") }}
     </p>
+    <p v-else-if="!start" class="p-8 text-center text-red-600">
+      {{ $t("pdf.notFound") }}
+    </p>
 
     <template v-else>
       <section
@@ -89,8 +92,19 @@ const { locale, t } = useI18n();
 const lang = computed(() => locale.value as GraphLocale);
 const { root, nodes, error } = await useGraph();
 
+const route = useRoute();
+const router = useRouter();
+// /pdf/graph exports everything; /pdf/graph/<id> only that node and below.
+const nodeId = computed(() => (route.params.node as string) || undefined);
+const start = computed(() =>
+  nodeId.value ? nodes.value.find((node) => node.id === nodeId.value) : root.value,
+);
+
 useHead({
-  title: () => `Jorge Amado Hernández – ${t("pdf.graph")}`,
+  title: () =>
+    `Jorge Amado Hernández – ${
+      nodeId.value && start.value ? nodeText(start.value.item.label, lang.value) : t("pdf.graph")
+    }`,
   // Per page, since route styles end up global and the résumé prints portrait.
   style: [{ innerHTML: "@page { size: A4 landscape; margin: 10mm; }" }],
 });
@@ -115,6 +129,22 @@ const facts = (item: INodeItem) => {
 
 // One page per node with children, in reading order. Nodes reached twice
 // (shared positions) get a single page; the theme/language switches are UI.
+// Labels from the root down to the export's starting node, for its breadcrumb.
+const ancestors = (target: IGraphNode) => {
+  const seen = new Set<string>();
+  const walk = (node: IGraphNode, path: string[]): string[] | undefined => {
+    if (node.id === target.id) return path;
+    if (seen.has(node.id)) return;
+    seen.add(node.id);
+    const label = nodeText(node.item.label, lang.value);
+    for (const child of node.children) {
+      const found = walk(child, [...path, label]);
+      if (found) return found;
+    }
+  };
+  return (root.value && walk(root.value, [])) ?? [];
+};
+
 const pages = computed(() => {
   const result: { node: IGraphNode; path: string[] }[] = [];
   const seen = new Set<string>();
@@ -122,13 +152,16 @@ const pages = computed(() => {
     if (seen.has(node.id)) return;
     seen.add(node.id);
     const children = node.children.filter((child) => !child.item.action);
-    if (!children.length) return;
+    // A leaf only gets a page when it is the node being exported.
+    if (!children.length && node.id !== start.value?.id) return;
     result.push({ node: { ...node, children }, path });
     const label = nodeText(node.item.label, lang.value);
     children.forEach((child) => visit(child, [...path, label]));
   };
-  if (root.value) visit(root.value, []);
-  return result.filter(({ node }) => node.item.label?.en !== "Info");
+  if (start.value) visit(start.value, ancestors(start.value));
+  return result.filter(
+    ({ node }) => node.id === start.value?.id || node.item.label?.en !== "Info",
+  );
 });
 
 const reachable = computed(() => {
@@ -150,7 +183,9 @@ const typeTitles: Partial<Record<NodeItemType, string>> = {
   [NodeItemType.Like]: "pdf.likes",
 };
 
+// Only the full export lists nodes that are not linked from the root.
 const detached = computed(() => {
+  if (nodeId.value) return [];
   const groups = new Map<NodeItemType, IGraphNode[]>();
   for (const node of nodes.value) {
     if (reachable.value.has(node.id) || !typeTitles[node.item.type]) continue;
@@ -164,6 +199,26 @@ const detached = computed(() => {
         nodeText(a.item.label, lang.value).localeCompare(nodeText(b.item.label, lang.value)),
     ),
   }));
+});
+
+// Arriving from a right click on a node (?print=1) opens the print dialog once
+// images, icons and fonts are in, then drops the flag so a reload won't reprint.
+onMounted(async () => {
+  if (!route.query.print) return;
+  await document.fonts.ready;
+  await Promise.all(
+    [...document.images].map((img) =>
+      img.complete
+        ? undefined
+        : new Promise((resolve) => {
+            img.addEventListener("load", resolve, { once: true });
+            img.addEventListener("error", resolve, { once: true });
+          }),
+    ),
+  );
+  await new Promise((resolve) => setTimeout(resolve, 500));
+  await router.replace({ query: {} });
+  window.print();
 });
 </script>
 

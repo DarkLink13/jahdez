@@ -23,5 +23,6 @@
   "projects": "Proyectos",
   "positions": "Puestos",
   "likes": "Gustos",
-  "detached": "Nodos que existen en la base de datos pero no están enlazados desde el grafo principal."
+  "detached": "Nodos que existen en la base de datos pero no están enlazados desde el grafo principal.",
+  "notFound": "Ese nodo no existe."
 }

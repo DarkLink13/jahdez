@@ -12,7 +12,7 @@
       </UButton>
       <UButton
         to="/pdf/graph"
-        :color="$route.path === '/pdf/graph' ? 'primary' : 'white'"
+        :color="$route.path.startsWith('/pdf/graph') ? 'primary' : 'white'"
         icon="i-fluent-organization-24-regular"
       >
         {{ $t("pdf.graph") }}
