@@ -1,0 +1,27 @@
+{
+  "title": "Full Stack Developer",
+  "years": "{years}+ years of experience",
+  "experience": "Experience",
+  "skills": "Skills",
+  "certifications": "Certifications",
+  "algorithms": "Algorithms",
+  "present": "Present",
+  "download": "Download PDF",
+  "cv": "Résumé",
+  "graph": "Graph",
+  "loadError": "Couldn't load the graph data.",
+  "years_short": "{n} yrs",
+  "workType": {
+    "remote": "Remote",
+    "hybrid": "Hybrid",
+    "onsite": "On-site",
+    "freelancer": "Freelance",
+    "fulltime": "Full-time",
+    "parttime": "Part-time",
+    "flexible": "Flexible"
+  },
+  "projects": "Projects",
+  "positions": "Positions",
+  "likes": "Likes",
+  "detached": "Nodes that exist in the database but are not linked from the main graph."
+}
