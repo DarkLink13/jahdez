@@ -25,8 +25,13 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
           mkdir -p ~/.ssh
-          # Quita \r (pegado desde Windows) y espacios al final de cada línea
-          printf '%s\n' "$SSH_PRIVATE_KEY" | tr -d '\r' | sed 's/[[:space:]]*$//' > ~/.ssh/id_deploy
+          # Acepta la llave en texto (BEGIN/END) o en base64 de una sola línea.
+          # Quita \r (pegado desde Windows) y espacios al final de cada línea.
+          if printf '%s' "$SSH_PRIVATE_KEY" | grep -q -- '-----BEGIN'; then
+            printf '%s\n' "$SSH_PRIVATE_KEY" | tr -d '\r' | sed 's/[[:space:]]*$//' > ~/.ssh/id_deploy
+          else
+            printf '%s' "$SSH_PRIVATE_KEY" | tr -d '\r\n ' | base64 -d > ~/.ssh/id_deploy
+          fi
           chmod 600 ~/.ssh/id_deploy
           if ! ssh-keygen -y -f ~/.ssh/id_deploy > /dev/null; then
             echo "::error::SSH_PRIVATE_KEY no es una llave privada válida (revisa que incluya las líneas BEGIN/END completas)"
