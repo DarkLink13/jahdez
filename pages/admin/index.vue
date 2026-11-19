@@ -49,9 +49,9 @@
 </template>
 
 <script lang="ts" setup>
-definePageMeta({
-  middleware: "auth",
-});
+// definePageMeta({
+//   middleware: "auth",
+// });
 
 const { data, refresh } = useFetch<INode[]>("/api/node");
 const fetchNode = async (id: string) => {

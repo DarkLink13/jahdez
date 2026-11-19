@@ -93,7 +93,6 @@ const lang = computed(() => locale.value as GraphLocale);
 const { root, nodes, error } = await useGraph();
 
 const route = useRoute();
-const router = useRouter();
 // /pdf/graph exports everything; /pdf/graph/<id> only that node and below.
 const nodeId = computed(() => (route.params.node as string) || undefined);
 const start = computed(() =>
@@ -201,25 +200,8 @@ const detached = computed(() => {
   }));
 });
 
-// Arriving from a right click on a node (?print=1) opens the print dialog once
-// images, icons and fonts are in, then drops the flag so a reload won't reprint.
-onMounted(async () => {
-  if (!route.query.print) return;
-  await document.fonts.ready;
-  await Promise.all(
-    [...document.images].map((img) =>
-      img.complete
-        ? undefined
-        : new Promise((resolve) => {
-            img.addEventListener("load", resolve, { once: true });
-            img.addEventListener("error", resolve, { once: true });
-          }),
-    ),
-  );
-  await new Promise((resolve) => setTimeout(resolve, 500));
-  await router.replace({ query: {} });
-  window.print();
-});
+
+usePrintOnLoad();
 </script>
 
 <style>

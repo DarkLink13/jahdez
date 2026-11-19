@@ -120,6 +120,8 @@ const { locale, t } = useI18n();
 const lang = computed(() => locale.value as GraphLocale);
 const { root, section, ofType, error } = await useGraph();
 
+usePrintOnLoad();
+
 useHead({
   title: () => `Jorge Amado Hernández – ${t("pdf.cv")}`,
   // Per page, since route styles end up global and the graph prints landscape.
