@@ -1,0 +1,58 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-jahdez
+  cancel-in-progress: false
+
+env:
+  APP_DIR: /var/www/jahdez
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_deploy
+          chmod 600 ~/.ssh/id_deploy
+          ssh-keyscan -H "${{ secrets.HOST }}" >> ~/.ssh/known_hosts
+
+      # Sin --delete: no toca archivos que solo existen en el servidor
+      # (credenciales, .env, backups). Tampoco copia builds ni dependencias.
+      - name: Sync sources
+        run: |
+          rsync -az \
+            -e "ssh -i ~/.ssh/id_deploy" \
+            --exclude '.git/' \
+            --exclude '.github/' \
+            --exclude 'node_modules/' \
+            --exclude '.nuxt/' \
+            --exclude '.output/' \
+            --exclude 'dist/' \
+            ./ "${{ secrets.USERNAME }}@${{ secrets.HOST }}:${APP_DIR}/"
+
+      # Se compila en el servidor porque nuxt-edgedb-module necesita
+      # la instancia de EdgeDB local para generar el query builder.
+      # Si el build falla, set -e corta antes del reload y pm2 no se toca.
+      - name: Build and reload
+        run: |
+          ssh -i ~/.ssh/id_deploy "${{ secrets.USERNAME }}@${{ secrets.HOST }}" \
+            "bash -lc 'set -euo pipefail
+              cd ${APP_DIR}
+              npm ci --no-audit --no-fund
+              npm run build
+              pm2 reload ecosystem.config.cjs --env production --update-env \
+                || pm2 start ecosystem.config.cjs --env production
+              pm2 save
+              sleep 3
+              curl -fsS -o /dev/null http://127.0.0.1:3100/ && echo \"jahdez OK\"'"
